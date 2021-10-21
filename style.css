@@ -694,11 +694,37 @@ body {
 	gap: 0.8rem;
 	font-size: 1.5rem;
 }
+.contacts__info-content__number {
+	color: var(--color-black);
+}
+.contacts__info-content__social {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+}
+.contacts__info-content__social-item {
+	color: var(--color-black);
+	font-size: 2.2rem;
+	transition: transform 0.2s ease-out;
+	-webkit-transition: transform 0.2s ease-out;
+	-moz-transition: transform 0.2s ease-out;
+	-ms-transition: transform 0.2s ease-out;
+	-o-transition: transform 0.2s ease-out;
+}
+.contacts__info-content__social-item:hover {
+	transform: translateY(4px);
+	-webkit-transform: translateY(4px);
+	-moz-transform: translateY(4px);
+	-ms-transform: translateY(4px);
+	-o-transform: translateY(4px);
+}
 .contacts__info-map {
-	width: 100%;
 	height: auto;
 }
-
+#footer {
+	background-color: var(--color-dark-red);
+	width: 100%;
+}
 @media (max-width: 767px) {
 }
 @media (min-width: 768px) {
