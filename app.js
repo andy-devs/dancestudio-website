@@ -43,6 +43,22 @@ for (let i = 0; i < accBtn.length; i++) {
 		}
 	});
 }
+const scheduleBtn = document.querySelectorAll('.schedule__column-divider');
+const scheduleBlock = document.querySelectorAll('.schedule__column-content');
+
+for (let i = 0; i < scheduleBtn.length; i++) {
+	scheduleBtn[i].addEventListener('click', (e) => {
+		if (!scheduleBtn[i].classList.contains('_active')) {
+			removeActive(scheduleBtn);
+			scheduleBtn[i].classList.add('_active');
+			removeActive(scheduleBlock);
+			scheduleBlock[i].classList.add('_active');
+		} else {
+			removeActive(scheduleBtn);
+			removeActive(scheduleBlock);
+		}
+	});
+}
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -58,9 +74,9 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-	var i;
-	var slides = document.querySelectorAll('.studios-slider__container-item');
-	var dots = document.querySelectorAll('.dot');
+	let i;
+	let slides = document.querySelectorAll('.studios-slider__container-item');
+	let dots = document.querySelectorAll('.dot');
 	if (n > slides.length) {
 		slideIndex = 1;
 	}
@@ -77,9 +93,9 @@ function showSlides(n) {
 	dots[slideIndex - 1].className += ' active';
 }
 
-var category = document.getElementById('style');
+let category = document.getElementById('style');
 document.getElementById('studio').onchange = function () {
-	var optionSelected = this.options[this.selectedIndex];
+	let optionSelected = this.options[this.selectedIndex];
 	if (optionSelected.textContent != '') {
 		if (optionSelected.dataset.val === '6-я Линия, 97') {
 			category.value = 'Choreo';
