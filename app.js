@@ -76,3 +76,21 @@ function showSlides(n) {
 	slides[slideIndex - 1].style.display = 'block';
 	dots[slideIndex - 1].className += ' active';
 }
+
+var category = document.getElementById('style');
+document.getElementById('studio').onchange = function () {
+	var optionSelected = this.options[this.selectedIndex];
+	if (optionSelected.textContent != '') {
+		if (optionSelected.dataset.val === '6-я Линия, 97') {
+			category.value = 'Choreo';
+		} else if (optionSelected.dataset.val === 'Степанца 10/2') {
+			category.value = 'Shuffle';
+		} else if (optionSelected.dataset.val === '9-я Ленинская, 5') {
+			category.value = 'Hip-Hop';
+		} else {
+			category.value = '-';
+		}
+	} else {
+		category.value = '';
+	}
+};

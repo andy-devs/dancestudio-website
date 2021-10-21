@@ -702,20 +702,58 @@
 				<h2 class="form__head">Запишись на занятие</h2>
 				<p class="form__text">Первое бесплатно</p>
 				<form action="/" class="form__body">
-					<label for="name">Имя и Фамилия</label>
+					<label class="form__body-label" for="name"
+						>Имя и Фамилия</label
+					>
 					<input
+						class="form__body-input"
 						type="text"
 						id="name"
 						name="name"
 						placeholder="Имя Фамилия"
 					/>
-					<label for="phone">Номер телефона</label>
+					<label class="form__body-label" for="phone"
+						>Номер телефона</label
+					>
 					<input
+						class="form__body-input"
 						type="tel"
 						id="phone"
 						name="phone"
 						placeholder="+7 (999) 999-99-99"
 					/>
+					<label class="form__body-label" for="studio"
+						>Выберите студию:
+					</label>
+					<select class="form__body-input" id="studio" name="studio">
+						<option value="6-я Линия, 97">6-я Линия, 97</option>
+						<option value="6-я Линия, 97">Степанца 10/2</option>
+						<option value="9-я Ленинская, 5">
+							9-я Ленинская, 5
+						</option>
+					</select>
+					<label class="form__body-label" for="style"
+						>Выберите направление:
+					</label>
+					<select class="form__body-input" id="style" name="style">
+						<option value="Hip-Hop">Hip-Hop</option>
+						<option value="Choreo">Choreo</option>
+						<option value="Shuffle">Shuffle</option>
+					</select>
+					<label class="form__body-label" for="comment"
+						>Ваши вопросы и уточнения</label
+					>
+					<textarea
+						class="form__body-textarea"
+						name="comment"
+						id="comment"
+						cols="10"
+						rows="5"
+						style="resize: none"
+					></textarea>
+					<button class="form__body-button reg-btn">
+						Записаться
+					</button>
 				</form>
 			</div>
 		</section>
@@ -728,21 +766,27 @@
 						<a
 							class="contacts__info-content__number"
 							href="tel:63-73-57"
-							>63-73-57</a
+							><i class="fas fa-phone"></i> 63-73-57</a
 						>
-						<p class="contacts__info-content__city">г. Омск</p>
-						<p class="contacts__info-content__studio">
-							6-я Линия, 97
+						<p class="contacts__info-content__city">
+							<i class="fas fa-city"></i> г. Омск
 						</p>
 						<p class="contacts__info-content__studio">
-							Степанца 10/2
+							<i class="fas fa-map-pin"></i> Степанца 10/2
 						</p>
 						<p class="contacts__info-content__studio">
-							9-я Ленинская, 5
+							<i class="fas fa-map-pin"></i> 6-я Линия, 97
 						</p>
-						<i class="fab fa-instagram"></i>
+						<p class="contacts__info-content__studio">
+							<i class="fas fa-map-pin"></i> 9-я Ленинская, 5
+						</p>
+						<a
+							class="contacts__info-content__social"
+							href="https://www.instagram.com/dancestudionako/"
+							><i class="fab fa-instagram"></i
+						></a>
 					</div>
-					<div class="contact_info-map">
+					<div class="contact__info-map">
 						<iframe
 							src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa9cba94e2be8f7f57103cac18a7aba6844905abeb98b3b30087014aabd813267&amp;source=constructor"
 							width="600"
