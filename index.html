@@ -24,63 +24,71 @@
 		<title>Dance Studio</title>
 	</head>
 	<body>
-		<header class="header">
-			<div class="header__container">
-				<div class="header__logo">
-					<img src="./images/nako-cut.png" alt="" />
+		<div class="first-wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__logo">
+						<img src="./images/nako-logo1.png" alt="" />
+					</div>
+					<div class="header__icon"><span></span></div>
+					<div class="header__nav">
+						<ul class="header__nav-links">
+							<li>
+								<a class="header__nav-item" href="#first-screen"
+									>О НАС</a
+								>
+							</li>
+							<li>
+								<a class="header__nav-item" href="#info"
+									>СТИЛИ</a
+								>
+							</li>
+							<li>
+								<a class="header__nav-item" href="#info"
+									>ПЕДАГОГИ</a
+								>
+							</li>
+							<li>
+								<a class="header__nav-item" href="#price"
+									>ЦЕНЫ</a
+								>
+							</li>
+							<li>
+								<a class="header__nav-item" href="#schedule"
+									>РАСПИСАНИЕ</a
+								>
+							</li>
+							<li>
+								<a class="header__nav-item" href="#studios"
+									>СТУДИИ</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div class="header__nav-btn">
+						<a class="header__nav-item header-btn" href="#form"
+							>ЗАПИСАТЬСЯ</a
+						>
+					</div>
 				</div>
-				<div class="header__icon"><span></span></div>
-				<div class="header__nav">
-					<ul class="header__nav-links">
-						<li>
-							<a class="header__nav-item" href="#first-screen"
-								>О НАС</a
-							>
-						</li>
-						<li>
-							<a class="header__nav-item" href="#info">СТИЛИ</a>
-						</li>
-						<li>
-							<a class="header__nav-item" href="#info"
-								>ПЕДАГОГИ</a
-							>
-						</li>
-						<li>
-							<a class="header__nav-item" href="#price">ЦЕНЫ</a>
-						</li>
-						<li>
-							<a class="header__nav-item" href="#schedule"
-								>РАСПИСАНИЕ</a
-							>
-						</li>
-						<li>
-							<a class="header__nav-item" href="#studios"
-								>СТУДИИ</a
-							>
-						</li>
-					</ul>
+			</header>
+			<section id="first-screen">
+				<div class="first-screen__content">
+					<h1 class="first-screen__head">
+						Танцевальная студия в Омске
+					</h1>
+					<p class="first-screen__text">
+						Выбирай своё направление и присоединяйся к танцевальному
+						сообществу
+					</p>
+					<div class="first-screen__buttons">
+						<a class="first-screen__buttons-item reg-btn" href=""
+							>Записаться</a
+						>
+					</div>
 				</div>
-				<div class="header__nav-btn">
-					<a class="header__nav-item header-btn" href="#form"
-						>ЗАПИСАТЬСЯ</a
-					>
-				</div>
-			</div>
-		</header>
-		<section id="first-screen">
-			<div class="first-screen__content">
-				<h1 class="first-screen__head">Танцевальная студия в Омске</h1>
-				<p class="first-screen__text">
-					Выбирай своё направление и присоединяйся к танцевальному
-					сообществу
-				</p>
-				<div class="first-screen__buttons">
-					<a class="first-screen__buttons-item reg-btn" href=""
-						>Записаться</a
-					>
-				</div>
-			</div>
-		</section>
+			</section>
+		</div>
 		<section id="about">
 			<div class="about">
 				<ul class="about-list">
@@ -621,11 +629,11 @@
 							1 / 5
 						</div>
 						<img
-							src="./images/image-placeholder.png"
+							src="./images/leninks-white.jpg"
 							style="width: 100%"
 						/>
 						<div class="studios-slider__container-item__text">
-							Photo 1
+							9-я Ленинская, 5 - Белый зал
 						</div>
 					</div>
 					<div class="studios-slider__container-item fade">
@@ -633,11 +641,11 @@
 							2 / 5
 						</div>
 						<img
-							src="./images/image-placeholder.png"
+							src="./images/leninks-blue.jpg"
 							style="width: 100%"
 						/>
 						<div class="studios-slider__container-item__text">
-							Photo 2
+							9-я Ленинская, 5 - Синий зал
 						</div>
 					</div>
 					<div class="studios-slider__container-item fade">
@@ -690,8 +698,64 @@
 			</div>
 		</section>
 		<section id="form">
-			<div class="form"></div>
+			<div class="form">
+				<h2 class="form__head">Запишись на занятие</h2>
+				<p class="form__text">Первое бесплатно</p>
+				<form action="/" class="form__body">
+					<label for="name">Имя и Фамилия</label>
+					<input
+						type="text"
+						id="name"
+						name="name"
+						placeholder="Имя Фамилия"
+					/>
+					<label for="phone">Номер телефона</label>
+					<input
+						type="tel"
+						id="phone"
+						name="phone"
+						placeholder="+7 (999) 999-99-99"
+					/>
+				</form>
+			</div>
 		</section>
+		<section id="contacts">
+			<div class="contacts">
+				<h2 class="contacts__head">У нас три студии</h2>
+				<p class="contacts__text">Приходите в какую удобно</p>
+				<div class="contacts__info">
+					<div class="contacts__info-content">
+						<a
+							class="contacts__info-content__number"
+							href="tel:63-73-57"
+							>63-73-57</a
+						>
+						<p class="contacts__info-content__city">г. Омск</p>
+						<p class="contacts__info-content__studio">
+							6-я Линия, 97
+						</p>
+						<p class="contacts__info-content__studio">
+							Степанца 10/2
+						</p>
+						<p class="contacts__info-content__studio">
+							9-я Ленинская, 5
+						</p>
+						<i class="fab fa-instagram"></i>
+					</div>
+					<div class="contact_info-map">
+						<iframe
+							src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa9cba94e2be8f7f57103cac18a7aba6844905abeb98b3b30087014aabd813267&amp;source=constructor"
+							width="600"
+							height="423"
+							frameborder="0"
+						></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="footer"></div>
+		</footer>
 		<script src="./app.js"></script>
 	</body>
 </html>
