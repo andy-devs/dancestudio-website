@@ -162,7 +162,7 @@ let im = new Inputmask('+7 (999) 999-99-99');
 im.mask(selector);
 
 let validateForms = function (selector) {
-	new window.JustValidate(selector, {
+	new JustValidate(selector, {
 		colorWrong: 'hsl(0, 56%, 51%)',
 		rules: {
 			name: {

@@ -707,6 +707,8 @@ li > .header-btn {
 	color: var(--color-dark-red);
 	position: relative;
 	top: -1.2rem;
+	width: 100%;
+	text-align: left !important;
 }
 .js-validate-error-field {
 	color: var(--color-black) !important;
