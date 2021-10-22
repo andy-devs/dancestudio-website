@@ -328,7 +328,7 @@ li > .header-btn {
 }
 .info__tab__teachers-item__photo {
 	min-height: auto;
-	max-height: 150px;
+	max-height: 180px;
 	border-radius: 5px;
 	width: 100%;
 	object-fit: cover;
