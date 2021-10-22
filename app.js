@@ -163,7 +163,6 @@ im.mask(selector);
 
 const form = document.querySelector('form');
 form.addEventListener('submit', function (e) {
-	e.preventDefault();
 	// Swal.fire({
 	// 	title: 'Запись принята',
 	// 	text: 'Вы успешно записались на занятие',
