@@ -161,15 +161,15 @@ let selector = document.getElementById('phone');
 let im = new Inputmask('+7 (999) 999-99-99');
 im.mask(selector);
 
-const form = document.querySelector('form');
+const form = document.querySelector('.form__body');
 form.addEventListener('submit', function (e) {
-	Swal.fire({
-		title: 'Запись принята',
-		text: 'Вы успешно записались на занятие',
-		icon: 'success',
-		confirmButtonColor: 'hsl(0, 56%, 51%)',
-		confirmButtonText: 'OK',
-	});
+	// Swal.fire({
+	// 	title: 'Запись принята',
+	// 	text: 'Вы успешно записались на занятие',
+	// 	icon: 'success',
+	// 	confirmButtonColor: 'hsl(0, 56%, 51%)',
+	// 	confirmButtonText: 'OK',
+	// });
 	e.preventDefault();
 });
 // Swal.fire({
