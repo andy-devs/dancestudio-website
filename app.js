@@ -1,6 +1,15 @@
 const headerLogo = document.querySelector('.header__logo');
 const headerNav = document.querySelector('.header__nav');
 const headerIcon = document.querySelector('.header__icon');
+const headerNavItem = document.querySelectorAll('.header__nav-item');
+
+for (let i = 0; i < headerNavItem.length; i++) {
+	headerNavItem[i].addEventListener('click', (e) => {
+		headerLogo.classList.toggle('_active');
+		headerNav.classList.toggle('_active');
+		headerIcon.classList.toggle('_active');
+	});
+}
 
 headerIcon.addEventListener('click', (e) => {
 	headerLogo.classList.toggle('_active');
@@ -54,6 +63,8 @@ for (let i = 0; i < scheduleBtn.length; i++) {
 			removeActive(scheduleBlock);
 			scheduleBlock[i].classList.add('_active');
 		} else {
+			removeActive(accBtn);
+			removeActive(accBlock);
 			removeActive(scheduleBtn);
 			removeActive(scheduleBlock);
 		}
