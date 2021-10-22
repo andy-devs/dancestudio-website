@@ -826,7 +826,7 @@
 			<div class="form">
 				<h2 class="form__head">Запишись на занятие</h2>
 				<p class="form__text">Первое - бесплатно</p>
-				<form action="/" class="form__body">
+				<form action="" method="POST" class="form__body">
 					<label class="form__body-label" for="name"
 						>Имя и Фамилия</label
 					>
@@ -857,8 +857,8 @@
 						onchange="populate(this.id, 'style')"
 					>
 						<option value="none">---</option>
-						<option value="6-я Линия, 97">6-я Линия, 97</option>
 						<option value="Степанца 10/2">Степанца 10/2</option>
+						<option value="6-я Линия, 97">6-я Линия, 97</option>
 						<option value="9-я Ленинская, 5">
 							9-я Ленинская, 5
 						</option>
@@ -904,10 +904,10 @@
 							<i class="fas fa-map-pin"></i> Степанца 10/2
 						</p>
 						<p class="contacts__info-content__studio">
-							<i class="fas fa-map-pin"></i> 6-я Линия, 97
+							<i class="fas fa-map-pin"></i> 9-я Ленинская, 5
 						</p>
 						<p class="contacts__info-content__studio">
-							<i class="fas fa-map-pin"></i> 9-я Ленинская, 5
+							<i class="fas fa-map-pin"></i> 6-я Линия, 97
 						</p>
 						<div class="contacts__info-content__social">
 							<a
@@ -965,6 +965,10 @@
 				</div>
 			</div>
 		</footer>
+		<script src="/libraries/Just-validate-master/dist/js/just-validate.min.js"></script>
+		<script src="/libraries/inputmask-5.x/dist/inputmask.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="sweetalert2.all.min.js"></script>
 		<script src="./app.js"></script>
 	</body>
 </html>

@@ -27,12 +27,6 @@ body {
 	font-size: 18px;
 	font-family: 'Fira Sans', sans-serif;
 }
-.first-wrapper {
-	/* background-image: url('./images/red-bg.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover; */
-}
 .header {
 	background: linear-gradient(
 		180deg,
@@ -751,7 +745,7 @@ li > .header-btn {
 	font-size: 1.5rem;
 }
 .contacts__info-content__number {
-	color: var(--color-black);
+	color: var(--color-dark-red);
 }
 .contacts__info-content__social {
 	display: flex;

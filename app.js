@@ -156,3 +156,26 @@ function populate(s1, s2) {
 		s2.options.add(newoption);
 	}
 }
+var selector = document.getElementById('phone');
+
+var im = new Inputmask('+7 (999) 999-99-99');
+im.mask(selector);
+
+const form = document.querySelector('form');
+form.addEventListener('submit', function (e) {
+	e.preventDefault();
+	Swal.fire({
+		title: 'Запись принята',
+		text: 'Вы успешно записались на занятие',
+		icon: 'success',
+		confirmButtonColor: 'hsl(0, 56%, 51%)',
+		confirmButtonText: 'OK',
+	});
+	// Swal.fire({
+	// 	title: 'Упс.. Что-то пошло не так!',
+	// 	text: 'Проверьте данные и повторите запись',
+	// 	icon: 'error',
+	// 	confirmButtonColor: 'hsl(0, 56%, 51%)',
+	// 	confirmButtonText: 'OK',
+	// });
+});
