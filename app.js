@@ -104,20 +104,55 @@ function showSlides(n) {
 	dots[slideIndex - 1].className += ' active';
 }
 
-let category = document.getElementById('style');
-document.getElementById('studio').onchange = function () {
-	let optionSelected = this.options[this.selectedIndex];
-	if (optionSelected.textContent != '') {
-		if (optionSelected.dataset.val === '6-я Линия, 97') {
-			category.value = 'Choreo';
-		} else if (optionSelected.dataset.val === 'Степанца 10/2') {
-			category.value = 'Shuffle';
-		} else if (optionSelected.dataset.val === '9-я Ленинская, 5') {
-			category.value = 'Hip-Hop';
-		} else {
-			category.value = '-';
-		}
+function populate(s1, s2) {
+	var s1 = document.querySelector('#studio');
+	var s2 = document.querySelector('#style');
+	s2.innerHTML = '---';
+	if (s1.value == '6-я Линия, 97') {
+		var optionArray = [
+			'hip-hop 12-15|Hip-Hop 12-15 лет',
+			'hip-hop 9-11|Hip-Hop 9-11 лет',
+			'hip-hop 6-8|Hip-Hop 6-8 лет',
+			'choreo girls 14+|Choreo girls 14+',
+			'vogue 10+|Vogue 10+',
+			'dancehall 10+|Dancehall 10+',
+			'shuffle 6+|Shuffle 6+',
+			'ritmika 3-5|Ритмика 3-5 лет',
+		];
+	} else if (s1.value == 'Степанца 10/2') {
+		var optionArray = [
+			'hip-hop 12-15|Hip-Hop 12-15 лет',
+			'hip-hop 9-11|Hip-Hop 9-11 лет',
+			'hip-hop 7-11|Hip-Hop 7-11 лет',
+			'hip-hop 6-8|Hip-Hop 6-8 лет',
+			'dancehall 12+|Dancehall 12+',
+			'choreo 14+|Choreo 14+',
+			'shuffle 16+|Shuffle 16+',
+			'shuffle 6+|Shuffle 6+',
+			'ritmika 3-5|Ритмика 3-5 лет',
+			'parents|Parents Crew',
+		];
+	} else if (s1.value == '9-я Ленинская, 5') {
+		var optionArray = [
+			'hip-hop 9-12|Hip-Hop 9-12 лет',
+			'hip-hop 6-8|Hip-Hop 6-8 лет',
+			'hip-hop 5-7|Hip-Hop 5-7 лет',
+			'dancehall 14+|Dancehall 14+',
+			'choreo 12-15|Choreo 12-15 лет',
+			'dancehall 9-13|Dancehall 9-13 лет',
+			'choreo 14+|Choreo 14+',
+			'ritmika 3-5|Ритмика 3-5 лет',
+			'parents|Родители',
+		];
 	} else {
-		category.value = '';
+		var optionArray = ['none|---'];
 	}
-};
+	for (let i in optionArray) {
+		var pair = optionArray[i].split('|');
+		var newoption = document.createElement('option');
+
+		newoption.value = pair[0];
+		newoption.innerHTML = pair[1];
+		s2.options.add(newoption);
+	}
+}

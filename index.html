@@ -825,7 +825,7 @@
 		<section id="form">
 			<div class="form">
 				<h2 class="form__head">Запишись на занятие</h2>
-				<p class="form__text">Первое бесплатно</p>
+				<p class="form__text">Первое - бесплатно</p>
 				<form action="/" class="form__body">
 					<label class="form__body-label" for="name"
 						>Имя и Фамилия</label
@@ -850,9 +850,15 @@
 					<label class="form__body-label" for="studio"
 						>Выберите студию:
 					</label>
-					<select class="form__body-input" id="studio" name="studio">
+					<select
+						class="form__body-input"
+						id="studio"
+						name="studio"
+						onchange="populate(this.id, 'style')"
+					>
+						<option value="none">---</option>
 						<option value="6-я Линия, 97">6-я Линия, 97</option>
-						<option value="6-я Линия, 97">Степанца 10/2</option>
+						<option value="Степанца 10/2">Степанца 10/2</option>
 						<option value="9-я Ленинская, 5">
 							9-я Ленинская, 5
 						</option>
@@ -861,9 +867,7 @@
 						>Выберите направление:
 					</label>
 					<select class="form__body-input" id="style" name="style">
-						<option value="Hip-Hop">Hip-Hop</option>
-						<option value="Choreo">Choreo</option>
-						<option value="Shuffle">Shuffle</option>
+						<option value="none">---</option>
 					</select>
 					<label class="form__body-label" for="comment"
 						>Ваши вопросы и уточнения</label
