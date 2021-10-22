@@ -161,8 +161,9 @@ let selector = document.getElementById('phone');
 let im = new Inputmask('+7 (999) 999-99-99');
 im.mask(selector);
 
-const form = document.querySelector('.form__body');
+const form = document.querySelector('form');
 form.addEventListener('submit', function (e) {
+	e.preventDefault();
 	// Swal.fire({
 	// 	title: 'Запись принята',
 	// 	text: 'Вы успешно записались на занятие',
@@ -170,52 +171,51 @@ form.addEventListener('submit', function (e) {
 	// 	confirmButtonColor: 'hsl(0, 56%, 51%)',
 	// 	confirmButtonText: 'OK',
 	// });
-	e.preventDefault();
+	// Swal.fire({
+	// 	title: 'Упс.. Что-то пошло не так!',
+	// 	text: 'Проверьте данные и повторите запись',
+	// 	icon: 'error',
+	// 	confirmButtonColor: 'hsl(0, 56%, 51%)',
+	// 	confirmButtonText: 'OK',
+	// });
 });
-// Swal.fire({
-// 	title: 'Упс.. Что-то пошло не так!',
-// 	text: 'Проверьте данные и повторите запись',
-// 	icon: 'error',
-// 	confirmButtonColor: 'hsl(0, 56%, 51%)',
-// 	confirmButtonText: 'OK',
-// });
-// let validateForms = function (selector) {
-// 	new JustValidate(selector, {
-// 		colorWrong: 'hsl(0, 56%, 51%)',
-// 		rules: {
-// 			name: {
-// 				required: true,
-// 				minLength: 5,
-// 				maxLength: 30,
-// 				name: true,
-// 			},
-// 			phone: {
-// 				required: true,
-// 			},
-// 			studio: {
-// 				required: true,
-// 				minLength: 5,
-// 			},
-// 			style: {
-// 				required: true,
-// 				minLength: 5,
-// 			},
-// 		},
-// 		messages: {
-// 			name: 'Неправильно введено имя и фамилия',
-// 			phone: 'Неправильно введён телефон',
-// 			studio: 'Не выбрана студия',
-// 			style: 'Не выбрано направление',
-// 		},
-// 		submitHandler: function (form) {
-// 			Swal.fire({
-// 				title: 'Запись принята',
-// 				text: 'Вы успешно записались на занятие',
-// 				icon: 'success',
-// 				confirmButtonColor: 'hsl(0, 56%, 51%)',
-// 				confirmButtonText: 'OK',
-// 			});
-// 		},
-// 	});
-// };
-// validateForms('.form');
+let validateForms = function (selector) {
+	new JustValidate(selector, {
+		colorWrong: 'hsl(0, 56%, 51%)',
+		rules: {
+			name: {
+				required: true,
+				minLength: 5,
+				maxLength: 30,
+				name: true,
+			},
+			phone: {
+				required: true,
+			},
+			studio: {
+				required: true,
+				minLength: 5,
+			},
+			style: {
+				required: true,
+				minLength: 5,
+			},
+		},
+		messages: {
+			name: 'Неправильно введено имя и фамилия',
+			phone: 'Неправильно введён телефон',
+			studio: 'Не выбрана студия',
+			style: 'Не выбрано направление',
+		},
+		submitHandler: function (form) {
+			Swal.fire({
+				title: 'Запись принята',
+				text: 'Вы успешно записались на занятие',
+				icon: 'success',
+				confirmButtonColor: 'hsl(0, 56%, 51%)',
+				confirmButtonText: 'OK',
+			});
+		},
+	});
+};
+validateForms('.form');
