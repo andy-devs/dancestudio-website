@@ -157,9 +157,7 @@ function populate(s1, s2) {
 	}
 }
 const form = document.querySelector('form');
-form.addEventListener('submit', function (e) {
-	e.preventDefault();
-});
+form.addEventListener('submit', function (e) {});
 let selector = document.getElementById('phone');
 
 let im = new Inputmask('+7 (999) 999-99-99');
