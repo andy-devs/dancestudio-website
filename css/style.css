@@ -635,7 +635,7 @@ li > .header-btn {
 			rgba(0, 0, 0, 0.3) 95%,
 			rgba(0, 0, 0, 0.1) 100%
 		),
-		url('./images/red-bg.png');
+		url('/images/red-bg.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
