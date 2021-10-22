@@ -815,6 +815,14 @@ li > .header-btn {
 .footer__col-item:hover {
 	color: var(--color-very-light-red);
 }
+@media (max-width: 440px) {
+	.studios-slider__container-item__number {
+		font-size: 1.1rem;
+	}
+	.studios-slider__container-item__text {
+		font-size: 1.2rem;
+	}
+}
 @media (max-width: 400px) {
 	#form {
 		padding: 3rem 0rem;
