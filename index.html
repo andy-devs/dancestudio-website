@@ -831,6 +831,7 @@
 						>Имя и Фамилия</label
 					>
 					<input
+						data-validate-field="name"
 						class="form__body-input"
 						type="text"
 						id="name"
@@ -841,6 +842,7 @@
 						>Номер телефона</label
 					>
 					<input
+						data-validate-field="phone"
 						class="form__body-input"
 						type="tel"
 						id="phone"
@@ -851,6 +853,7 @@
 						>Выберите студию:
 					</label>
 					<select
+						data-validate-field="studio"
 						class="form__body-input"
 						id="studio"
 						name="studio"
@@ -866,7 +869,12 @@
 					<label class="form__body-label" for="style"
 						>Выберите направление:
 					</label>
-					<select class="form__body-input" id="style" name="style">
+					<select
+						data-validate-field="style"
+						class="form__body-input"
+						id="style"
+						name="style"
+					>
 						<option value="none">---</option>
 					</select>
 					<label class="form__body-label" for="comment"

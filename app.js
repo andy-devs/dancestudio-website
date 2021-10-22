@@ -156,21 +156,72 @@ function populate(s1, s2) {
 		s2.options.add(newoption);
 	}
 }
-var selector = document.getElementById('phone');
+let selector = document.getElementById('phone');
 
-var im = new Inputmask('+7 (999) 999-99-99');
+let im = new Inputmask('+7 (999) 999-99-99');
 im.mask(selector);
+
+let validateForms = function (selector, rules, successModal, yaGoal) {
+	new window.JustValidate(selector, {
+		rules: rules,
+		messages: {
+			name: 'Неправильно введено имя и фамилия',
+			phone: 'Неправильно введён телефон',
+			studio: 'Не выбрана студия',
+			style: 'Не выбрано направление',
+		},
+		submitHandler: function (form) {
+			if (true) {
+				Swal.fire({
+					title: 'Запись принята',
+					text: 'Вы успешно записались на занятие',
+					icon: 'success',
+					confirmButtonColor: 'hsl(0, 56%, 51%)',
+					confirmButtonText: 'OK',
+				});
+			} else {
+				Swal.fire({
+					title: 'Упс.. Что-то пошло не так!',
+					text: 'Проверьте данные и повторите запись',
+					icon: 'error',
+					confirmButtonColor: 'hsl(0, 56%, 51%)',
+					confirmButtonText: 'OK',
+				});
+			}
+		},
+	});
+};
+
+validateForms('.form', {
+	name: {
+		required: true,
+		minLength: 5,
+		maxLength: 30,
+		name: true,
+	},
+	phone: {
+		required: true,
+	},
+	studio: {
+		required: true,
+		minLength: 5,
+	},
+	style: {
+		required: true,
+		minLength: 5,
+	},
+});
 
 const form = document.querySelector('form');
 form.addEventListener('submit', function (e) {
 	e.preventDefault();
-	Swal.fire({
-		title: 'Запись принята',
-		text: 'Вы успешно записались на занятие',
-		icon: 'success',
-		confirmButtonColor: 'hsl(0, 56%, 51%)',
-		confirmButtonText: 'OK',
-	});
+	// Swal.fire({
+	// 	title: 'Запись принята',
+	// 	text: 'Вы успешно записались на занятие',
+	// 	icon: 'success',
+	// 	confirmButtonColor: 'hsl(0, 56%, 51%)',
+	// 	confirmButtonText: 'OK',
+	// });
 	// Swal.fire({
 	// 	title: 'Упс.. Что-то пошло не так!',
 	// 	text: 'Проверьте данные и повторите запись',
