@@ -268,7 +268,7 @@ li > .header-btn {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 4rem 3rem;
+	padding: 3rem 1.5rem;
 	color: var(--color-black);
 	background-color: var(--color-white);
 	border-radius: 5px;
@@ -303,8 +303,8 @@ li > .header-btn {
 }
 
 .info__tab__teachers {
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 1rem;
 	margin: 0 auto;
 	max-width: 95%;
 }
@@ -350,6 +350,10 @@ li > .header-btn {
 .info__tab__teachers-item__group {
 	color: var(--color-dark-red);
 	font-size: 1.2rem;
+}
+
+.info__tabs {
+	min-width: 100%;
 }
 
 #price {
@@ -816,6 +820,7 @@ li > .header-btn {
 		padding: 3rem 0rem;
 	}
 	.form__body {
+		align-items: center;
 		min-width: 50px;
 		max-width: 300px;
 	}
@@ -836,6 +841,66 @@ li > .header-btn {
 	.price__block-item__head {
 		padding-right: 1rem;
 	}
+	.info__tab__styles {
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		grid-gap: 0.5rem;
+	}
+	.info__tab__styles-item {
+		padding: 3rem 1.5rem;
+	}
+	.info__tab__styles-item__head {
+		font-size: 2.2rem;
+		margin-bottom: 0.5rem;
+	}
+	.info__tab__styles-item__text {
+		font-size: 1.5rem;
+	}
+	.info__tab__teachers {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-gap: 0.5rem;
+	}
+	.info__tab__teachers-item {
+		padding: 1rem;
+	}
+	.info__tab__teachers-item__name {
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+	}
+	.info__tab__teachers-item__group {
+		font-size: 1.2rem;
+	}
+}
+@media (max-width: 410px) {
+	.info__tab__styles {
+		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+		grid-gap: 0.5rem;
+	}
+	.info__tab__styles-item {
+		padding: 2rem 1rem;
+	}
+	.info__tab__styles-item__head {
+		font-size: 1.7rem;
+		margin-bottom: 0.3rem;
+	}
+	.info__tab__styles-item__text {
+		font-size: 1.1rem;
+	}
+	.info__tab__teachers {
+		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+		grid-gap: 0.5rem;
+	}
+	.info__tab__teachers-item {
+		padding: 1rem;
+	}
+	.info__tab__teachers-item__name {
+		font-size: 1.4rem;
+		font-weight: 400;
+		margin-bottom: 0.3rem;
+	}
+	.info__tab__teachers-item__group {
+		font-size: 1rem;
+		font-weight: 300;
+	}
 }
 @media (max-width: 920px) {
 	.header__nav-links {
@@ -852,6 +917,12 @@ li > .header-btn {
 	}
 }
 @media (max-width: 767px) {
+	.price {
+		padding: 2rem 0.8rem;
+	}
+	.about {
+		padding: 2rem 1.5rem;
+	}
 	.contacts__info {
 		display: flex;
 		flex-direction: column-reverse;
@@ -1019,13 +1090,7 @@ li > .header-btn {
 		margin-top: 1rem;
 		margin-bottom: 2rem;
 	}
-	.info__text {
-		margin: 0 auto;
-		width: 40rem;
-	}
-	.info__tabs {
-		min-width: 100%;
-	}
+
 	.info__tabs__nav {
 		max-width: 50rem;
 		min-width: 20rem;
