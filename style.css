@@ -667,6 +667,7 @@ li > .header-btn {
 	max-width: 500px;
 }
 .form__body-label {
+	position: relative;
 	font-size: 1.6rem;
 	font-weight: 300;
 	margin-bottom: 0.4rem;
@@ -702,7 +703,14 @@ li > .header-btn {
 .form__body-button:hover {
 	background-color: var(--color-light-red);
 }
-
+.js-validate-error-label {
+	color: var(--color-dark-red);
+	position: relative;
+	top: -1.2rem;
+}
+.js-validate-error-field {
+	color: var(--color-black) !important;
+}
 #contacts {
 	width: 100%;
 	margin: 5rem 0;
