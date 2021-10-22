@@ -157,12 +157,13 @@ function populate(s1, s2) {
 	}
 }
 const form = document.querySelector('form');
-form.addEventListener('submit', function (e) {});
+form.addEventListener('submit', function (e) {
+	e.preventDefault();
+});
 let selector = document.getElementById('phone');
 
 let im = new Inputmask('+7 (999) 999-99-99');
 im.mask(selector);
-
 // form.addEventListener('submit', function (e) {
 // 	Swal.fire({
 // 		title: 'Запись принята',
