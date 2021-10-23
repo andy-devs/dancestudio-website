@@ -428,6 +428,8 @@ li > .header-btn {
 	-o-border-radius: 10px;
 }
 .modal-teachers__head {
+	text-align: center;
+	align-self: center;
 	font-size: 2rem;
 	font-weight: normal;
 	margin-bottom: 0.7rem;
