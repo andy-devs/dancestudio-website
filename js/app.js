@@ -242,7 +242,7 @@ var spanStyle = document.querySelectorAll('.close-styles');
 
 for (let i = 0; i < modalStyle.length; i++) {
 	btnStyle[i].onclick = (e) => {
-		modalStyle[i].style.display = 'block';
+		modalStyle[i].style.display = 'grid';
 	};
 	for (let j of spanStyle) {
 		j.onclick = (e) => {
