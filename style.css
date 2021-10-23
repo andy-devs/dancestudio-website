@@ -1,9 +1,9 @@
 :root {
 	--color-black: #000;
 	--color-white: #fff;
-	--color-dark-red: hsl(0, 56%, 51%);
-	--color-light-red: hsl(0, 72%, 62%);
-	--color-very-light-red: hsl(0, 90%, 74%);
+	--color-dark-red: #73061a;
+	--color-light-red: #9c0924;
+	--color-very-light-red: #c70c2e;
 	--color-light-grey: hsl(229, 8%, 60%);
 	--color-dark-grey: hsl(228, 10%, 39%);
 	--color-white-opacity: hsla(0, 0%, 100%, 0.911);
