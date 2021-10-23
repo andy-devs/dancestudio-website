@@ -234,11 +234,11 @@ for (let anchor of anchors) {
 	});
 }
 
-var modalStyle = document.querySelectorAll('.modal-styles');
+let modalStyle = document.querySelectorAll('.modal-styles');
 
-var btnStyle = document.querySelectorAll('.info__tab__styles-item');
+let btnStyle = document.querySelectorAll('.info__tab__styles-item');
 
-var spanStyle = document.querySelectorAll('.close-styles');
+let spanStyle = document.querySelectorAll('.close-styles');
 
 for (let i = 0; i < modalStyle.length; i++) {
 	btnStyle[i].onclick = (e) => {
@@ -246,14 +246,40 @@ for (let i = 0; i < modalStyle.length; i++) {
 	};
 	for (let j of spanStyle) {
 		j.onclick = (e) => {
-			for (let i of modalStyle) {
-				i.style.display = 'none';
+			for (let m of modalStyle) {
+				m.style.display = 'none';
 			}
 		};
 	}
-	window.onclick = function (e) {
-		if (e.target == modalStyle[i]) {
-			modalStyle[i].style.display = 'none';
-		}
-	};
 }
+let modalTeacher = document.querySelectorAll('.modal-teachers');
+
+let btnTeacher = document.querySelectorAll('.info__tab__teachers-item');
+
+let spanTeacher = document.querySelectorAll('.close-teachers');
+
+for (let i = 0; i < modalTeacher.length; i++) {
+	btnTeacher[i].onclick = (e) => {
+		modalTeacher[i].style.display = 'grid';
+	};
+	for (let j of spanTeacher) {
+		j.onclick = (e) => {
+			for (let m of modalTeacher) {
+				m.style.display = 'none';
+			}
+		};
+	}
+}
+window.onclick = function (e) {
+	if (
+		e.target.classList.contains('modal-teachers') ||
+		e.target.classList.contains('modal-styles')
+	) {
+		for (let j of modalTeacher) {
+			j.style.display = 'none';
+		}
+		for (let modal of modalStyle) {
+			modal.style.display = 'none';
+		}
+	}
+};
