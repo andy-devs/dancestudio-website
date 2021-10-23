@@ -252,6 +252,9 @@ for (let i = 0; i < modalStyle.length; i++) {
 		};
 	}
 }
+
+// Teachers Modal window
+
 let modalTeacher = document.querySelectorAll('.modal-teachers');
 
 let btnTeacher = document.querySelectorAll('.info__tab__teachers-item');
