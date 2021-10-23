@@ -4,6 +4,7 @@
 
 -   [Overview](#overview)
     -   [Description](#description)
+    -   [Screenshots](#screenshots)
     -   [Links](#links)
 -   [My process](#my-process)
     -   [Built with](#built-with)
@@ -15,6 +16,13 @@
 ### Description
 
 Website for the DanceStudioNako. My personal favourite project.
+
+### Screenshots
+
+![Desktop](/images/desktop_1.png)
+![Desktop](/images/desktop_2.png)
+![Desktop](/images/desktop_3.png)
+![Desktop](/images/desktop_4.png)
 
 ### Links
 
