@@ -233,3 +233,27 @@ for (let anchor of anchors) {
 		});
 	});
 }
+
+var modalStyle = document.querySelectorAll('.modal-styles');
+
+var btnStyle = document.querySelectorAll('.info__tab__styles-item');
+
+var spanStyle = document.querySelectorAll('.close-styles');
+
+for (let i = 0; i < modalStyle.length; i++) {
+	btnStyle[i].onclick = (e) => {
+		modalStyle[i].style.display = 'block';
+	};
+	for (let j of spanStyle) {
+		j.onclick = (e) => {
+			for (let i of modalStyle) {
+				i.style.display = 'none';
+			}
+		};
+	}
+	window.onclick = function (e) {
+		if (e.target == modalStyle[i]) {
+			modalStyle[i].style.display = 'none';
+		}
+	};
+}
