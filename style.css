@@ -294,7 +294,7 @@ li > .header-btn {
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 200;
-	color: var(--color-dark-red);
+	color: var(--color-light-red);
 }
 .modal-styles {
 	display: none;
@@ -327,15 +327,51 @@ li > .header-btn {
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 }
-.modal-styles__head {
+.modal-styles__block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.modal-styles__block-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 50%;
+	line-height: 2.2rem;
+	padding: 0 1.5rem 0 0;
+	border-right: solid 2px var(--color-dark-red);
+}
+.modal-styles__block-info__name {
 	font-size: 2rem;
 	font-weight: normal;
-	margin-bottom: 0.7rem;
+	margin-bottom: 1rem;
 }
-.modal-styles__text {
+.modal-styles__block-info__desc {
+	font-size: 1.4rem;
+	font-weight: 300;
+	margin-bottom: 1rem;
+}
+.modal-styles__block-charts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 50%;
+	line-height: 2.2rem;
+	padding: 0 0 0 1.5rem;
+}
+.modal-styles__block-charts__item-head {
+	font-size: 1.7rem;
 	font-weight: normal;
-	font-size: 1.3rem;
 }
+.modal-styles__block-charts__item-text {
+	color: var(--color-dark-red);
+	font-size: 1.2rem;
+	font-weight: 300;
+	margin-bottom: 0.3rem;
+}
+
 .close-styles {
 	color: var(--color-black);
 	align-self: flex-end;
@@ -396,7 +432,7 @@ li > .header-btn {
 	margin-bottom: 0.5rem;
 }
 .info__tab__teachers-item__group {
-	color: var(--color-dark-red);
+	color: var(--color-light-red);
 	font-size: 1.2rem;
 }
 .modal-teachers {
@@ -862,7 +898,23 @@ li > .header-btn {
 .contacts__info-content__number {
 	color: var(--color-dark-red);
 }
+.contacts__info-content__number > .fas {
+	position: relative;
+	left: -0.3rem;
+	margin-right: 0.8rem;
+}
+.contacts__info-content__city > .fas {
+	margin-right: 0.4rem;
+	position: relative;
+	left: -0.5rem;
+}
+.contacts__info-content__studio > .fas {
+	position: relative;
+	margin-right: 1.4rem;
+}
 .contacts__info-content__social {
+	position: relative;
+	left: -0.5rem;
 	display: flex;
 	align-items: center;
 	gap: 0.8rem;
@@ -941,29 +993,58 @@ li > .header-btn {
 	}
 }
 @media (max-width: 767px) {
-	.modal-styles__head {
-		font-size: 1.6rem;
-		font-weight: normal;
-		margin-bottom: 0.7rem;
+	.modal-styles__block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
-	.modal-styles__text {
-		font-weight: normal;
-		font-size: 1rem;
+	.modal-styles__block-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+		line-height: 2.2rem;
+		padding: 0 0 1rem 0;
+		border: none;
+		border-bottom: solid 2px var(--color-dark-red);
 	}
+	.modal-styles__block-info__name {
+		font-size: 1.75rem;
+		font-weight: normal;
+		margin-bottom: 1rem;
+	}
+	.modal-styles__block-info__desc {
+		font-size: 1.2rem;
+		font-weight: 300;
+		margin-bottom: 1rem;
+	}
+	.modal-styles__block-charts {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+		line-height: 2.2rem;
+		padding: 1rem 0 0 0;
+	}
+	.modal-styles__block-charts__item-head {
+		font-size: 1.4rem;
+		font-weight: normal;
+	}
+	.modal-styles__block-charts__item-text {
+		color: var(--color-dark-red);
+		font-size: 1.1rem;
+		font-weight: 300;
+		margin-bottom: 0.3rem;
+	}
+
 	.close-styles {
 		color: var(--color-black);
 		align-self: flex-end;
 		font-size: 2.4rem;
 		font-weight: bold;
-	}
-	.modal-teachers__head {
-		font-size: 1.6rem;
-		font-weight: normal;
-		margin-bottom: 0.7rem;
-	}
-	.modal-teachers__text {
-		font-weight: normal;
-		font-size: 1rem;
 	}
 	.close-teachers {
 		color: var(--color-black);
