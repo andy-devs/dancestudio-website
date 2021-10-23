@@ -284,7 +284,7 @@ li > .header-btn {
 	color: var(--color-white);
 }
 .info__tab__styles-item__head {
-	white-space: wrap;
+	white-space: normal;
 	text-align: center;
 	font-size: clamp(1rem, 2.5rem, 3rem);
 	font-weight: 400;
@@ -1236,6 +1236,7 @@ li > .header-btn {
 		padding: 2rem 1rem;
 	}
 	.info__tab__styles-item__head {
+		white-space: normal;
 		font-size: 1.7rem;
 		margin-bottom: 0.3rem;
 	}
