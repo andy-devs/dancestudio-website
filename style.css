@@ -924,101 +924,7 @@ li > .header-btn {
 .footer__col-item:hover {
 	color: var(--color-very-light-red);
 }
-@media (max-width: 440px) {
-	.studios-slider__container-item__number {
-		font-size: 1.1rem;
-	}
-	.studios-slider__container-item__text {
-		font-size: 1.2rem;
-	}
-}
-@media (max-width: 400px) {
-	#form {
-		padding: 3rem 0rem;
-	}
-	.form__body {
-		align-items: center;
-		max-width: 100%;
-		padding: 1rem 1rem;
-	}
-	.form__body-input {
-		min-width: 100%;
-		max-width: 100%;
-	}
-	.form__body-textarea {
-		min-width: 100%;
-		max-width: 100%;
-	}
-}
-@media (max-width: 650px) {
-	.about-list {
-		grid-template-columns: repeat(auto-fill, 100%);
-		gap: 3rem 0;
-	}
-	.price__block-item__head {
-		padding-right: 1rem;
-	}
-	.info__tab__styles {
-		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-		grid-gap: 0.5rem;
-	}
-	.info__tab__styles-item {
-		padding: 3rem 1.5rem;
-	}
-	.info__tab__styles-item__head {
-		font-size: 2.2rem;
-		margin-bottom: 0.5rem;
-	}
-	.info__tab__styles-item__text {
-		font-size: 1.5rem;
-	}
-	.info__tab__teachers {
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		grid-gap: 0.5rem;
-	}
-	.info__tab__teachers-item {
-		padding: 1rem;
-	}
-	.info__tab__teachers-item__name {
-		font-size: 2rem;
-		margin-bottom: 0.5rem;
-	}
-	.info__tab__teachers-item__group {
-		font-size: 1.2rem;
-	}
-}
-@media (max-width: 410px) {
-	.info__tab__styles {
-		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-		grid-gap: 0.5rem;
-	}
-	.info__tab__styles-item {
-		padding: 2rem 1rem;
-	}
-	.info__tab__styles-item__head {
-		font-size: 1.7rem;
-		margin-bottom: 0.3rem;
-	}
-	.info__tab__styles-item__text {
-		font-size: 1.1rem;
-	}
-	.info__tab__teachers {
-		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-		grid-gap: 0.5rem;
-	}
-	.info__tab__teachers-item {
-		padding: 1rem;
-	}
-	.info__tab__teachers-item__name {
-		font-size: 1.4rem;
-		font-weight: 400;
-		margin-bottom: 0.3rem;
-	}
-	.info__tab__teachers-item__group {
-		font-size: 1rem;
-		font-weight: 300;
-	}
-}
+
 @media (max-width: 920px) {
 	.header__nav-links {
 		margin-left: 0.5rem;
@@ -1065,8 +971,8 @@ li > .header-btn {
 		font-weight: bold;
 	}
 	.info__tab__teachers {
-		grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-		grid-gap: 0.1rem;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-gap: 0.5rem;
 		margin: 0 auto;
 		max-width: 95%;
 	}
@@ -1255,6 +1161,101 @@ li > .header-btn {
 	}
 	.schedule__row {
 		flex-direction: column;
+	}
+}
+@media (max-width: 440px) {
+	.studios-slider__container-item__number {
+		font-size: 1.1rem;
+	}
+	.studios-slider__container-item__text {
+		font-size: 1.2rem;
+	}
+}
+@media (max-width: 400px) {
+	#form {
+		padding: 3rem 0rem;
+	}
+	.form__body {
+		align-items: center;
+		max-width: 100%;
+		padding: 1rem 1rem;
+	}
+	.form__body-input {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.form__body-textarea {
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+@media (max-width: 650px) {
+	.about-list {
+		grid-template-columns: repeat(auto-fill, 100%);
+		gap: 3rem 0;
+	}
+	.price__block-item__head {
+		padding-right: 1rem;
+	}
+	.info__tab__styles {
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		grid-gap: 0.5rem;
+	}
+	.info__tab__styles-item {
+		padding: 3rem 1.5rem;
+	}
+	.info__tab__styles-item__head {
+		font-size: 2.2rem;
+		margin-bottom: 0.5rem;
+	}
+	.info__tab__styles-item__text {
+		font-size: 1.5rem;
+	}
+	.info__tab__teachers {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-gap: 0.5rem;
+	}
+	.info__tab__teachers-item {
+		padding: 1rem;
+	}
+	.info__tab__teachers-item__name {
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+	}
+	.info__tab__teachers-item__group {
+		font-size: 1.2rem;
+	}
+}
+@media (max-width: 410px) {
+	.info__tab__styles {
+		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+		grid-gap: 0.5rem;
+	}
+	.info__tab__styles-item {
+		padding: 2rem 1rem;
+	}
+	.info__tab__styles-item__head {
+		font-size: 1.7rem;
+		margin-bottom: 0.3rem;
+	}
+	.info__tab__styles-item__text {
+		font-size: 1.1rem;
+	}
+	.info__tab__teachers {
+		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+		grid-gap: 0.5rem;
+	}
+	.info__tab__teachers-item {
+		padding: 1rem;
+	}
+	.info__tab__teachers-item__name {
+		font-size: 1.4rem;
+		font-weight: 400;
+		margin-bottom: 0.3rem;
+	}
+	.info__tab__teachers-item__group {
+		font-size: 1rem;
+		font-weight: 300;
 	}
 }
 @media (min-width: 768px) {
