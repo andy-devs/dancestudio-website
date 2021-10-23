@@ -1263,7 +1263,12 @@
 			<div class="form">
 				<h2 class="form__head">Запишись на занятие</h2>
 				<p class="form__text">Первое - бесплатно</p>
-				<form action="send.js" method="post" class="form__body">
+				<form
+					onsubmit="return formSubmit();"
+					action="/"
+					method="post"
+					class="form__body"
+				>
 					<label class="form__body-label" for="name"
 						>Имя и Фамилия</label
 					>
@@ -1422,6 +1427,7 @@
 			type="text/javascript"
 			src="./libs/sweetalert2/dist/sweetalert2.all.js"
 		></script>
+
 		<script type="text/javascript" src="./js/app.js"></script>
 	</body>
 </html>
