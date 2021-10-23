@@ -298,7 +298,7 @@ li > .header-btn {
 .modal-styles {
 	display: none;
 	position: fixed;
-	z-index: 1;
+	z-index: 50;
 	left: 0;
 	top: 0;
 	place-items: center;
@@ -309,17 +309,24 @@ li > .header-btn {
 	background-color: rgba(0, 0, 0, 0.4);
 }
 .modal-content-styles {
-	margin-top: -1rem;
+	z-index: 99;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
 	border-radius: 10px;
 	background-color: #fefefe;
 	margin: 0 auto;
-	padding: 1.2rem;
+	padding: 0rem 1.2rem 3rem 1.2rem;
 	border: 1px solid #888;
 	width: 80%;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
+}
+.modal-styles__block {
 }
 .modal-styles__head {
 	font-size: 2rem;
@@ -331,9 +338,8 @@ li > .header-btn {
 	font-size: 1.3rem;
 }
 .close-styles {
-	margin-top: -1rem;
 	color: var(--color-black);
-	float: right;
+	align-self: flex-end;
 	font-size: 3rem;
 	font-weight: bold;
 }
@@ -1028,6 +1034,61 @@ li > .header-btn {
 	}
 }
 @media (max-width: 767px) {
+	.modal-styles__head {
+		font-size: 1.6rem;
+		font-weight: normal;
+		margin-bottom: 0.7rem;
+	}
+	.modal-styles__text {
+		font-weight: normal;
+		font-size: 1rem;
+	}
+	.close-styles {
+		color: var(--color-black);
+		align-self: flex-end;
+		font-size: 2.4rem;
+		font-weight: bold;
+	}
+	.modal-teachers__head {
+		font-size: 1.6rem;
+		font-weight: normal;
+		margin-bottom: 0.7rem;
+	}
+	.modal-teachers__text {
+		font-weight: normal;
+		font-size: 1rem;
+	}
+	.close-teachers {
+		color: var(--color-black);
+		align-self: flex-end;
+		font-size: 2.4rem;
+		font-weight: bold;
+	}
+	.info__tab__teachers {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-gap: 1rem;
+		margin: 0 auto;
+		max-width: 95%;
+	}
+	.info__tab__teachers-item {
+		padding: 1rem;
+		border-radius: 10px;
+	}
+	.info__tab__teachers-item__photo {
+		min-height: auto;
+		max-height: 200px;
+		width: 100%;
+		object-fit: cover;
+		margin-bottom: 0.3rem;
+	}
+	.info__tab__teachers-item__name {
+		font-size: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.info__tab__teachers-item__group {
+		color: var(--color-dark-red);
+		font-size: 1rem;
+	}
 	.price {
 		padding: 2rem 0.8rem;
 	}
