@@ -284,7 +284,6 @@ li > .header-btn {
 	color: var(--color-white);
 }
 .info__tab__styles-item__head {
-	white-space: nowrap;
 	text-align: center;
 	font-size: clamp(1rem, 2.5rem, 3rem);
 	font-weight: 400;
