@@ -1194,8 +1194,9 @@ li > .header-btn {
 		justify-content: center;
 	}
 	.contacts__info-map {
+		align-self: center;
 		height: 100%;
-		width: 100%;
+		width: 90%;
 	}
 	.header__icon {
 		z-index: 5;
