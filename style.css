@@ -478,6 +478,7 @@ li > .header-btn {
 	object-fit: cover;
 }
 .modal-teachers__block-info {
+	padding-left: 1rem;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -500,7 +501,7 @@ li > .header-btn {
 }
 .modal-teachers__block-info__desc {
 	text-align: left;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-weight: 300;
 	margin-bottom: 1rem;
 }
@@ -1057,7 +1058,7 @@ li > .header-btn {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		margin-top: -1.2rem;
+		margin-top: -1.3rem;
 	}
 	.modal-teachers__block-photo {
 		max-width: 100%;
@@ -1068,28 +1069,29 @@ li > .header-btn {
 		object-fit: cover;
 	}
 	.modal-teachers__block-info {
+		padding: 0 1rem;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: flex-start;
 		max-width: 100%;
-		line-height: 2.2rem;
+		line-height: 2rem;
 	}
 	.modal-teachers__block-info__name {
 		font-size: 1.8rem;
 		font-weight: normal;
-		margin-bottom: 1rem;
+		margin-bottom: 0.3rem;
 	}
 	.modal-teachers__block-info__groups {
 		text-align: left;
 		font-size: 1.4rem;
 		font-weight: 300;
-		margin-bottom: 1rem;
+		margin-bottom: 0.3rem;
 		color: var(--color-dark-red);
 	}
 	.modal-teachers__block-info__desc {
 		text-align: left;
-		font-size: 1rem;
+		font-size: 1.05rem;
 		font-weight: 300;
 		margin-bottom: 1rem;
 	}
