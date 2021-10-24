@@ -457,7 +457,8 @@ li > .header-btn {
 	margin: 0 auto;
 	padding: 1.2rem;
 	border: 1px solid #888;
-	width: 80%;
+	min-width: 60%;
+	max-width: 75%;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
@@ -1188,9 +1189,6 @@ li > .header-btn {
 	.contacts__info-content {
 		align-self: center;
 		margin-top: 2rem;
-		/* gap: 1rem;
-		align-items: center;
-		justify-content: baseline; */
 	}
 	.contacts__info-content__social {
 		justify-content: center;
