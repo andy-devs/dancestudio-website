@@ -1098,6 +1098,7 @@ li > .header-btn {
 		margin-top: -1.3rem;
 	}
 	.modal-teachers__block-photo {
+		padding-bottom: 0.4rem;
 		max-width: 100%;
 	}
 	.modal-teachers__block-info {
@@ -1111,7 +1112,7 @@ li > .header-btn {
 	}
 	.modal-teachers__block-info__name {
 		font-size: 1.8rem;
-		margin-bottom: 0.3rem;
+		margin-bottom: 0.4rem;
 	}
 	.modal-teachers__block-info__groups {
 		text-align: left;
