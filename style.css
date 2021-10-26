@@ -449,7 +449,6 @@ li > .header-btn {
 	overflow: auto;
 	background-color: rgb(0, 0, 0);
 	background-color: rgba(0, 0, 0, 0.4);
-	padding: 1rem 0;
 }
 .modal-content-teachers {
 	margin-top: -1rem;
