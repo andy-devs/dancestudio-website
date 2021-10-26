@@ -1,3 +1,5 @@
+// Burger menu
+
 const headerLogo = document.querySelector('.header__logo');
 const headerNav = document.querySelector('.header__nav');
 const headerIcon = document.querySelector('.header__icon');
@@ -17,6 +19,14 @@ headerIcon.addEventListener('click', (e) => {
 	headerIcon.classList.toggle('_active');
 });
 
+// Tabs for Styles and Teachers
+
+function removeActive(items) {
+	for (let i of items) {
+		i.classList.remove('_active');
+	}
+}
+
 const tabNavItems = document.querySelectorAll('.info__tabs__nav-item');
 const tabBodyItems = document.querySelectorAll('.info__tabs__body-item');
 
@@ -30,11 +40,8 @@ for (let i = 0; i < tabNavItems.length; i++) {
 		}
 	});
 }
-function removeActive(items) {
-	for (let i of items) {
-		i.classList.remove('_active');
-	}
-}
+
+// Schedule Double Dropdown
 
 const accBtn = document.querySelectorAll('.schedule__accordion__body-btn');
 const accBlock = document.querySelectorAll('.schedule__accordion__body-panel');
@@ -71,6 +78,8 @@ for (let i = 0; i < scheduleBtn.length; i++) {
 	});
 }
 
+// Slider for Studios
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -103,6 +112,8 @@ function showSlides(n) {
 	slides[slideIndex - 1].style.display = 'block';
 	dots[slideIndex - 1].className += ' active';
 }
+
+// Style input based on Studio input
 
 function populate(s1, s2) {
 	var s1 = document.querySelector('#studio');
@@ -160,10 +171,13 @@ function populate(s1, s2) {
 		s2.options.add(newoption);
 	}
 }
-const form = document.querySelector('form');
-form.addEventListener('submit', function (e) {
-	e.preventDefault();
-});
+
+// Form Validation and Submition
+
+// const form = document.querySelector('form');
+// form.addEventListener('submit', function (e) {
+// 	e.preventDefault();
+// });
 let selector = document.getElementById('phone');
 
 let im = new Inputmask('+7 (999) 999-99-99');
@@ -185,7 +199,7 @@ im.mask(selector);
 // 	});
 // });
 
-let validateForms = function (selector) {
+const validateForms = function (selector) {
 	new JustValidate(selector, {
 		colorWrong: 'hsl(0, 56%, 51%)',
 		rules: {
@@ -221,10 +235,13 @@ let validateForms = function (selector) {
 				confirmButtonColor: 'hsl(0, 56%, 51%)',
 				confirmButtonText: 'OK',
 			});
+			form.submit();
 		},
 	});
 };
-validateForms('.form');
+validateForms('.form__body');
+
+// Style Modal Window
 
 const anchors = document.querySelectorAll('a[href*="#"]');
 
@@ -258,7 +275,7 @@ for (let i = 0; i < modalStyle.length; i++) {
 	}
 }
 
-// Teachers Modal window
+// Teachers Modal Window
 
 let modalTeacher = document.querySelectorAll('.modal-teachers');
 
