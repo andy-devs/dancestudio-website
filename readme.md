@@ -37,6 +37,7 @@ Website for the DanceStudioNako. My personal favourite project.
 -   CSS
 -   JavaScript
 -   Helpful libraries: [InputMask](https://github.com/RobinHerbots/Inputmask), [SweetAlert2](https://sweetalert2.github.io/), [JustValidate](https://github.com/horprogs/Just-validate)
+-   [FormSubmit.io](https://formsubmit.co/) - Simple and useful website to submit a form to my email
 
 ### What I learned
 
