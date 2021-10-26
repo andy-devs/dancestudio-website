@@ -224,6 +224,7 @@ li > .header-btn {
 	line-height: 2rem;
 	padding: 0rem 1rem;
 	color: var(--color-dark-grey);
+	margin-bottom: 0.4rem;
 }
 .info__tabs__nav {
 	margin: 2rem auto;
