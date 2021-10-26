@@ -1033,6 +1033,15 @@ li > .header-btn {
 	gap: 1rem;
 	color: var(--color-white);
 }
+.footer__tag {
+	color: var(--color-white);
+}
+.footer__tag-anchor {
+	color: var(--color-white);
+}
+.footer__tag-anchor:hover {
+	text-decoration: underline 1.5px white;
+}
 .footer__logo-image {
 	max-width: 180px;
 	height: auto;
