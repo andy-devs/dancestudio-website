@@ -1066,7 +1066,7 @@ li > .header-btn {
 		padding: 0.7rem 1.8rem;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 777px) {
 	#first-screen {
 		padding-top: 11rem;
 		padding-bottom: 7rem;
@@ -1482,7 +1482,7 @@ li > .header-btn {
 		font-weight: 300;
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: 778px) {
 	.info {
 		margin-top: 1rem;
 		margin-bottom: 2rem;
