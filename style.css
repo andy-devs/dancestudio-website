@@ -27,6 +27,9 @@ body {
 	font-size: 18px;
 	font-family: 'Fira Sans', sans-serif;
 }
+
+/* ------------------- Header ------------------ */
+
 .header {
 	background: linear-gradient(
 		180deg,
@@ -130,6 +133,9 @@ li > .header-btn {
 	background-color: var(--color-dark-red);
 	color: var(--color-white);
 }
+
+/* ------------------- First Screen Section ------------------ */
+
 #first-screen {
 	padding-top: 12rem;
 	padding-bottom: 9rem;
@@ -168,6 +174,9 @@ li > .header-btn {
 .first-screen__buttons-item {
 	align-self: center;
 }
+
+/* ------------------- About Section ------------------ */
+
 #about {
 	background-color: var(--color-dark-red);
 	margin-bottom: 6rem;
@@ -196,6 +205,9 @@ li > .header-btn {
 .about-item__text {
 	font-size: 1.6rem;
 }
+
+/* ------------------- Info Section (styles and teachers) ------------------ */
+
 #info {
 	padding-bottom: 2rem;
 	text-align: center;
@@ -296,6 +308,9 @@ li > .header-btn {
 	font-weight: 200;
 	color: var(--color-light-red);
 }
+
+/* ----- Style Modals ------ */
+
 .modal-styles {
 	padding: 1.5rem 0;
 	display: none;
@@ -437,6 +452,9 @@ li > .header-btn {
 	color: var(--color-light-red);
 	font-size: 1.2rem;
 }
+
+/* ----- Teachers Modals ------ */
+
 .modal-teachers {
 	padding: 1rem 0;
 	z-index: 50;
@@ -536,6 +554,8 @@ li > .header-btn {
 	min-width: 100%;
 }
 
+/* ------------------- Pricing Section ------------------- */
+
 #price {
 	background-color: var(--color-dark-red);
 	color: var(--color-white);
@@ -582,6 +602,9 @@ li > .header-btn {
 .price__block-button:hover {
 	background-color: var(--color-very-light-red);
 }
+
+/* ------------- Schedule Section --------------- */
+
 #schedule {
 	margin: 5rem 0;
 }
@@ -710,6 +733,9 @@ li > .header-btn {
 .schedule__accordion__body-panel._active {
 	display: block;
 }
+
+/* ------------- Studios Section --------------- */
+
 #studios {
 	width: 100%;
 	max-width: 1100px;
@@ -816,6 +842,8 @@ li > .header-btn {
 	}
 }
 
+/* ------------- Form Section --------------- */
+
 #form {
 	padding: 4rem 1rem;
 	background: linear-gradient(
@@ -902,6 +930,9 @@ li > .header-btn {
 .js-validate-error-field {
 	color: var(--color-black) !important;
 }
+
+/* ------------- Contacts Section --------------- */
+
 #contacts {
 	width: 100%;
 	margin: 5rem 0;
@@ -983,6 +1014,9 @@ li > .header-btn {
 	-ms-transform: translateY(4px);
 	-o-transform: translateY(4px);
 }
+
+/* ------------- Footer --------------- */
+
 #footer {
 	padding: 3rem 1rem;
 	background-color: var(--color-dark-red);
@@ -1025,6 +1059,9 @@ li > .header-btn {
 .footer__col-item:hover {
 	color: var(--color-very-light-red);
 }
+
+/* -------- Media for Teacher Modal ------- */
+
 @media (max-width: 950px) {
 	.modal-teachers__block-info__name {
 		text-align: left;
@@ -1052,12 +1089,18 @@ li > .header-btn {
 		margin-top: 0.3rem;
 	}
 }
+
+/* -------- Media for Nav Link padding ------- */
+
 @media (max-width: 920px) {
 	.header__nav-links {
 		margin-left: 0.5rem;
 		gap: 1rem;
 	}
 }
+
+/* -------- Media for Nav Link padding 2 ------- */
+
 @media (max-width: 800px) {
 	.header__nav-links {
 		gap: 0.7rem;
@@ -1066,6 +1109,9 @@ li > .header-btn {
 		padding: 0.7rem 1.8rem;
 	}
 }
+
+/* -------- Main Media for mobile: sections margin, flex direction, font size etc ------- */
+
 @media (max-width: 777px) {
 	#first-screen {
 		padding-top: 11rem;
@@ -1386,6 +1432,9 @@ li > .header-btn {
 		flex-direction: column;
 	}
 }
+
+/* -------- Media for slider ------- */
+
 @media (max-width: 440px) {
 	.studios-slider__container-item__number {
 		font-size: 1.1rem;
@@ -1394,6 +1443,9 @@ li > .header-btn {
 		font-size: 1.2rem;
 	}
 }
+
+/* -------- Media for form ------- */
+
 @media (max-width: 400px) {
 	#form {
 		padding: 3rem 0rem;
@@ -1412,6 +1464,9 @@ li > .header-btn {
 		max-width: 100%;
 	}
 }
+
+/* -------- Media for Style and Teacher grid ------- */
+
 @media (max-width: 650px) {
 	.about-list {
 		grid-template-columns: repeat(auto-fill, 100%);
@@ -1449,6 +1504,9 @@ li > .header-btn {
 		font-size: 1.2rem;
 	}
 }
+
+/* -------- Media for Style and Teacher grid 2 ------- */
+
 @media (max-width: 410px) {
 	.info__tab__styles {
 		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -1482,6 +1540,9 @@ li > .header-btn {
 		font-weight: 300;
 	}
 }
+
+/* -------- Media for Tabs Nav ------- */
+
 @media (min-width: 778px) {
 	.info {
 		margin-top: 1rem;
