@@ -235,6 +235,8 @@ const validateForms = function (selector) {
 				confirmButtonColor: 'hsl(0, 56%, 51%)',
 				confirmButtonText: 'OK',
 			});
+			s1.innerHTML = '---';
+			s2.innerHTML = '---';
 			form.submit();
 		},
 	});
