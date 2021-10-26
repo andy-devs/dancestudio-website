@@ -236,8 +236,6 @@ const validateForms = function (selector) {
 				confirmButtonText: 'OK',
 			});
 			form.submit();
-			s1.innerHTML = '---';
-			s2.innerHTML = '---';
 		},
 	});
 };
