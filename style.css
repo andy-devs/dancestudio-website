@@ -1183,9 +1183,9 @@ li > .header-btn {
 		color: var(--color-dark-red);
 		font-size: 1.1rem;
 		font-weight: 300;
+		padding: 0 0.1rem;
 		margin-bottom: 0.3rem;
 	}
-
 	.close-styles {
 		color: var(--color-black);
 		align-self: flex-end;
