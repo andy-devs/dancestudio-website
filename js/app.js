@@ -125,6 +125,7 @@ function populate(s1, s2) {
 			'hip-hop 9-11|Hip-Hop 9-11 лет',
 			'hip-hop 7-11|Hip-Hop 7-11 лет',
 			'hip-hop 6-8|Hip-Hop 6-8 лет',
+			'dancehall 7-11|Dancehall 9-11 лет',
 			'dancehall 12+ продолжающие|Dancehall 12+ продолжающие',
 			'dancehall 12+ начинающие|Dancehall 12+ начинающие',
 			'choreo 14+|Choreo 14+',
@@ -135,14 +136,16 @@ function populate(s1, s2) {
 		];
 	} else if (s1.value == '9-я Ленинская, 5') {
 		var optionArray = [
-			'hip-hop 9-12|Hip-Hop 9-12 лет',
-			'hip-hop 6-8|Hip-Hop 6-8 лет',
+			'hip-hop 8-12|Hip-Hop 8-12 лет',
+			'hip-hop 6-10|Hip-Hop 6-10 лет',
 			'hip-hop 5-7|Hip-Hop 5-7 лет',
 			'dancehall 14+|Dancehall 14+',
-			'choreo 12-15|Choreo 12-15 лет',
 			'dancehall 9-13|Dancehall 9-13 лет',
+			'choreo 12-15|Choreo 12-15 лет',
 			'choreo 14+|Choreo 14+',
+			'shuffle 8+|Shuffle 8+',
 			'ritmika 3-5|Ритмика 3-5 лет',
+			'electro 10+|Electro 10+',
 			'parents|Родители',
 		];
 	} else {
