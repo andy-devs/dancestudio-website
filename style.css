@@ -438,6 +438,7 @@ li > .header-btn {
 	font-size: 1.2rem;
 }
 .modal-teachers {
+	padding: 1rem 0;
 	z-index: 50;
 	display: none;
 	position: fixed;
