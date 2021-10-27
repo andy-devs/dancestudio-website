@@ -29,7 +29,7 @@ body {
 }
 
 .first-wrapper {
-	background: url(./first-screen-background.gif);
+	background: url(./first-screen-background-conversed.webp);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -143,8 +143,8 @@ li > .header-btn {
 /* ------------------- First Screen Section ------------------ */
 
 #first-screen {
-	padding-top: 12rem;
-	padding-bottom: 9rem;
+	padding-top: 14rem;
+	padding-bottom: 12rem;
 	display: flex;
 	flex-direction: column;
 }
