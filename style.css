@@ -29,7 +29,10 @@ body {
 }
 
 .first-wrapper {
-	background: url();
+	background: url(./first-screen-background.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /* ------------------- Header ------------------ */
 
