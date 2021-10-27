@@ -182,14 +182,15 @@ li > .header-btn {
 	justify-content: center;
 }
 .first-screen__buttons-item {
+	font-size: 1.3rem;
 	color: var(--color-white);
 	background-color: var(--color-dark-red);
 	border-color: var(--color-dark-red);
 	align-self: center;
 }
 .first-screen__buttons-item:hover {
-	background-color: var(--color-light-red);
-	border-color: var(--color-light-red);
+	background-color: transparent;
+	border-color: var(--color-dark-red);
 }
 
 /* ------------------- About Section ------------------ */
