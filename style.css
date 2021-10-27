@@ -167,7 +167,8 @@ li > .header-btn {
 	font-weight: 400;
 	font-size: 1.2rem;
 	line-height: 2rem;
-	color: var(--color-light-grey);
+	color: var(--color-white);
+	text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.2);
 	padding: 1rem 0.5rem;
 	margin: inherit auto;
 	margin-bottom: 1.3rem;
@@ -567,6 +568,7 @@ li > .header-btn {
 /* ------------------- Pricing Section ------------------- */
 
 #price {
+	margin-bottom: 4rem;
 	background-color: var(--color-dark-red);
 	color: var(--color-white);
 }
@@ -616,7 +618,7 @@ li > .header-btn {
 /* ------------- Schedule Section --------------- */
 
 #schedule {
-	margin: 5rem 0;
+	margin: 1rem 0 8rem 0;
 }
 .schedule {
 	margin: 0 auto;
@@ -716,7 +718,8 @@ li > .header-btn {
 	-o-transition: color 0.2s ease-out;
 }
 .schedule__accordion__body-btn:hover {
-	color: var(--color-dark-red);
+	color: var(--color-white);
+	text-shadow: 2px 2px 5px var(--color-light-red);
 }
 .accordion-hall-black {
 	color: var(--color-white);
@@ -730,13 +733,14 @@ li > .header-btn {
 	left: -4.5rem;
 }
 .schedule__accordion__body-btn:hover .accordion-icon {
-	color: var(--color-light-red);
+	text-shadow: 2px 2px 5px var(--color-light-red);
 }
 .schedule__accordion__body-btn._active {
 	color: var(--color-white);
 }
 .schedule__accordion__body-btn._active:hover {
-	color: var(--color-dark-red);
+	color: var(--color-white);
+	text-shadow: 2px 2px 5px var(--color-light-red);
 }
 .schedule__accordion__body-btn._active > .accordion-icon {
 	transform: rotate(180deg);
@@ -972,7 +976,7 @@ li > .header-btn {
 }
 .contacts__text {
 	text-align: center;
-	color: var(--color-dark-grey);
+	color: var(--color-light-grey);
 	font-weight: 400;
 	font-size: 1.5rem;
 	margin-bottom: 2.5rem;
