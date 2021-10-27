@@ -287,13 +287,13 @@ li > .header-btn {
 	-o-transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
 }
 .info__tabs__nav-item:hover {
-	text-shadow: 2px 2px 5px var(--color-light-red);
+	text-shadow: 2px 2px 5px var(--color-very-light-red);
 }
 .info__tabs__nav-item._active:hover {
-	color: var(--color-light-red);
+	color: var(--color-very-light-red);
 }
 .info__tabs__nav-item._active {
-	color: var(--color-light-red);
+	color: var(--color-very-light-red);
 }
 
 .info__tabs__nav-item:last-child {
@@ -1185,17 +1185,13 @@ li > .header-btn {
 /* -------- Main Media for mobile: sections margin, flex direction, font size etc ------- */
 
 @media (max-width: 777px) {
-	#first-screen {
-		padding-top: 11rem;
-		padding-bottom: 7rem;
-	}
 	.first-screen__head {
-		font-size: 2.3rem;
+		font-size: 2.2rem;
 		letter-spacing: 0.23rem;
 		margin-bottom: 0.7rem;
 	}
 	.first-screen__text {
-		font-size: 1rem;
+		font-size: 1.1rem;
 		line-height: 1.8rem;
 		padding: 1rem 0.5rem;
 		margin-bottom: 1.1rem;
@@ -1204,7 +1200,7 @@ li > .header-btn {
 		margin-bottom: 3.5rem;
 	}
 	#schedule {
-		margin: 3rem auto 2rem auto;
+		margin: 2rem auto 5rem auto;
 	}
 	#studios {
 		margin-bottom: 3.5rem;
@@ -1212,6 +1208,9 @@ li > .header-btn {
 	#contacts {
 		margin-top: 4rem;
 		margin-bottom: 3.5rem;
+	}
+	#price {
+		margin-bottom: 1rem;
 	}
 	.modal-content-teachers {
 		display: flex;
