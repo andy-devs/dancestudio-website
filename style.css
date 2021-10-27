@@ -207,12 +207,12 @@ li > .header-btn {
 	font-size: 1.3rem;
 	color: var(--color-white);
 	background-color: var(--color-dark-red);
-	border-color: var(--color-dark-red);
+	border: solid 2px var(--color-dark-red);
 	align-self: center;
 }
 .first-screen__buttons-item:hover {
 	background-color: transparent;
-	border-color: var(--color-dark-red);
+	border: solid 2px var(--color-dark-red);
 }
 
 /* ------------------- About Section ------------------ */
