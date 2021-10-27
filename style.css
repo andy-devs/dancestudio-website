@@ -37,12 +37,12 @@ body {
 /* ------------------- Header ------------------ */
 
 .header {
-	background: linear-gradient(
+	/* background: linear-gradient(
 		180deg,
 		rgba(255, 255, 255, 1) 0%,
-		rgba(255, 255, 255, 0.8) 90%,
+		rgba(255, 255, 255, 0.2) 80%,
 		rgba(255, 255, 255, 0) 100%
-	);
+	); */
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -74,6 +74,7 @@ body {
 	gap: clamp(0.7rem, 2rem, 3rem);
 }
 .header__nav-item {
+	color: var(----color-white);
 	letter-spacing: 1.5px;
 	font-weight: 400;
 	font-size: 0.87rem;
