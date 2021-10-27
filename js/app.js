@@ -40,6 +40,26 @@ for (let i = 0; i < tabNavItems.length; i++) {
 		}
 	});
 }
+const teachersStyleItem = document.querySelectorAll(
+	'.header__nav-item[href="#info"]'
+);
+
+teachersStyleItem[0].addEventListener('click', (e) => {
+	removeActive(tabNavItems);
+	tabNavItems[0].classList.add('_active');
+	removeActive(tabBodyItems);
+	tabBodyItems[0].classList.add('_active');
+});
+const teachersHeaderItem = document.querySelectorAll(
+	'.header__nav-item[href="#info"]'
+);
+
+teachersHeaderItem[1].addEventListener('click', (e) => {
+	removeActive(tabNavItems);
+	tabNavItems[1].classList.add('_active');
+	removeActive(tabBodyItems);
+	tabBodyItems[1].classList.add('_active');
+});
 
 // Schedule Double Dropdown
 
