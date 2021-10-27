@@ -31,7 +31,7 @@ body {
 }
 
 .first-wrapper {
-	background: url(./first-screen-background.gif);
+	background: url(./first-screen-background-compress-slowed.gif);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
