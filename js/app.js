@@ -224,20 +224,39 @@ function gotowhatsapp() {
 	var phone = document.getElementById('phone').value;
 	var studio = document.getElementById('studio').value;
 	var style = document.getElementById('style').value;
+	if (style[style.length - 1] === '+') {
+		var url =
+			'https://wa.me/79658769710?text=' +
+			'Имя: ' +
+			name +
+			'%0a' +
+			'Телефон: ' +
+			'%2B' +
+			phone +
+			'%0a' +
+			'Студия: ' +
+			studio +
+			'%0a' +
+			'Стиль: ' +
+			style +
+			'%2B';
+	} else {
+		var url =
+			'https://wa.me/79658769710?text=' +
+			'Имя: ' +
+			name +
+			'%0a' +
+			'Телефон: ' +
+			'%2B' +
+			phone +
+			'%0a' +
+			'Студия: ' +
+			studio +
+			'%0a' +
+			'Стиль: ' +
+			style;
+	}
 
-	var url =
-		'https://wa.me/79658769710?text=' +
-		'Имя: ' +
-		name +
-		'%0a' +
-		'Телефон: ' +
-		phone +
-		'%0a' +
-		'Студия: ' +
-		studio +
-		'%0a' +
-		'Стиль: ' +
-		style;
 	window.open(url, '_blank').focus();
 }
 const validateForms = function (selector) {
