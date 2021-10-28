@@ -231,7 +231,6 @@ window.mobileCheck = function () {
 		)
 			check = true;
 	})(navigator.userAgent || navigator.vendor || window.opera);
-	return check;
 };
 const userDevice = mobileCheck();
 const form = document.querySelector('form');
@@ -321,7 +320,8 @@ form.addEventListener('submit', function () {
 			});
 		};
 	} else if (userDevice === true) {
-		form.action = '_blank';
+		form.action = '';
+		form.target = '_blank';
 		const validateForms = function (selector) {
 			new JustValidate(selector, {
 				colorWrong: 'hsl(0, 56%, 51%)',
