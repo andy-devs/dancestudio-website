@@ -3,7 +3,7 @@
 	--color-white: #fff;
 	--color-dark-red: #490511;
 	--color-light-red: #77081c;
-	--color-very-light-red: #a8102c;
+	--color-very-light-red: #830d23;
 	--color-light-grey: hsl(228, 15%, 74%);
 	--color-dark-grey: hsl(232, 10%, 47%);
 	--color-white-opacity: hsla(0, 0%, 100%, 0.9);
@@ -830,7 +830,7 @@ li > .header-btn {
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
-	color: white;
+	color: var(--color-white);
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
@@ -864,11 +864,11 @@ li > .header-btn {
 }
 .dot {
 	cursor: pointer;
-	height: 1rem;
-	width: 1rem;
+	height: 0.6rem;
+	width: 1.7rem;
 	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
+	background-color: var(--color-white);
+	border-radius: 0%;
 	display: inline-block;
 	transition: background-color 0.6s ease;
 	-webkit-transition: background-color 0.6s ease;
@@ -877,11 +877,16 @@ li > .header-btn {
 	-o-transition: background-color 0.6s ease;
 }
 
-.active,
 .dot:hover {
-	background-color: var(--color-dark-grey);
+	background-color: var(--color-very-light-red);
 }
 
+.active {
+	background-color: var(--color-light-red);
+}
+.active:hover {
+	background-color: var(--color-light-red);
+}
 .fade {
 	-webkit-animation-name: fade;
 	-webkit-animation-duration: 1s;
