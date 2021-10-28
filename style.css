@@ -298,7 +298,8 @@ li > .header-btn {
 	-o-transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
 }
 .info__tabs__nav-item:hover {
-	text-shadow: 2px 2px 5px var(--color-very-light-red);
+	text-shadow: 1px 1px 5px var(--color-very-light-red),
+		1px 1px 10px var(--color-very-light-red);
 }
 .info__tabs__nav-item._active:hover {
 	color: var(--color-very-light-red);
