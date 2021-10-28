@@ -1507,13 +1507,13 @@ li > .header-btn {
 	}
 	.header-btn {
 		color: var(--color-white);
-		border: solid 2px var(--color-black);
-		background-color: var(--color-black);
+		border: solid 2px var(--color-white);
+		background-color: transparent;
 	}
 	.header-btn:hover {
-		border: solid 2px black;
+		border: solid 2px var(--color-white);
 		color: var(--color-black);
-		background-color: transparent;
+		background-color: var(--color-white);
 	}
 	.header__logo {
 		z-index: 10;
