@@ -278,7 +278,7 @@ function gotowhatsapp() {
 }
 form.addEventListener('submit', function () {
 	if (userDevice === false) {
-		form.action = 'https://formsubmit.co/kvashin_konstantin@mail.ru';
+		form.action = 'https://formsubmit.co/markushin.andrew@gmail.com';
 		form.target = '';
 		const validateForms = function (selector) {
 			new JustValidate(selector, {
