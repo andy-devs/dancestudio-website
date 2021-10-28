@@ -434,9 +434,10 @@ li > .header-btn {
 	padding: 0 1.5rem 0 0;
 }
 .modal-styles__block-info__name {
-	font-size: 4.5rem;
+	font-size: 4rem;
 	font-weight: normal;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
+	line-height: 4rem;
 }
 .modal-styles__block-info__desc {
 	font-size: 1.4rem;
@@ -1393,7 +1394,7 @@ li > .header-btn {
 		justify-content: center;
 	}
 	.modal-styles__block-info {
-		margin-top: -1.5rem;
+		margin-top: -0.5rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -1405,9 +1406,9 @@ li > .header-btn {
 		border-bottom: solid 2px var(--color-dark-red);
 	}
 	.modal-styles__block-info__name {
-		font-size: 1.75rem;
-		font-weight: normal;
-		margin-bottom: 0.5rem;
+		font-size: 2.3rem;
+		margin-bottom: 0.75rem;
+		line-height: 2.3rem;
 	}
 	.modal-styles__block-info__desc {
 		font-size: 1.2rem;
