@@ -1316,7 +1316,7 @@ li > .header-btn {
 /* -------- Main Media for mobile: sections margin, flex direction, font size etc ------- */
 
 @media (max-width: 777px) {
-	.first-wrapper {
+	/* .first-wrapper {
 		background: url(./images/first-screen-load-image.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1324,7 +1324,7 @@ li > .header-btn {
 	}
 	.first-wrapper__video {
 		display: none;
-	}
+	} */
 	.first-screen__head {
 		font-size: 2.2rem;
 		letter-spacing: 0.23rem;
