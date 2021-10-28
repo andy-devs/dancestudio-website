@@ -218,6 +218,7 @@ im.mask(selector);
 // 		confirmButtonText: 'OK',
 // 	});
 // });
+var userDevice = '';
 window.mobileCheck = function () {
 	let check = false;
 	(function (a) {
@@ -231,11 +232,20 @@ window.mobileCheck = function () {
 		)
 			check = true;
 	})(navigator.userAgent || navigator.vendor || window.opera);
+
+	if (check === false) {
+		let form = document.querySelector('.form__body');
+		userDevice = 'pc';
+		form.action = 'https://formsubmit.co/markushin.andrew@gmail.com';
+	} else if (check === true) {
+		let form = document.querySelector('.form__body');
+		userDevice = 'mobile';
+		form.action = '/';
+	}
 };
-const userDevice = mobileCheck();
-const form = document.querySelector('form');
-form.action = '';
-console.log(form.action);
+mobileCheck();
+console.log(userDevice);
+
 function gotowhatsapp() {
 	var name = document.getElementById('name').value;
 	var phone = document.getElementById('phone').value;
@@ -243,7 +253,8 @@ function gotowhatsapp() {
 	var style = document.getElementById('style').value;
 	if (style[style.length - 1] === '+') {
 		var url =
-			'https://wa.me/9620587357?text=' +
+			// 9658769710
+			'https://wa.me/79620587357?text=' +
 			'Имя: ' +
 			name +
 			'%0a' +
@@ -259,7 +270,7 @@ function gotowhatsapp() {
 			'%2B';
 	} else {
 		var url =
-			'https://wa.me/9620587357?text=' +
+			'https://wa.me/79620587357?text=' +
 			'Имя: ' +
 			name +
 			'%0a' +
@@ -276,97 +287,51 @@ function gotowhatsapp() {
 
 	window.open(url, '_blank').focus();
 }
-form.addEventListener('submit', function () {
-	if (userDevice === false) {
-		form.action = 'https://formsubmit.co/markushin.andrew@gmail.com';
-		form.target = '';
-		const validateForms = function (selector) {
-			new JustValidate(selector, {
-				colorWrong: 'hsl(0, 56%, 51%)',
-				rules: {
-					name: {
-						required: true,
-						minLength: 5,
-						maxLength: 30,
-						name: true,
-					},
-					phone: {
-						required: true,
-					},
-					studio: {
-						required: true,
-						minLength: 5,
-					},
-					style: {
-						required: true,
-						minLength: 5,
-					},
-				},
-				messages: {
-					name: 'Неправильно введено имя и фамилия',
-					phone: 'Неправильно введён телефон',
-					studio: 'Не выбрана студия',
-					style: 'Не выбрано направление',
-				},
-				submitHandler: function (form) {
-					Swal.fire({
-						title: 'Запись принята',
-						text: 'Вы успешно записались на занятие',
-						icon: 'success',
-						confirmButtonColor: 'hsl(0, 56%, 51%)',
-						confirmButtonText: 'OK',
-					});
-					form.submit();
-				},
+const validateForms = function (selector) {
+	new JustValidate(selector, {
+		colorWrong: 'hsl(0, 56%, 51%)',
+		rules: {
+			name: {
+				required: true,
+				minLength: 5,
+				maxLength: 30,
+				name: true,
+			},
+			phone: {
+				required: true,
+			},
+			studio: {
+				required: true,
+				minLength: 5,
+			},
+			style: {
+				required: true,
+				minLength: 5,
+			},
+		},
+		messages: {
+			name: 'Неправильно введено имя и фамилия',
+			phone: 'Неправильно введён телефон',
+			studio: 'Не выбрана студия',
+			style: 'Не выбрано направление',
+		},
+		submitHandler: function (form) {
+			Swal.fire({
+				title: 'Запись принята',
+				text: 'Вы успешно записались на занятие',
+				icon: 'success',
+				confirmButtonColor: 'hsl(0, 56%, 51%)',
+				confirmButtonText: 'OK',
 			});
-		};
-	} else if (userDevice === true) {
-		form.action = '';
-		form.target = '_blank';
-		const validateForms = function (selector) {
-			new JustValidate(selector, {
-				colorWrong: 'hsl(0, 56%, 51%)',
-				rules: {
-					name: {
-						required: true,
-						minLength: 5,
-						maxLength: 30,
-						name: true,
-					},
-					phone: {
-						required: true,
-					},
-					studio: {
-						required: true,
-						minLength: 5,
-					},
-					style: {
-						required: true,
-						minLength: 5,
-					},
-				},
-				messages: {
-					name: 'Неправильно введено имя и фамилия',
-					phone: 'Неправильно введён телефон',
-					studio: 'Не выбрана студия',
-					style: 'Не выбрано направление',
-				},
-				submitHandler: function (form) {
-					Swal.fire({
-						title: 'Запись принята',
-						text: 'Вы успешно записались на занятие',
-						icon: 'success',
-						confirmButtonColor: 'hsl(0, 56%, 51%)',
-						confirmButtonText: 'OK',
-					});
-					gotowhatsapp();
-				},
-			});
-		};
-	}
-
-	validateForms('.form__body');
-});
+			if (userDevice == 'pc') {
+				form.submit();
+			} else if (userDevice == 'mobile') {
+				gotowhatsapp();
+			}
+		},
+	});
+};
+validateForms('.form__body');
 
 // Style Modal Window
 

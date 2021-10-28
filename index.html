@@ -32,7 +32,13 @@
 	</head>
 	<body>
 		<div class="first-wrapper">
-			<video loop muted autoplay class="first-wrapper__video">
+			<video
+				loop
+				muted
+				autoplay
+				poster="img/videoframe.jpg"
+				class="first-wrapper__video"
+			>
 				<source
 					src="./video/first-screen-background-video.mp4"
 					type="video/mp4"
@@ -2939,11 +2945,7 @@
 			<div class="form">
 				<h2 class="form__head">Запишись на занятие</h2>
 				<p class="form__text">Первое - бесплатно</p>
-				<form
-					action="https://formsubmit.co/e64ae45975b314f452811549c5247d06"
-					method="POST"
-					class="form__body"
-				>
+				<form action="/" method="POST" class="form__body">
 					<label class="form__body-label" for="name"
 						>Имя и Фамилия</label
 					>
