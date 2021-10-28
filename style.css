@@ -412,9 +412,9 @@ li > .header-btn {
 	padding: 0 1.5rem 0 0;
 }
 .modal-styles__block-info__name {
-	font-size: 2rem;
+	font-size: 4.5rem;
 	font-weight: normal;
-	margin-bottom: 1rem;
+	margin-bottom: 4rem;
 }
 .modal-styles__block-info__desc {
 	font-size: 1.4rem;
@@ -636,6 +636,63 @@ li > .header-btn {
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 2rem;
+}
+.pulse-animation {
+	text-shadow: 0px 0px 15px var(--color-very-light-red),
+		0px 0px 20px var(--color-very-light-red);
+	-webkit-animation-name: pulse-animation;
+	animation-name: pulse-animation;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes pulse-animation {
+	0% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9);
+		transform: scale3d(0.9, 0.9, 0.9);
+		-moz-transform: scale3d(0.9, 0.9, 0.9);
+		-ms-transform: scale3d(0.9, 0.9, 0.9);
+		-o-transform: scale3d(0.9, 0.9, 0.9);
+	}
+	50% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1);
+		transform: scale3d(1.1, 1.1, 1.1);
+		-moz-transform: scale3d(1.1, 1.1, 1.1);
+		-ms-transform: scale3d(1.1, 1.1, 1.1);
+		-o-transform: scale3d(1.1, 1.1, 1.1);
+	}
+	100% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9);
+		transform: scale3d(0.9, 0.9, 0.9);
+		-moz-transform: scale3d(0.9, 0.9, 0.9);
+		-ms-transform: scale3d(0.9, 0.9, 0.9);
+		-o-transform: scale3d(0.9, 0.9, 0.9);
+	}
+}
+@keyframes pulse-animation {
+	0% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9);
+		transform: scale3d(0.9, 0.9, 0.9);
+		-moz-transform: scale3d(0.9, 0.9, 0.9);
+		-ms-transform: scale3d(0.9, 0.9, 0.9);
+		-o-transform: scale3d(0.9, 0.9, 0.9);
+	}
+	50% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1);
+		transform: scale3d(1.1, 1.1, 1.1);
+		-moz-transform: scale3d(1.1, 1.1, 1.1);
+		-ms-transform: scale3d(1.1, 1.1, 1.1);
+		-o-transform: scale3d(1.1, 1.1, 1.1);
+	}
+	100% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9);
+		transform: scale3d(0.9, 0.9, 0.9);
+		-moz-transform: scale3d(0.9, 0.9, 0.9);
+		-ms-transform: scale3d(0.9, 0.9, 0.9);
+		-o-transform: scale3d(0.9, 0.9, 0.9);
+	}
 }
 .price__block-item__head {
 	font-weight: 300;
