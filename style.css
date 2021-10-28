@@ -52,11 +52,22 @@ body::-webkit-scrollbar-thumb {
 	-o-border-radius: 100px;
 }
 
-.first-wrapper {
+/* .first-wrapper {
 	background: url(./first-screen-background-compress-slowed.gif);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+} */
+.first-wrapper__video {
+	width: 100%;
+	min-height: 100vh;
+	object-fit: cover;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
 }
 /* ------------------- Header ------------------ */
 
