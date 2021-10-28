@@ -254,7 +254,7 @@ function gotowhatsapp() {
 	if (style[style.length - 1] === '+') {
 		var url =
 			// 9620587357
-			'https://wa.me/79658769710?text=' +
+			'https://wa.me/79620587357?text=' +
 			'Имя: ' +
 			name +
 			'%0a' +
@@ -270,7 +270,7 @@ function gotowhatsapp() {
 			'%2B';
 	} else {
 		var url =
-			'https://wa.me/79658769710?text=' +
+			'https://wa.me/79620587357?text=' +
 			'Имя: ' +
 			name +
 			'%0a' +
