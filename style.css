@@ -222,8 +222,8 @@ li > .header-btn {
 	align-self: center;
 }
 .first-screen__buttons-item:hover {
-	background-color: transparent;
-	border: solid 2px var(--color-light-red);
+	background-color: var(--color-very-light-red);
+	border: solid 2px var(--color-very-light-red);
 }
 
 /* ------------------- About Section ------------------ */
@@ -303,6 +303,8 @@ li > .header-btn {
 }
 .info__tabs__nav-item._active:hover {
 	color: var(--color-very-light-red);
+	text-shadow: 1px 1px 5px var(--color-light-red),
+		1px 1px 10px var(--color-light-red);
 }
 .info__tabs__nav-item._active {
 	color: var(--color-very-light-red);
@@ -1316,15 +1318,15 @@ li > .header-btn {
 /* -------- Main Media for mobile: sections margin, flex direction, font size etc ------- */
 
 @media (max-width: 777px) {
-	/* .first-wrapper {
-		background: url(./images/first-screen-load-image.jpg);
+	.first-wrapper {
+		background: url(./images/first-screen-mobile-background.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 	.first-wrapper__video {
 		display: none;
-	} */
+	}
 	.first-screen__head {
 		font-size: 2.2rem;
 		letter-spacing: 0.23rem;
