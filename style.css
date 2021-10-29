@@ -190,7 +190,8 @@ li > .header-btn {
 }
 .first-screen__head {
 	color: var(--color-white);
-	text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
+	text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4),
+		2px 2px 20px rgba(255, 255, 255, 0.8);
 	font-size: 4rem;
 	margin: 0 auto;
 	font-weight: 600;
