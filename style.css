@@ -1394,8 +1394,8 @@ li > .header-btn {
 		background: linear-gradient(
 				180deg,
 				rgba(0, 0, 0, 0.7) 5%,
-				rgba(0, 0, 0, 0.3) 95%,
-				rgba(0, 0, 0, 0.1) 100%
+				rgba(0, 0, 0, 0.4) 95%,
+				rgba(0, 0, 0, 0.2) 100%
 			),
 			url('./images/red-bg.jpg');
 		background-position: center center;
