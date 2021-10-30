@@ -249,6 +249,7 @@ li > .header-btn {
 	align-items: center;
 	text-align: left;
 	gap: 1rem;
+	padding-right: 1rem;
 	color: var(--color-white);
 }
 .about-item__icon {
@@ -750,6 +751,7 @@ li > .header-btn {
 .price__block-item__text {
 	font-weight: 500;
 	font-size: 1.7rem;
+	white-space: nowrap;
 }
 .price__block-addition {
 	font-weight: 300;
@@ -927,6 +929,9 @@ li > .header-btn {
 }
 .studios-slider__container-item {
 	display: none;
+}
+#linia-black {
+	color: var(--color-black);
 }
 .prev,
 .next {
@@ -1257,6 +1262,17 @@ li > .header-btn {
 	color: var(--color-very-light-red);
 }
 
+@media (max-width: 1200px) {
+	.first-screen__head {
+		font-size: 3.5rem;
+	}
+	.first-screen__text {
+		font-size: 1.5rem;
+	}
+	.first-screen__buttons-item {
+		padding: 1.1rem 2.2rem;
+	}
+}
 /* -------- Media for Teacher Modal ------- */
 @media (max-width: 970px) {
 	.header__nav-links {
@@ -1319,6 +1335,9 @@ li > .header-btn {
 /* -------- Main Media for mobile: sections margin, flex direction, font size etc ------- */
 
 @media (max-width: 777px) {
+	#linia-black {
+		color: var(--color-black);
+	}
 	.first-wrapper {
 		background: url(./images/first-screen-load-image.jpg);
 		background-position: center center;
@@ -1341,6 +1360,9 @@ li > .header-btn {
 	}
 	#about {
 		margin-bottom: 3.5rem;
+	}
+	.about-item__text {
+		font-size: 1.4rem;
 	}
 	#schedule {
 		margin: 2rem auto 5rem auto;
@@ -1671,7 +1693,22 @@ li > .header-btn {
 }
 
 /* -------- Media for form ------- */
-
+@media (max-width: 350px) {
+	.price__block-item__head {
+		font-size: 1.7rem;
+	}
+	.price__block-item__text {
+		font-size: 1.4rem;
+	}
+}
+@media (max-width: 305px) {
+	.price__block-item__head {
+		font-size: 1.5rem;
+	}
+	.price__block-item__text {
+		font-size: 1.2rem;
+	}
+}
 @media (max-width: 400px) {
 	#form {
 		padding: 3rem 0rem;
