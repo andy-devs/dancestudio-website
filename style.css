@@ -1082,7 +1082,7 @@ li > .header-btn {
 			rgba(0, 0, 0, 0.3) 95%,
 			rgba(0, 0, 0, 0.1) 100%
 		),
-		url('./images/red-bg.png');
+		url('./images/red-bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1391,7 +1391,13 @@ li > .header-btn {
 			0px 0px 10px var(--color-white);
 	}
 	.first-wrapper {
-		background: url(./images/first-screen-mobile-background.jpg);
+		background: linear-gradient(
+				180deg,
+				rgba(0, 0, 0, 0.7) 5%,
+				rgba(0, 0, 0, 0.3) 95%,
+				rgba(0, 0, 0, 0.1) 100%
+			),
+			url('./images/red-bg.jpg');
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
