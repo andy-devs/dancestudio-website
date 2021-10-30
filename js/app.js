@@ -358,30 +358,44 @@ let spanStyle = document.querySelectorAll('.close-styles');
 
 for (let i = 0; i < modalStyle.length; i++) {
 	btnStyle[i].onclick = (e) => {
+		modalStyle[i].classList.remove('fadeOut');
 		modalStyleItem[i].classList.remove('fadeOut');
 		modalStyleItem[i].classList.add('fadeIn');
+		modalStyle[i].classList.add('fadeIn');
 		modalStyle[i].style.display = 'grid';
-	};
-	for (let j of spanStyle) {
-		j.onclick = (e) => {
-			for (let m of modalStyle) {
-				m.style.display = 'none';
-			}
-		};
-	}
-}
-for (let i = 0; i < modalStyle.length; i++) {
-	modalStyle[i].addEventListener('click', (e) => {
-		if (
-			modalStyle[i].style.display == 'grid' &&
-			e.target.classList.contains('modal-styles')
-		) {
+		setTimeout(() => {
 			modalStyleItem[i].classList.remove('fadeIn');
-			modalStyleItem[i].classList.add('fadeOut');
+			modalStyle[i].onclick = (e) => {
+				if (e.target.classList.contains('modal-styles')) {
+					modalStyleItem[i].classList.add('fadeOut');
+					modalStyle[i].classList.add('fadeOut');
+					setTimeout(() => {
+						modalStyle[i].style.display = 'none';
+					}, 200);
+				}
+			};
+		}, 500);
+	};
+	spanStyle[i].onclick = (e) => {
+		modalStyleItem[i].classList.add('fadeOut');
+		modalStyle[i].classList.add('fadeOut');
+		setTimeout(() => {
 			modalStyle[i].style.display = 'none';
-		}
-	});
+		}, 200);
+	};
 }
+// for (let i = 0; i < modalStyle.length; i++) {
+// 	modalStyle[i].addEventListener('click', (e) => {
+// 		if (
+// 			modalStyle[i].style.display == 'grid' &&
+// 			e.target.classList.contains('modal-styles')
+// 		) {
+// 			modalStyleItem[i].classList.remove('fadeIn');
+// 			modalStyleItem[i].classList.add('fadeOut');
+// 			modalStyle[i].style.display = 'none';
+// 		}
+// 	});
+// }
 // window.addEventListener('click', (e) => {
 // 	if (!e.target.classList.contains('modal-content-styles')) {
 // 		for (let i of modalStyleItem) {
@@ -413,18 +427,45 @@ for (let i = 0; i < modalTeacher.length; i++) {
 		};
 	}
 }
+for (let i = 0; i < modalTeacher.length; i++) {
+	btnTeacher[i].onclick = (e) => {
+		modalTeacher[i].classList.remove('fadeOut');
+		modalTeacherItem[i].classList.remove('fadeOut');
+		modalTeacherItem[i].classList.add('fadeIn');
+		modalTeacher[i].classList.add('fadeIn');
+		modalTeacher[i].style.display = 'grid';
+		setTimeout(() => {
+			modalTeacherItem[i].classList.remove('fadeIn');
+			modalTeacher[i].onclick = (e) => {
+				if (e.target.classList.contains('modal-teachers')) {
+					modalTeacherItem[i].classList.add('fadeOut');
+					modalTeacher[i].classList.add('fadeOut');
+					setTimeout(() => {
+						modalTeacher[i].style.display = 'none';
+					}, 200);
+				}
+			};
+		}, 500);
+	};
+	spanTeacher[i].onclick = (e) => {
+		modalTeacherItem[i].classList.add('fadeOut');
+		modalTeacher[i].classList.add('fadeOut');
+		setTimeout(() => {
+			modalTeacher[i].style.display = 'none';
+		}, 200);
+	};
+}
+// window.onclick = function (e) {
+// 	if (
+// 		e.target.classList.contains('modal-teachers') ||
+// 		e.target.classList.contains('modal-styles')
+// 	) {
+// 		for (let modal of modalTeacher) {
+// 			modal.style.display = 'none';
+// 		}
 
-window.onclick = function (e) {
-	if (
-		e.target.classList.contains('modal-teachers') ||
-		e.target.classList.contains('modal-styles')
-	) {
-		for (let modal of modalTeacher) {
-			modal.style.display = 'none';
-		}
-
-		for (let modal of modalStyle) {
-			modal.style.display = 'none';
-		}
-	}
-};
+// 		for (let modal of modalStyle) {
+// 			modal.style.display = 'none';
+// 		}
+// 	}
+// };
