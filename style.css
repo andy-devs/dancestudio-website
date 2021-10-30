@@ -1338,7 +1338,7 @@ li > .header-btn {
 	#linia-black {
 		color: var(--color-black);
 	}
-	.first-wrapper {
+	/* .first-wrapper {
 		background: url(./images/first-screen-load-image.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1346,7 +1346,7 @@ li > .header-btn {
 	}
 	.first-wrapper__video {
 		display: none;
-	}
+	} */
 	.first-screen__head {
 		font-size: 2.2rem;
 		letter-spacing: 0.23rem;
