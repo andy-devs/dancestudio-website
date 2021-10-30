@@ -234,6 +234,7 @@ window.disableVideo = function () {
 	if (check == true) {
 		const video = document.querySelector('video');
 		video.setAttribute('preload', 'none');
+		video.removeAttribute('autoplay');
 	}
 };
 disableVideo();
