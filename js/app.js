@@ -236,7 +236,7 @@ window.mobileCheck = function () {
 	if (check === false) {
 		let form = document.querySelector('.form__body');
 		userDevice = 'pc';
-		form.action = 'https://formsubmit.co/dancestudionako@gmail.com';
+		form.action = 'https://formsubmit.co/nakodancestudio@gmail.com';
 	} else if (check === true) {
 		let form = document.querySelector('.form__body');
 		userDevice = 'mobile';
