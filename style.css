@@ -217,13 +217,13 @@ li > .header-btn {
 .first-screen__buttons-item {
 	font-size: 1.3rem;
 	color: var(--color-white);
-	background-color: var(--color-light-red);
-	border: solid 2px var(--color-light-red);
+	background-color: var(--color-dark-red);
+	border: solid 2px var(--color-dark-red);
 	align-self: center;
 }
 .first-screen__buttons-item:hover {
-	background-color: var(--color-very-light-red);
-	border: solid 2px var(--color-very-light-red);
+	background-color: var(--color-light-red);
+	border: solid 2px var(--color-light-red);
 }
 
 /* ------------------- About Section ------------------ */
@@ -762,6 +762,7 @@ li > .header-btn {
 }
 .price__block-button:hover {
 	background-color: var(--color-very-light-red);
+	border: solid 2px var(--color-very-light-red);
 }
 
 /* ------------- Schedule Section --------------- */
