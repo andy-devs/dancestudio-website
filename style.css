@@ -252,10 +252,10 @@ li > .header-btn {
 	color: var(--color-white);
 }
 .about-item__icon {
-	font-size: 4.5rem;
+	font-size: 4.85rem;
 }
 .about-item__text {
-	font-size: 1.8rem;
+	font-size: 1.85rem;
 }
 
 /* ------------------- Info Section (styles and teachers) ------------------ */
@@ -366,6 +366,54 @@ li > .header-btn {
 	color: var(--color-white);
 }
 
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-duration: 0.6s;
+	animation-duration: 0.6s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.fadeOut {
+	-webkit-animation-name: fadeOut;
+	animation-name: fadeOut;
+	-webkit-animation-duration: 0.6s;
+	animation-duration: 0.6s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+@-webkit-keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
 /* ----- Style Modals ------ */
 
 .modal-styles {
@@ -549,6 +597,7 @@ li > .header-btn {
 	background-color: rgb(0, 0, 0);
 	background-color: rgba(0, 0, 0, 0.4);
 }
+
 .modal-teachers::-webkit-scrollbar {
 	width: 20px;
 }

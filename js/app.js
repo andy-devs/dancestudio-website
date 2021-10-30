@@ -350,12 +350,16 @@ for (let anchor of anchors) {
 
 let modalStyle = document.querySelectorAll('.modal-styles');
 
+let modalStyleItem = document.querySelectorAll('.modal-content-styles');
+
 let btnStyle = document.querySelectorAll('.info__tab__styles-item');
 
 let spanStyle = document.querySelectorAll('.close-styles');
 
 for (let i = 0; i < modalStyle.length; i++) {
 	btnStyle[i].onclick = (e) => {
+		modalStyleItem[i].classList.remove('fadeOut');
+		modalStyleItem[i].classList.add('fadeIn');
 		modalStyle[i].style.display = 'grid';
 	};
 	for (let j of spanStyle) {
@@ -366,10 +370,31 @@ for (let i = 0; i < modalStyle.length; i++) {
 		};
 	}
 }
+for (let i = 0; i < modalStyle.length; i++) {
+	modalStyle[i].addEventListener('click', (e) => {
+		if (
+			modalStyle[i].style.display == 'grid' &&
+			e.target.classList.contains('modal-styles')
+		) {
+			modalStyleItem[i].classList.remove('fadeIn');
+			modalStyleItem[i].classList.add('fadeOut');
+			modalStyle[i].style.display = 'none';
+		}
+	});
+}
+// window.addEventListener('click', (e) => {
+// 	if (!e.target.classList.contains('modal-content-styles')) {
+// 		for (let i of modalStyleItem) {
+// 			i.classList.add('fadeOut');
+// 		}
+// 	}
+// });
 
 // Teachers Modal Window
 
 let modalTeacher = document.querySelectorAll('.modal-teachers');
+
+let modalTeacherItem = document.querySelectorAll('.modal-content-teachers');
 
 let btnTeacher = document.querySelectorAll('.info__tab__teachers-item');
 
@@ -377,6 +402,7 @@ let spanTeacher = document.querySelectorAll('.close-teachers');
 
 for (let i = 0; i < modalTeacher.length; i++) {
 	btnTeacher[i].onclick = (e) => {
+		modalTeacherItem[i].classList.add('fadeIn');
 		modalTeacher[i].style.display = 'grid';
 	};
 	for (let j of spanTeacher) {
@@ -387,14 +413,16 @@ for (let i = 0; i < modalTeacher.length; i++) {
 		};
 	}
 }
+
 window.onclick = function (e) {
 	if (
 		e.target.classList.contains('modal-teachers') ||
 		e.target.classList.contains('modal-styles')
 	) {
-		for (let j of modalTeacher) {
-			j.style.display = 'none';
+		for (let modal of modalTeacher) {
+			modal.style.display = 'none';
 		}
+
 		for (let modal of modalStyle) {
 			modal.style.display = 'none';
 		}
