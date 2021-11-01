@@ -30,7 +30,7 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 }
 body::-webkit-scrollbar {
-	width: 20px;
+	width: 17px;
 }
 
 body::-webkit-scrollbar-track {

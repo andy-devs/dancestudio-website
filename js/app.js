@@ -368,6 +368,8 @@ for (let anchor of anchors) {
 	});
 }
 
+let body = document.querySelector('body');
+
 let modalStyle = document.querySelectorAll('.modal-styles');
 
 let modalStyleItem = document.querySelectorAll('.modal-content-styles');
@@ -378,6 +380,7 @@ let spanStyle = document.querySelectorAll('.close-styles');
 
 for (let i = 0; i < modalStyle.length; i++) {
 	btnStyle[i].onclick = (e) => {
+		body.style.overflow = 'hidden';
 		modalStyle[i].classList.remove('fadeOut');
 		modalStyleItem[i].classList.remove('fadeOut');
 		modalStyleItem[i].classList.add('fadeIn');
@@ -387,6 +390,7 @@ for (let i = 0; i < modalStyle.length; i++) {
 			modalStyleItem[i].classList.remove('fadeIn');
 			modalStyle[i].onclick = (e) => {
 				if (e.target.classList.contains('modal-styles')) {
+					body.style.overflow = 'visible';
 					modalStyleItem[i].classList.add('fadeOut');
 					modalStyle[i].classList.add('fadeOut');
 					setTimeout(() => {
@@ -397,6 +401,7 @@ for (let i = 0; i < modalStyle.length; i++) {
 		}, 500);
 	};
 	spanStyle[i].onclick = (e) => {
+		body.style.overflow = 'visible';
 		modalStyleItem[i].classList.add('fadeOut');
 		modalStyle[i].classList.add('fadeOut');
 		setTimeout(() => {
@@ -449,6 +454,7 @@ for (let i = 0; i < modalTeacher.length; i++) {
 }
 for (let i = 0; i < modalTeacher.length; i++) {
 	btnTeacher[i].onclick = (e) => {
+		body.style.overflow = 'hidden';
 		modalTeacher[i].classList.remove('fadeOut');
 		modalTeacherItem[i].classList.remove('fadeOut');
 		modalTeacherItem[i].classList.add('fadeIn');
@@ -458,6 +464,7 @@ for (let i = 0; i < modalTeacher.length; i++) {
 			modalTeacherItem[i].classList.remove('fadeIn');
 			modalTeacher[i].onclick = (e) => {
 				if (e.target.classList.contains('modal-teachers')) {
+					body.style.overflow = 'visible';
 					modalTeacherItem[i].classList.add('fadeOut');
 					modalTeacher[i].classList.add('fadeOut');
 					setTimeout(() => {
@@ -468,6 +475,7 @@ for (let i = 0; i < modalTeacher.length; i++) {
 		}, 500);
 	};
 	spanTeacher[i].onclick = (e) => {
+		body.style.overflow = 'visible';
 		modalTeacherItem[i].classList.add('fadeOut');
 		modalTeacher[i].classList.add('fadeOut');
 		setTimeout(() => {
