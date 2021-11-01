@@ -355,16 +355,7 @@ validateForms('.form__body');
 
 // Style Modal Window
 
-var anchors = document.querySelectorAll('a[href*="#"]');
-for (let i of anchors) {
-	if (
-		i.getAttribute('href') == '#tab-1' ||
-		i.getAttribute('href') == '#tab-2'
-	) {
-		anchors.pop(i);
-	}
-}
-
+const anchors = document.querySelectorAll('a[href*="#"]');
 for (let anchor of anchors) {
 	anchor.addEventListener('click', (e) => {
 		e.preventDefault();
