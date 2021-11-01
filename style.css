@@ -1115,6 +1115,8 @@ li > .header-btn {
 }
 .form__body-label {
 	position: relative;
+	align-self: flex-start;
+	text-align: left;
 	font-size: 1.6rem;
 	font-weight: 300;
 	margin-bottom: 0.4rem;
