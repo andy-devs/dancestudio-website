@@ -370,9 +370,16 @@ const validateForms = function (selector) {
 };
 validateForms('.form__body');
 
-// Style Modal Window
+// Smooth Scroll
 
-const anchors = document.querySelectorAll('a[href*="#"]');
+let anchors = document.querySelectorAll('a[href*="#"]');
+anchors = [...anchors];
+anchors = anchors.filter((anchor) => anchor.getAttribute('href') != '#tab-1');
+anchors = anchors.filter((anchor) => anchor.getAttribute('href') != '#tab-2');
+
+for (let i of anchors) {
+	console.log(i);
+}
 for (let anchor of anchors) {
 	anchor.addEventListener('click', (e) => {
 		e.preventDefault();
@@ -383,6 +390,8 @@ for (let anchor of anchors) {
 		});
 	});
 }
+
+// Style Modal Window
 
 let body = document.querySelector('body');
 
