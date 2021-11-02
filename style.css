@@ -30,7 +30,7 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 }
 body::-webkit-scrollbar {
-	width: 17px;
+	width: 10px;
 }
 
 body::-webkit-scrollbar-track {
@@ -43,7 +43,7 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
 	border-radius: 100px;
-	border: 3px solid transparent;
+	border: 2px solid transparent;
 	background-clip: content-box;
 	background-color: var(--color-dark-red);
 	-webkit-border-radius: 100px;
@@ -1815,7 +1815,7 @@ li > .header-btn {
 	}
 }
 /* -------- Media for Style and Teacher grid------- */
-@media (max-width: 650px) {
+@media (max-width: 660px) {
 	.about-list {
 		grid-template-columns: repeat(auto-fill, 100%);
 		gap: 3rem 0;
@@ -1824,7 +1824,7 @@ li > .header-btn {
 		padding-right: 1rem;
 	}
 	.info__tab__styles {
-		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 		grid-gap: 0.5rem;
 	}
 	.info__tab__styles-item {
@@ -1838,24 +1838,24 @@ li > .header-btn {
 		font-size: 1.5rem;
 	}
 	.info__tab__teachers {
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 		grid-gap: 0.5rem;
 	}
 	.info__tab__teachers-item {
 		padding: 1rem;
 	}
 	.info__tab__teachers-item__name {
-		font-size: 2rem;
+		font-size: 1.7rem;
 		margin-bottom: 0.5rem;
 	}
 	.info__tab__teachers-item__group {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 }
 
 /* -------- Media for Style and Teacher grid 2 ------- */
 
-@media (max-width: 410px) {
+@media (max-width: 440px) {
 	.info__tab__styles {
 		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 		grid-gap: 0.5rem;
@@ -1884,7 +1884,7 @@ li > .header-btn {
 		margin-bottom: 0.3rem;
 	}
 	.info__tab__teachers-item__group {
-		font-size: 1rem;
+		font-size: 0.9rem;
 		font-weight: 300;
 	}
 }
