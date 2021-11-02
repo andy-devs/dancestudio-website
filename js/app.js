@@ -40,21 +40,38 @@ for (let i = 0; i < tabNavItems.length; i++) {
 		}
 	});
 }
-const teachersStyleItem = document.querySelectorAll(
+const headerStyleItem = document.querySelectorAll(
 	'.header__nav-item[href="#info"]'
 );
-
-teachersStyleItem[0].addEventListener('click', (e) => {
+headerStyleItem[0].addEventListener('click', (e) => {
 	removeActive(tabNavItems);
 	tabNavItems[0].classList.add('_active');
 	removeActive(tabBodyItems);
 	tabBodyItems[0].classList.add('_active');
 });
-const teachersHeaderItem = document.querySelectorAll(
+const footerStyleItem = document.querySelectorAll(
+	'.footer__col-item[href="#info"]'
+);
+footerStyleItem[0].addEventListener('click', (e) => {
+	removeActive(tabNavItems);
+	tabNavItems[0].classList.add('_active');
+	removeActive(tabBodyItems);
+	tabBodyItems[0].classList.add('_active');
+});
+const headerTeachersItem = document.querySelectorAll(
 	'.header__nav-item[href="#info"]'
 );
 
-teachersHeaderItem[1].addEventListener('click', (e) => {
+headerTeachersItem[1].addEventListener('click', (e) => {
+	removeActive(tabNavItems);
+	tabNavItems[1].classList.add('_active');
+	removeActive(tabBodyItems);
+	tabBodyItems[1].classList.add('_active');
+});
+const footerTeachersItem = document.querySelectorAll(
+	'.footer__col-item[href="#info"]'
+);
+footerTeachersItem[1].addEventListener('click', (e) => {
 	removeActive(tabNavItems);
 	tabNavItems[1].classList.add('_active');
 	removeActive(tabBodyItems);
@@ -379,7 +396,9 @@ let spanStyle = document.querySelectorAll('.close-styles');
 
 for (let i = 0; i < modalStyle.length; i++) {
 	btnStyle[i].onclick = (e) => {
-		body.style.overflow = 'hidden';
+		if (userDevice == 'mobile') {
+			body.style.overflow = 'hidden';
+		}
 		modalStyle[i].classList.remove('fadeOut');
 		modalStyleItem[i].classList.remove('fadeOut');
 		modalStyleItem[i].classList.add('fadeIn');
@@ -389,7 +408,10 @@ for (let i = 0; i < modalStyle.length; i++) {
 			modalStyleItem[i].classList.remove('fadeIn');
 			modalStyle[i].onclick = (e) => {
 				if (e.target.classList.contains('modal-styles')) {
-					body.style.overflow = 'visible';
+					if (userDevice == 'mobile') {
+						body.style.overflow = 'visible';
+					}
+
 					modalStyleItem[i].classList.add('fadeOut');
 					modalStyle[i].classList.add('fadeOut');
 					setTimeout(() => {
@@ -400,7 +422,9 @@ for (let i = 0; i < modalStyle.length; i++) {
 		}, 500);
 	};
 	spanStyle[i].onclick = (e) => {
-		body.style.overflow = 'visible';
+		if (userDevice == 'mobile') {
+			body.style.overflow = 'visible';
+		}
 		modalStyleItem[i].classList.add('fadeOut');
 		modalStyle[i].classList.add('fadeOut');
 		setTimeout(() => {
@@ -453,7 +477,10 @@ for (let i = 0; i < modalTeacher.length; i++) {
 }
 for (let i = 0; i < modalTeacher.length; i++) {
 	btnTeacher[i].onclick = (e) => {
-		body.style.overflow = 'hidden';
+		if (userDevice == 'mobile') {
+			body.style.overflow = 'hidden';
+		}
+
 		modalTeacher[i].classList.remove('fadeOut');
 		modalTeacherItem[i].classList.remove('fadeOut');
 		modalTeacherItem[i].classList.add('fadeIn');
@@ -463,7 +490,9 @@ for (let i = 0; i < modalTeacher.length; i++) {
 			modalTeacherItem[i].classList.remove('fadeIn');
 			modalTeacher[i].onclick = (e) => {
 				if (e.target.classList.contains('modal-teachers')) {
-					body.style.overflow = 'visible';
+					if (userDevice == 'mobile') {
+						body.style.overflow = 'visible';
+					}
 					modalTeacherItem[i].classList.add('fadeOut');
 					modalTeacher[i].classList.add('fadeOut');
 					setTimeout(() => {
@@ -474,7 +503,9 @@ for (let i = 0; i < modalTeacher.length; i++) {
 		}, 500);
 	};
 	spanTeacher[i].onclick = (e) => {
-		body.style.overflow = 'visible';
+		if (userDevice == 'mobile') {
+			body.style.overflow = 'visible';
+		}
 		modalTeacherItem[i].classList.add('fadeOut');
 		modalTeacher[i].classList.add('fadeOut');
 		setTimeout(() => {
