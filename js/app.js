@@ -377,9 +377,6 @@ anchors = [...anchors];
 anchors = anchors.filter((anchor) => anchor.getAttribute('href') != '#tab-1');
 anchors = anchors.filter((anchor) => anchor.getAttribute('href') != '#tab-2');
 
-for (let i of anchors) {
-	console.log(i);
-}
 for (let anchor of anchors) {
 	anchor.addEventListener('click', (e) => {
 		e.preventDefault();
@@ -400,6 +397,8 @@ let modalStyle = document.querySelectorAll('.modal-styles');
 let modalStyleItem = document.querySelectorAll('.modal-content-styles');
 
 let btnStyle = document.querySelectorAll('.info__tab__styles-item');
+
+// VanillaTilt.init(btnStyle);
 
 let spanStyle = document.querySelectorAll('.close-styles');
 
@@ -468,6 +467,8 @@ let modalTeacher = document.querySelectorAll('.modal-teachers');
 let modalTeacherItem = document.querySelectorAll('.modal-content-teachers');
 
 let btnTeacher = document.querySelectorAll('.info__tab__teachers-item');
+
+// VanillaTilt.init(btnTeacher);
 
 let spanTeacher = document.querySelectorAll('.close-teachers');
 
