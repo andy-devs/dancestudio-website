@@ -1742,14 +1742,14 @@ li > .header-btn {
 		-o-transform: scale(0.8);
 	}
 	.header__logo._active {
-		transition: filter 0.2s ease-out;
+		transition: filter 0.5s ease-out;
 		filter: invert(100%) brightness(200%);
 		-webkit-filter: invert(100%) brightness(200%);
-		-webkit-transition: filter 0.2s ease-out;
-		-moz-transition: filter 0.2s ease-out;
-		-ms-transition: filter 0.2s ease-out;
-		-o-transition: filter 0.2s ease-out;
-}
+		-webkit-transition: filter 0.5s ease-out;
+		-moz-transition: filter 0.5s ease-out;
+		-ms-transition: filter 0.5s ease-out;
+		-o-transition: filter 0.5s ease-out;
+	}
 	.schedule__row {
 		flex-direction: column;
 	}
