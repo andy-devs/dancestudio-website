@@ -398,7 +398,7 @@ let modalStyleItem = document.querySelectorAll('.modal-content-styles');
 
 let btnStyle = document.querySelectorAll('.info__tab__styles-item');
 
-// VanillaTilt.init(btnStyle);
+// VanillaTilt.init(btnStyle, {});
 
 let spanStyle = document.querySelectorAll('.close-styles');
 
@@ -468,7 +468,7 @@ let modalTeacherItem = document.querySelectorAll('.modal-content-teachers');
 
 let btnTeacher = document.querySelectorAll('.info__tab__teachers-item');
 
-// VanillaTilt.init(btnTeacher);
+// VanillaTilt.init(btnTeacher, {});
 
 let spanTeacher = document.querySelectorAll('.close-teachers');
 
