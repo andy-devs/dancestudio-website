@@ -345,6 +345,12 @@ li > .header-btn {
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	-webkit-transform: perspective(1000px);
+	-moz-transform: perspective(1000px);
+	-ms-transform: perspective(1000px);
+	-o-transform: perspective(1000px);
 }
 .info__tab__styles-item:hover {
 	color: var(--color-white);
@@ -359,12 +365,22 @@ li > .header-btn {
 	font-size: clamp(1rem, 2.5rem, 3rem);
 	font-weight: 400;
 	margin-bottom: 0.5rem;
+	transform: translateZ(35px);
+	-webkit-transform: translateZ(35px);
+	-moz-transform: translateZ(35px);
+	-ms-transform: translateZ(35px);
+	-o-transform: translateZ(35px);
 }
 .info__tab__styles-item__text {
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 200;
 	color: var(--color-white);
+	transform: translateZ(35px);
+	-webkit-transform: translateZ(35px);
+	-moz-transform: translateZ(35px);
+	-ms-transform: translateZ(35px);
+	-o-transform: translateZ(35px);
 }
 
 .fadeIn {
@@ -554,6 +570,12 @@ li > .header-btn {
 	-moz-transition: color 0.1s ease-out, background-color 0.2s ease-out;
 	-ms-transition: color 0.1s ease-out, background-color 0.2s ease-out;
 	-o-transition: color 0.1s ease-out, background-color 0.2s ease-out;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	-webkit-transform: perspective(1000px);
+	-moz-transform: perspective(1000px);
+	-ms-transform: perspective(1000px);
+	-o-transform: perspective(1000px);
 }
 .info__tab__teachers-item:hover {
 	color: var(--color-white);
@@ -573,14 +595,29 @@ li > .header-btn {
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	margin-bottom: 0.5rem;
+	transform: translateZ(0px);
+	-webkit-transform: translateZ(0px);
+	-moz-transform: translateZ(0px);
+	-ms-transform: translateZ(0px);
+	-o-transform: translateZ(0px);
 }
 .info__tab__teachers-item__name {
 	font-size: 2rem;
 	margin-bottom: 0.5rem;
+	transform: translateZ(20px);
+	-webkit-transform: translateZ(20px);
+	-moz-transform: translateZ(20px);
+	-ms-transform: translateZ(20px);
+	-o-transform: translateZ(20px);
 }
 .info__tab__teachers-item__group {
 	color: var(--color-white);
 	font-size: 1.2rem;
+	transform: translateZ(20px);
+	-webkit-transform: translateZ(20px);
+	-moz-transform: translateZ(20px);
+	-ms-transform: translateZ(20px);
+	-o-transform: translateZ(20px);
 }
 
 /* ----- Teachers Modals ------ */

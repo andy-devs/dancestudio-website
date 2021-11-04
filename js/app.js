@@ -117,7 +117,7 @@ for (let i = 0; i < scheduleBtn.length; i++) {
 
 // Slider for Studios
 
-let slideIndex = 1;
+const slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -215,9 +215,9 @@ function populate(s1, s2) {
 // form.addEventListener('submit', function (e) {
 // 	e.preventDefault();
 // });
-let selector = document.getElementById('phone');
+const selector = document.getElementById('phone');
 
-let im = new Inputmask('+7 (999) 999-99-99');
+const im = new Inputmask('+7 (999) 999-99-99');
 im.mask(selector);
 // form.addEventListener('submit', function (e) {
 // 	Swal.fire({
@@ -390,17 +390,22 @@ for (let anchor of anchors) {
 
 // Style Modal Window
 
-let body = document.querySelector('body');
+const body = document.querySelector('body');
 
-let modalStyle = document.querySelectorAll('.modal-styles');
+const modalStyle = document.querySelectorAll('.modal-styles');
 
-let modalStyleItem = document.querySelectorAll('.modal-content-styles');
+const modalStyleItem = document.querySelectorAll('.modal-content-styles');
 
-let btnStyle = document.querySelectorAll('.info__tab__styles-item');
+const btnStyle = document.querySelectorAll('.info__tab__styles-item');
 
-// VanillaTilt.init(btnStyle, {});
+VanillaTilt.init(btnStyle, {
+	max: 5,
+	speed: 500,
+	scale: 1.05,
+	perspective: 1000,
+});
 
-let spanStyle = document.querySelectorAll('.close-styles');
+const spanStyle = document.querySelectorAll('.close-styles');
 
 for (let i = 0; i < modalStyle.length; i++) {
 	btnStyle[i].onclick = (e) => {
@@ -462,15 +467,20 @@ for (let i = 0; i < modalStyle.length; i++) {
 
 // Teachers Modal Window
 
-let modalTeacher = document.querySelectorAll('.modal-teachers');
+const modalTeacher = document.querySelectorAll('.modal-teachers');
 
-let modalTeacherItem = document.querySelectorAll('.modal-content-teachers');
+const modalTeacherItem = document.querySelectorAll('.modal-content-teachers');
 
-let btnTeacher = document.querySelectorAll('.info__tab__teachers-item');
+const btnTeacher = document.querySelectorAll('.info__tab__teachers-item');
 
-// VanillaTilt.init(btnTeacher, {});
+VanillaTilt.init(btnTeacher, {
+	max: 5,
+	speed: 500,
+	scale: 1.05,
+	perspective: 1000,
+});
 
-let spanTeacher = document.querySelectorAll('.close-teachers');
+const spanTeacher = document.querySelectorAll('.close-teachers');
 
 for (let i = 0; i < modalTeacher.length; i++) {
 	btnTeacher[i].onclick = (e) => {
