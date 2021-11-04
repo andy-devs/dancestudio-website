@@ -403,6 +403,7 @@ VanillaTilt.init(btnStyle, {
 	speed: 500,
 	scale: 1.05,
 	perspective: 1000,
+	gyroscope: false,
 });
 
 const spanStyle = document.querySelectorAll('.close-styles');
@@ -478,6 +479,7 @@ VanillaTilt.init(btnTeacher, {
 	speed: 500,
 	scale: 1.05,
 	perspective: 1000,
+	gyroscope: false,
 });
 
 const spanTeacher = document.querySelectorAll('.close-teachers');
