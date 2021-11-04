@@ -356,9 +356,7 @@ li > .header-btn {
 	color: var(--color-white);
 	background-color: var(--color-dark-red);
 }
-.info__tab__styles-item:hover .info__tab__styles-item__text {
-	color: var(--color-white);
-}
+
 .info__tab__styles-item__head {
 	white-space: normal;
 	text-align: center;
@@ -676,7 +674,7 @@ li > .header-btn {
 .modal-teachers__block {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 }
 .modal-teachers__block-photo {
 	padding: 1rem;
