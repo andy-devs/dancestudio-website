@@ -117,7 +117,7 @@ for (let i = 0; i < scheduleBtn.length; i++) {
 
 // Slider for Studios
 
-const slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -132,8 +132,8 @@ function currentSlide(n) {
 
 function showSlides(n) {
 	let i;
-	let slides = document.querySelectorAll('.studios-slider__container-item');
-	let dots = document.querySelectorAll('.dot');
+	const slides = document.querySelectorAll('.studios-slider__container-item');
+	const dots = document.querySelectorAll('.dot');
 	if (n > slides.length) {
 		slideIndex = 1;
 	}
