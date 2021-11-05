@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 	background: linear-gradient(
 		180deg,
 		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 0.3) 80%,
+		rgba(0, 0, 0, 0.35) 80%,
 		rgba(0, 0, 0, 0) 100%
 	);
 	top: 0;
@@ -190,7 +190,7 @@ li > .header-btn {
 }
 .first-screen__head {
 	color: var(--color-white);
-	text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
+	text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);
 	font-size: 4rem;
 	margin: 0 auto;
 	font-weight: 600;
@@ -202,7 +202,7 @@ li > .header-btn {
 	font-size: 1.4rem;
 	line-height: 2rem;
 	color: var(--color-white);
-	text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
+	text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.6);
 	padding: 1rem 0.5rem;
 	margin: inherit auto;
 	margin-bottom: 1.3rem;
@@ -1432,9 +1432,9 @@ li > .header-btn {
 	.first-wrapper {
 		background: linear-gradient(
 				180deg,
-				rgba(0, 0, 0, 0.7) 5%,
-				rgba(0, 0, 0, 0.4) 95%,
-				rgba(0, 0, 0, 0.2) 100%
+				rgba(0, 0, 0, 0.8) 5%,
+				rgba(0, 0, 0, 0.5) 95%,
+				rgba(0, 0, 0, 0.1) 100%
 			),
 			url('./images/red-bg.jpg');
 		background-position: center center;
@@ -1560,6 +1560,7 @@ li > .header-btn {
 	}
 	.modal-styles__block-info__desc {
 		font-size: 1.2rem;
+		line-height: 1.95rem;
 		font-weight: 300;
 		margin-bottom: 1rem;
 	}
@@ -1577,6 +1578,7 @@ li > .header-btn {
 		font-weight: normal;
 	}
 	.modal-styles__block-charts__item-text {
+		line-height: 1.95rem;
 		font-size: 1.1rem;
 		font-weight: 300;
 		padding: 0 0.1rem;
@@ -1611,6 +1613,10 @@ li > .header-btn {
 	}
 	.info__tab__teachers-item__group {
 		font-size: 1rem;
+	}
+	.info__text {
+		line-height: 1.9rem;
+		margin-bottom: 0.9rem;
 	}
 	.price {
 		padding: 2rem 0.8rem;
