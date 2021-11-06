@@ -215,7 +215,8 @@ li > .header-btn {
 	justify-content: center;
 }
 .first-screen__buttons-item {
-	font-size: 1.3rem;
+	padding: 0.75em 2.1em;
+	font-size: 1.4rem;
 	color: var(--color-white);
 	background-color: var(--color-dark-red);
 	border: solid 2px var(--color-dark-red);
@@ -226,9 +227,9 @@ li > .header-btn {
 	border: solid 2px var(--color-light-red);
 }
 .first-screen__social {
-	padding: 1.2rem 0 0.5rem 0;
+	margin: 1.35rem 0 0.5rem 0;
 	display: flex;
-	gap: 1.3rem;
+	gap: 1.7rem;
 }
 .first-screen__social-item {
 	font-size: 2.5rem;
@@ -873,6 +874,8 @@ li > .header-btn {
 	margin-bottom: 2rem;
 }
 .price__block-button {
+	padding: 0.7em 2em;
+	font-size: 1.3rem;
 	align-self: center;
 }
 .price__block-button:hover {
@@ -1212,6 +1215,8 @@ li > .header-btn {
 	margin-bottom: 2rem;
 }
 .form__body-button {
+	padding: 1em 2.4em;
+	font-size: 1.3rem;
 	cursor: pointer;
 	color: var(--color-white);
 	background-color: var(--color-dark-red);
