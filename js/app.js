@@ -185,7 +185,6 @@ function populate(s1, s2) {
 			'hip-hop 9-11|Hip-Hop 9-11 лет',
 			'hip-hop 6-8|Hip-Hop 6-8 лет',
 			'choreo girls 14+|Choreo girls 14+',
-			'vogue 10+|Vogue 10+',
 			'dancehall 10+|Dancehall 10+',
 			'shuffle 6+|Shuffle 6+',
 			'ritmika 3-5|Ритмика 3-5 лет',
@@ -280,12 +279,13 @@ window.mobileCheck = function () {
 		form.action = 'https://formsubmit.co/e005124967ddff39fcc3c5af62ff505a';
 	} else if (check === true) {
 		let form = document.querySelector('.form__body');
+		form.action = 'https://formsubmit.co/e005124967ddff39fcc3c5af62ff505a';
+		// let form = document.querySelector('.form__body');
 		userDevice = 'mobile';
-		form.action = '/';
+		// form.action = '/';
 	}
 };
 mobileCheck();
-console.log(userDevice);
 
 function gotowhatsapp() {
 	var name = document.getElementById('name').value;
@@ -367,7 +367,8 @@ const validateForms = function (selector) {
 			if (userDevice == 'pc') {
 				form.submit();
 			} else if (userDevice == 'mobile') {
-				gotowhatsapp();
+				// gotowhatsapp();
+				form.submit();
 			}
 		},
 	});
