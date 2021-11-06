@@ -225,6 +225,25 @@ li > .header-btn {
 	background-color: var(--color-light-red);
 	border: solid 2px var(--color-light-red);
 }
+.first-screen__social {
+	padding: 1.2rem 0 0.5rem 0;
+	display: flex;
+	gap: 1.3rem;
+}
+.first-screen__social-item {
+	font-size: 2.5rem;
+	color: var(--color-white);
+	transition: top 0.2s ease-out 0s;
+	-webkit-transition: top 0.2s ease-out 0s;
+	-moz-transition: top 0.2s ease-out 0s;
+	-ms-transition: top 0.2s ease-out 0s;
+	-o-transition: top 0.2s ease-out 0s;
+	position: relative;
+	top: 0;
+}
+.first-screen__social-item:hover {
+	top: 0.2rem;
+}
 
 /* ------------------- About Section ------------------ */
 
@@ -716,6 +735,8 @@ li > .header-btn {
 .modal-teachers__block-info__groups-studio {
 	font-size: 1.8rem;
 	font-weight: 400;
+	line-height: 1.2rem;
+	margin-top: 1rem;
 }
 .modal-teachers__block-info__groups-block {
 	font-size: 1.5rem;
