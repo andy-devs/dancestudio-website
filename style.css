@@ -354,7 +354,7 @@ li > .header-btn {
 }
 .info__tab__styles-item:hover {
 	color: var(--color-white);
-	background-color: var(--color-dark-red);
+	background-color: var(--color-black);
 }
 
 .info__tab__styles-item__head {
@@ -577,7 +577,7 @@ li > .header-btn {
 }
 .info__tab__teachers-item:hover {
 	color: var(--color-white);
-	background-color: var(--color-dark-red);
+	background-color: var(--color-black);
 }
 .info__tab__teachers-item:hover .info__tab__teachers-item__group {
 	color: var(--color-white);
@@ -593,29 +593,29 @@ li > .header-btn {
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	margin-bottom: 0.5rem;
-	transform: translateZ(0px);
-	-webkit-transform: translateZ(0px);
-	-moz-transform: translateZ(0px);
-	-ms-transform: translateZ(0px);
-	-o-transform: translateZ(0px);
+	transform: translateZ(5px);
+	-webkit-transform: translateZ(5px);
+	-moz-transform: translateZ(5px);
+	-ms-transform: translateZ(5px);
+	-o-transform: translateZ(5px);
 }
 .info__tab__teachers-item__name {
 	font-size: 2rem;
 	margin-bottom: 0.5rem;
-	transform: translateZ(20px);
-	-webkit-transform: translateZ(20px);
-	-moz-transform: translateZ(20px);
-	-ms-transform: translateZ(20px);
-	-o-transform: translateZ(20px);
+	transform: translateZ(15px);
+	-webkit-transform: translateZ(15px);
+	-moz-transform: translateZ(15px);
+	-ms-transform: translateZ(15px);
+	-o-transform: translateZ(15px);
 }
 .info__tab__teachers-item__group {
 	color: var(--color-white);
 	font-size: 1.2rem;
-	transform: translateZ(20px);
-	-webkit-transform: translateZ(20px);
-	-moz-transform: translateZ(20px);
-	-ms-transform: translateZ(20px);
-	-o-transform: translateZ(20px);
+	transform: translateZ(10px);
+	-webkit-transform: translateZ(10px);
+	-moz-transform: translateZ(10px);
+	-ms-transform: translateZ(10px);
+	-o-transform: translateZ(10px);
 }
 
 /* ----- Teachers Modals ------ */
@@ -678,12 +678,17 @@ li > .header-btn {
 }
 .modal-teachers__block-photo {
 	padding: 1rem;
-	max-width: 50%;
+	max-width: 35%;
 }
 .modal-teachers__block-photo img {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
 .modal-teachers__block-info {
 	padding-left: 1rem;
@@ -691,9 +696,10 @@ li > .header-btn {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
-	max-width: 50%;
+	max-width: 65%;
 	line-height: 2.2rem;
 }
+
 .modal-teachers__block-info__name {
 	text-align: left;
 	font-size: 2.4rem;
