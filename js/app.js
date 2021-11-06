@@ -407,6 +407,9 @@ const spanStyle = document.querySelectorAll('.close-styles');
 
 for (let i = 0; i < modalStyle.length; i++) {
 	btnStyle[i].onclick = (e) => {
+		if (userDevice == 'mobile') {
+			body.style.overflow = 'hidden';
+		}
 		modalStyle[i].classList.remove('fadeOut');
 		modalStyleItem[i].classList.remove('fadeOut');
 		modalStyleItem[i].classList.add('fadeIn');
@@ -416,6 +419,9 @@ for (let i = 0; i < modalStyle.length; i++) {
 			modalStyleItem[i].classList.remove('fadeIn');
 			modalStyle[i].onclick = (e) => {
 				if (e.target.classList.contains('modal-styles')) {
+					if (userDevice == 'mobile') {
+						body.style.overflow = 'visible';
+					}
 					modalStyleItem[i].classList.add('fadeOut');
 					modalStyle[i].classList.add('fadeOut');
 					setTimeout(() => {
@@ -481,6 +487,9 @@ for (let i = 0; i < modalTeacher.length; i++) {
 }
 for (let i = 0; i < modalTeacher.length; i++) {
 	btnTeacher[i].onclick = (e) => {
+		if (userDevice == 'mobile') {
+			body.style.overflow = 'hidden';
+		}
 		modalTeacher[i].classList.remove('fadeOut');
 		modalTeacherItem[i].classList.remove('fadeOut');
 		modalTeacherItem[i].classList.add('fadeIn');
@@ -490,6 +499,9 @@ for (let i = 0; i < modalTeacher.length; i++) {
 			modalTeacherItem[i].classList.remove('fadeIn');
 			modalTeacher[i].onclick = (e) => {
 				if (e.target.classList.contains('modal-teachers')) {
+					if (userDevice == 'mobile') {
+						body.style.overflow = 'visible';
+					}
 					modalTeacherItem[i].classList.add('fadeOut');
 					modalTeacher[i].classList.add('fadeOut');
 					setTimeout(() => {
