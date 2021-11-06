@@ -1616,7 +1616,9 @@ li > .header-btn {
 	}
 	.info__tab__teachers-item__name {
 		font-size: 1.5rem;
-		margin-bottom: 0.5rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.7rem;
+		line-height: 1.4rem;
 	}
 	.info__tab__teachers-item__group {
 		font-size: 1rem;
