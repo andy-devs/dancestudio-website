@@ -354,27 +354,23 @@ li > .header-btn {
 	justify-content: center;
 	padding: 3rem 1.5rem;
 	color: var(--color-white);
-	background-color: var(--color-black);
 	border-radius: 5px;
-	transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	-webkit-transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	-moz-transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	-ms-transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	-o-transition: color 0.1s ease-out, background-color 0.2s ease-out;
+	transition: transform 0.1s ease-out;
+	-webkit-transition: transform 0.1s ease-out;
+	-moz-transition: transform 0.1s ease-out;
+	-ms-transition: transform 0.1s ease-out;
+	-o-transition: transform 0.1s ease-out;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	-webkit-transform: perspective(1000px);
-	-moz-transform: perspective(1000px);
-	-ms-transform: perspective(1000px);
-	-o-transform: perspective(1000px);
 }
 .info__tab__styles-item:hover {
-	color: var(--color-white);
-	background-color: var(--color-black);
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
 }
 
 .info__tab__styles-item__head {
@@ -383,22 +379,12 @@ li > .header-btn {
 	font-size: clamp(1rem, 2.5rem, 3rem);
 	font-weight: 400;
 	margin-bottom: 0.5rem;
-	transform: translateZ(25px);
-	-webkit-transform: translateZ(25px);
-	-moz-transform: translateZ(25px);
-	-ms-transform: translateZ(25px);
-	-o-transform: translateZ(25px);
 }
 .info__tab__styles-item__text {
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 200;
 	color: var(--color-white);
-	transform: translateZ(20px);
-	-webkit-transform: translateZ(20px);
-	-moz-transform: translateZ(20px);
-	-ms-transform: translateZ(20px);
-	-o-transform: translateZ(20px);
 }
 
 .fadeIn {
@@ -455,7 +441,7 @@ li > .header-btn {
 	padding: 1.5rem 0;
 	display: none;
 	position: fixed;
-	z-index: 50;
+	z-index: 98;
 	left: 0;
 	top: 0;
 	place-items: center;
@@ -585,21 +571,18 @@ li > .header-btn {
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
-	transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	-webkit-transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	-moz-transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	-ms-transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	-o-transition: color 0.1s ease-out, background-color 0.2s ease-out;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	-webkit-transform: perspective(1000px);
-	-moz-transform: perspective(1000px);
-	-ms-transform: perspective(1000px);
-	-o-transform: perspective(1000px);
+	transition: transform 0.1s ease-out;
+	-webkit-transition: transform 0.1s ease-out;
+	-moz-transition: transform 0.1s ease-out;
+	-ms-transition: transform 0.1s ease-out;
+	-o-transition: transform 0.1s ease-out;
 }
 .info__tab__teachers-item:hover {
-	color: var(--color-white);
-	background-color: var(--color-black);
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
 }
 .info__tab__teachers-item:hover .info__tab__teachers-item__group {
 	color: var(--color-white);
@@ -615,29 +598,14 @@ li > .header-btn {
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	margin-bottom: 0.5rem;
-	transform: translateZ(10px);
-	-webkit-transform: translateZ(10px);
-	-moz-transform: translateZ(10px);
-	-ms-transform: translateZ(10px);
-	-o-transform: translateZ(10px);
 }
 .info__tab__teachers-item__name {
 	font-size: 2rem;
 	margin-bottom: 0.5rem;
-	transform: translateZ(25px);
-	-webkit-transform: translateZ(25px);
-	-moz-transform: translateZ(25px);
-	-ms-transform: translateZ(25px);
-	-o-transform: translateZ(25px);
 }
 .info__tab__teachers-item__group {
 	color: var(--color-white);
 	font-size: 1.2rem;
-	transform: translateZ(15px);
-	-webkit-transform: translateZ(15px);
-	-moz-transform: translateZ(15px);
-	-ms-transform: translateZ(15px);
-	-o-transform: translateZ(15px);
 }
 
 /* ----- Teachers Modals ------ */
