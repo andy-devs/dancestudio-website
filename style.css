@@ -2,7 +2,7 @@
 	--color-black: #000;
 	--color-white: #fff;
 	--color-dark-red: #500714;
-	--color-light-red: #88081f;
+	--color-light-red: #750c1f;
 	--color-very-light-red: #b10e2c;
 	--color-light-grey: hsl(228, 15%, 74%);
 	--color-dark-grey: hsl(232, 10%, 47%);
@@ -545,10 +545,12 @@ li > .header-btn {
 }
 .modal-styles__block-charts__item-text {
 	color: var(--color-light-red);
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-weight: 300;
-	margin-bottom: 0.3rem;
+	margin-top: 0.4rem;
+	margin-bottom: 0.5rem;
 	padding: 0 1rem;
+	line-height: 1.85rem;
 }
 
 .close-styles {
@@ -1452,6 +1454,16 @@ li > .header-btn {
 /* -------- Main Media for mobile: sections margin, flex direction, font size etc ------- */
 
 @media (max-width: 777px) {
+	.first-screen__buttons-item {
+		color: var(--color-white);
+		background-color: transparent;
+		border: solid 1px var(--color-white);
+	}
+	.first-screen__buttons-item:hover {
+		color: var(--color-black);
+		background-color: var(--color-white);
+		border: solid 1px var(--color-white);
+	}
 	#linia-black {
 		color: var(--color-black);
 		text-shadow: 0px 0px 5px var(--color-white),
@@ -1460,9 +1472,9 @@ li > .header-btn {
 	.first-wrapper {
 		background: linear-gradient(
 				180deg,
-				rgba(0, 0, 0, 0.75) 5%,
-				rgba(0, 0, 0, 0.4) 95%,
-				rgba(0, 0, 0, 0.15) 100%
+				rgba(0, 0, 0, 0.7) 5%,
+				rgba(0, 0, 0, 0.35) 95%,
+				rgba(0, 0, 0, 0.1) 100%
 			),
 			url('./images/mobile-bg-new.jpg');
 		background-position: center center;
@@ -1611,6 +1623,7 @@ li > .header-btn {
 		font-weight: 300;
 		padding: 0 0.1rem;
 		margin-bottom: 0.3rem;
+		margin-top: 0rem;
 	}
 	.close-styles {
 		color: var(--color-black);
