@@ -398,13 +398,13 @@ const modalStyleItem = document.querySelectorAll('.modal-content-styles');
 
 const btnStyle = document.querySelectorAll('.info__tab__styles-item');
 
-// VanillaTilt.init(btnStyle, {
-// 	max: 5,
-// 	speed: 500,
-// 	scale: 1.05,
-// 	perspective: 1000,
-// 	gyroscope: false,
-// });
+VanillaTilt.init(btnStyle, {
+	max: 5,
+	speed: 500,
+	scale: 1.05,
+	perspective: 1000,
+	gyroscope: false,
+});
 
 const spanStyle = document.querySelectorAll('.close-styles');
 
@@ -474,13 +474,13 @@ const modalTeacherItem = document.querySelectorAll('.modal-content-teachers');
 
 const btnTeacher = document.querySelectorAll('.info__tab__teachers-item');
 
-// VanillaTilt.init(btnTeacher, {
-// 	max: 5,
-// 	speed: 500,
-// 	scale: 1.05,
-// 	perspective: 1000,
-// 	gyroscope: false,
-// });
+VanillaTilt.init(btnTeacher, {
+	max: 5,
+	speed: 500,
+	scale: 1.05,
+	perspective: 1000,
+	gyroscope: false,
+});
 
 const spanTeacher = document.querySelectorAll('.close-teachers');
 
