@@ -1531,12 +1531,11 @@ li > .header-btn {
 		margin-bottom: 0.3rem;
 	}
 	.modal-teachers__block-info__groups-studio {
-		font-size: 1.5rem;
+		line-height: 1.2rem;
+		margin-top: 0.6rem;
+		margin-bottom: 0.2rem;
 	}
-	.modal-teachers__block-info__groups-block {
-		font-size: 1.2rem;
-		margin-top: 0.15rem;
-	}
+
 	.modal-teachers__block-info__desc {
 		text-align: left;
 		font-size: 1.05rem;
@@ -1910,10 +1909,10 @@ li > .header-btn {
 	}
 
 	.modal-teachers__block-info__groups-studio {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 	}
 	.modal-teachers__block-info__groups-block {
-		font-size: 1rem;
+		font-size: 1.3rem;
 		margin-bottom: 0rem;
 	}
 	.modal-teachers__block-info__groups-block p {
