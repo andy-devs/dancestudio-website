@@ -363,22 +363,12 @@ li > .header-btn {
 	font-size: clamp(1rem, 2.5rem, 3rem);
 	font-weight: 400;
 	margin-bottom: 0.5rem;
-	transform: translateZ(35px);
-	-webkit-transform: translateZ(35px);
-	-moz-transform: translateZ(35px);
-	-ms-transform: translateZ(35px);
-	-o-transform: translateZ(35px);
 }
 .info__tab__styles-item__text {
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 200;
 	color: var(--color-white);
-	transform: translateZ(35px);
-	-webkit-transform: translateZ(35px);
-	-moz-transform: translateZ(35px);
-	-ms-transform: translateZ(35px);
-	-o-transform: translateZ(35px);
 }
 
 .fadeIn {
@@ -593,29 +583,14 @@ li > .header-btn {
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	margin-bottom: 0.5rem;
-	transform: translateZ(5px);
-	-webkit-transform: translateZ(5px);
-	-moz-transform: translateZ(5px);
-	-ms-transform: translateZ(5px);
-	-o-transform: translateZ(5px);
 }
 .info__tab__teachers-item__name {
 	font-size: 2rem;
 	margin-bottom: 0.5rem;
-	transform: translateZ(15px);
-	-webkit-transform: translateZ(15px);
-	-moz-transform: translateZ(15px);
-	-ms-transform: translateZ(15px);
-	-o-transform: translateZ(15px);
 }
 .info__tab__teachers-item__group {
 	color: var(--color-white);
 	font-size: 1.2rem;
-	transform: translateZ(10px);
-	-webkit-transform: translateZ(10px);
-	-moz-transform: translateZ(10px);
-	-ms-transform: translateZ(10px);
-	-o-transform: translateZ(10px);
 }
 
 /* ----- Teachers Modals ------ */
