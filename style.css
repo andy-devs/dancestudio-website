@@ -1535,6 +1535,9 @@ li > .header-btn {
 		flex-direction: column;
 		margin-bottom: 0.6rem;
 	}
+	.modal-teachers__block-info__groups p {
+		font-size: 1.3rem;
+	}
 	.modal-teachers__block-info__groups-studio {
 		line-height: 1.2rem;
 		margin-top: 0.4rem;
