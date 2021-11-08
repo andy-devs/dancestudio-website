@@ -1502,7 +1502,9 @@ li > .header-btn {
 		align-items: center;
 		justify-content: flex-start;
 		padding-top: 0.2rem;
+		padding: 1.2rem 0.8rem;
 	}
+
 	.modal-teachers__block {
 		flex-direction: column;
 		align-items: center;
@@ -1510,6 +1512,7 @@ li > .header-btn {
 		margin-top: -1.3rem;
 	}
 	.modal-teachers__block-photo {
+		padding-top: 0.2rem;
 		padding-bottom: 0.4rem;
 		max-width: 100%;
 	}
@@ -1544,9 +1547,10 @@ li > .header-btn {
 		margin-bottom: 0.4rem;
 	}
 	.close-teachers {
+		margin-top: -1.8rem;
 		align-self: flex-end;
 		font-size: 4.6rem;
-		margin-right: -0.6rem;
+		margin-right: 0rem;
 	}
 	.modal-styles__block {
 		display: flex;
