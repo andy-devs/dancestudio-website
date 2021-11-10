@@ -82,7 +82,7 @@
 				poster="./images/first-screen-load-image.jpg"
 				class="first-wrapper__video"
 			>
-				<source src="./video/bg-reduced.mp4" type="video/mp4" />
+				<source src="/video/bg-reduced.mp4" type="video/mp4" />
 			</video>
 			<header class="header">
 				<div class="header__container">
