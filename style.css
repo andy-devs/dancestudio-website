@@ -694,7 +694,21 @@ li > .header-btn {
 	text-align: left;
 	font-size: 2.4rem;
 	font-weight: 400;
-	margin-bottom: 1rem;
+	margin-bottom: 0.4rem;
+}
+.modal-teachers__block-info__social {
+	color: var(--color-black);
+	font-size: 1.5rem;
+	margin-bottom: 0.4rem;
+	transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
+	-webkit-transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
+	-ms-transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
+	-o-transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
+}
+.modal-teachers__block-info__social:hover {
+	color: var(--color-dark-red);
+	text-shadow: 6px 6px 15px var(--color-very-light-red);
 }
 .modal-teachers__block-info__groups {
 	text-align: left;
