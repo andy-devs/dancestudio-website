@@ -697,6 +697,7 @@ li > .header-btn {
 	margin-bottom: 0.4rem;
 }
 .modal-teachers__block-info__social {
+	cursor: pointer;
 	color: var(--color-black);
 	font-size: 1.5rem;
 	margin-bottom: 0.4rem;
