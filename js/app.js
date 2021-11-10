@@ -275,13 +275,13 @@ window.mobileCheck = function () {
 	})(navigator.userAgent || navigator.vendor || window.opera);
 
 	if (check === false) {
-		let form = document.querySelector('.form__body');
+		// let form = document.querySelector('.form__body');
+		// form.action = 'https://formsubmit.co/e005124967ddff39fcc3c5af62ff505a';
 		userDevice = 'pc';
-		form.action = 'https://formsubmit.co/e005124967ddff39fcc3c5af62ff505a';
 	} else if (check === true) {
-		let form = document.querySelector('.form__body');
+		// let form = document.querySelector('.form__body');
+		// form.action = '/';
 		userDevice = 'mobile';
-		form.action = '/';
 	}
 };
 mobileCheck();
@@ -365,8 +365,8 @@ const validateForms = function (selector) {
 			if (userDevice == 'pc') {
 				form.submit();
 			} else if (userDevice == 'mobile') {
-				gotowhatsapp();
-				// form.submit();
+				// gotowhatsapp();
+				form.submit();
 			}
 		},
 	});

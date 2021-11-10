@@ -1143,7 +1143,7 @@ li > .header-btn {
 			rgba(0, 0, 0, 0.3) 95%,
 			rgba(0, 0, 0, 0.1) 100%
 		),
-		url('./images/red-bg.jpg');
+		url('/images/red-bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1476,7 +1476,7 @@ li > .header-btn {
 				rgba(0, 0, 0, 0.35) 95%,
 				rgba(0, 0, 0, 0.1) 100%
 			),
-			url('./images/mobile-bg-new.jpg');
+			url('/images/mobile-bg-new.jpg');
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
