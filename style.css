@@ -1398,7 +1398,11 @@ li > .header-btn {
 		text-align: left;
 		font-size: 1.8rem;
 		font-weight: normal;
-		margin-bottom: 0.2rem;
+		margin-bottom: 0.12rem;
+	}
+	.modal-teachers__block-info__social {
+		font-size: 1.3rem;
+		margin-bottom: 0.32rem;
 	}
 	.modal-teachers__block-info__groups {
 		text-align: left;
@@ -1549,7 +1553,11 @@ li > .header-btn {
 	}
 	.modal-teachers__block-info__name {
 		font-size: 1.8rem;
-		margin-bottom: 0.4rem;
+		margin-bottom: 0.1rem;
+	}
+	.modal-teachers__block-info__social {
+		font-size: 1.3rem;
+		margin-bottom: 0.32rem;
 	}
 	.modal-teachers__block-info__groups {
 		text-align: left;
