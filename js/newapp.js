@@ -332,7 +332,7 @@ const validateForms = function (selector) {
 		rules: {
 			name: {
 				required: true,
-				minLength: 5,
+				minLength: 1,
 				maxLength: 30,
 				name: true,
 			},
@@ -341,11 +341,11 @@ const validateForms = function (selector) {
 			},
 			studio: {
 				required: true,
-				minLength: 5,
+				minLength: 1,
 			},
 			style: {
 				required: true,
-				minLength: 5,
+				minLength: 1,
 			},
 		},
 		messages: {
