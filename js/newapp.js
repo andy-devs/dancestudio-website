@@ -286,46 +286,46 @@ window.mobileCheck = function () {
 };
 mobileCheck();
 
-function gotowhatsapp() {
-	var name = document.getElementById('name').value;
-	var phone = document.getElementById('phone').value;
-	var studio = document.getElementById('studio').value;
-	var style = document.getElementById('style').value;
-	if (style[style.length - 1] === '+') {
-		var url =
-			'https://wa.me/79658769710?text=' +
-			'Имя: ' +
-			name +
-			'%0a' +
-			'Телефон: ' +
-			'%2B' +
-			phone +
-			'%0a' +
-			'Студия: ' +
-			studio +
-			'%0a' +
-			'Стиль: ' +
-			style +
-			'%2B';
-	} else {
-		var url =
-			'https://wa.me/79658769710?text=' +
-			'Имя: ' +
-			name +
-			'%0a' +
-			'Телефон: ' +
-			'%2B' +
-			phone +
-			'%0a' +
-			'Студия: ' +
-			studio +
-			'%0a' +
-			'Стиль: ' +
-			style;
-	}
+// function gotowhatsapp() {
+// 	var name = document.getElementById('name').value;
+// 	var phone = document.getElementById('phone').value;
+// 	var studio = document.getElementById('studio').value;
+// 	var style = document.getElementById('style').value;
+// 	if (style[style.length - 1] === '+') {
+// 		var url =
+// 			'https://wa.me/79658769710?text=' +
+// 			'Имя: ' +
+// 			name +
+// 			'%0a' +
+// 			'Телефон: ' +
+// 			'%2B' +
+// 			phone +
+// 			'%0a' +
+// 			'Студия: ' +
+// 			studio +
+// 			'%0a' +
+// 			'Стиль: ' +
+// 			style +
+// 			'%2B';
+// 	} else {
+// 		var url =
+// 			'https://wa.me/79658769710?text=' +
+// 			'Имя: ' +
+// 			name +
+// 			'%0a' +
+// 			'Телефон: ' +
+// 			'%2B' +
+// 			phone +
+// 			'%0a' +
+// 			'Студия: ' +
+// 			studio +
+// 			'%0a' +
+// 			'Стиль: ' +
+// 			style;
+// 	}
 
-	window.open(url, '_blank').focus();
-}
+// 	window.open(url, '_blank').focus();
+// }
 const validateForms = function (selector) {
 	new JustValidate(selector, {
 		colorWrong: 'hsl(0, 56%, 51%)',
@@ -362,12 +362,13 @@ const validateForms = function (selector) {
 				confirmButtonColor: 'hsl(0, 56%, 51%)',
 				confirmButtonText: 'OK',
 			});
-			if (userDevice == 'pc') {
-				form.submit();
-			} else if (userDevice == 'mobile') {
-				// gotowhatsapp();
-				form.submit();
-			}
+			form.submit();
+			// if (userDevice == 'pc') {
+			// 	form.submit();
+			// } else if (userDevice == 'mobile') {
+			// 	// gotowhatsapp();
+			// 	form.submit();
+			// }
 		},
 	});
 };

@@ -27,7 +27,7 @@
 			src="https://kit.fontawesome.com/c2be873b9d.js"
 			crossorigin="anonymous"
 		></script>
-		<link rel="stylesheet" href="./css/newstyle.css" />
+		<link rel="stylesheet" href="./css/newstyle1.css?v=1.1" />
 		<title>Танцы в Омске - Nako</title>
 		<meta
 			name="description"
@@ -4056,7 +4056,7 @@
 			<div class="form">
 				<h2 class="form__head">Запишись на занятие</h2>
 				<p class="form__text">Первое - бесплатно</p>
-				<form action="/" method="POST" class="form__body">
+				<form action="send.php" method="POST" class="form__body">
 					<label class="form__body-label" for="name"
 						>Имя и Фамилия</label
 					>
@@ -4230,6 +4230,6 @@
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
 
-		<script type="text/javascript" src="./js/app.js"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=1.1"></script>
 	</body>
 </html>
