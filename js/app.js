@@ -203,6 +203,7 @@ function populate(s1, s2) {
 			'shuffle 6+|Shuffle 6+',
 			'ritmika 3-5|Ритмика 3-5 лет',
 			'parents|Parents Crew',
+			'shuffle 6+ начинающие|SHUFFLE 6+ начин.',
 		];
 	} else if (s1.value == '9-я Ленинская, 5') {
 		var optionArray = [
