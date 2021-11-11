@@ -4028,7 +4028,7 @@
 							5 / 5
 						</div>
 						<img
-							src="./images/linia-black.jpg"
+							src="./images/linia-black-new.jpg"
 							alt="Чёрный зал 6-я Линия, 97"
 							style="width: 100%"
 						/>
@@ -4230,6 +4230,6 @@
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
 
-		<script type="text/javascript" src="/js/newapp.js?v=1.1"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=1.2"></script>
 	</body>
 </html>
