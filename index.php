@@ -29,7 +29,7 @@
 			src="https://kit.fontawesome.com/c2be873b9d.js"
 			crossorigin="anonymous"
 		></script>
-		<link rel="stylesheet" href="./css/style.css?v=1.0" />
+		<link rel="stylesheet" href="./css/style.css?v=1.1" />
 		<title>Танцы в Омске - Nako</title>
 		<meta
 			name="description"
