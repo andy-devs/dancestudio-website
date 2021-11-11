@@ -29,7 +29,7 @@
 			src="https://kit.fontawesome.com/c2be873b9d.js"
 			crossorigin="anonymous"
 		></script>
-		<link rel="stylesheet" href="./css/newstyle1.css?v=1.1" />
+		<link rel="stylesheet" href="./css/style.css?v=1.0" />
 		<title>Танцы в Омске - Nako</title>
 		<meta
 			name="description"
@@ -4035,7 +4035,6 @@
 							style="width: 100%"
 						/>
 						<div
-							id="linia-black"
 							class="studios-slider__container-item__text"
 						>
 							6-я Линия, 97

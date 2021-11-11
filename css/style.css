@@ -1040,9 +1040,7 @@ li > .header-btn {
 .studios-slider__container-item {
 	display: none;
 }
-#linia-black {
-	color: var(--color-black);
-}
+
 .prev,
 .next {
 	cursor: pointer;
