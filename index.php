@@ -14,8 +14,8 @@
 		<meta property="og:title" content="Dance Studio Nako" />
 		<link
 			rel="icon"
-			type="image/png"
-			href="https://dancestudionako.ru/images/nako-logo-n.png"
+			type="image/x-icon"
+			href="/images/nako-logo-n.ico"
 		/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
