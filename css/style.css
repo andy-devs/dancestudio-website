@@ -1462,11 +1462,7 @@ li > .header-btn {
 		background-color: var(--color-white);
 		border: solid 1px var(--color-white);
 	}
-	#linia-black {
-		color: var(--color-black);
-		text-shadow: 0px 0px 5px var(--color-white),
-			0px 0px 10px var(--color-white);
-	}
+
 	.first-wrapper {
 		background: linear-gradient(
 				180deg,
