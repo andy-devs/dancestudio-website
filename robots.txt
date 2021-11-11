@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /templates.html
+Disallow: /send.php
+Disallow: /video
+Disallow: /images
+Host: dancestudionako.ru
