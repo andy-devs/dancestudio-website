@@ -29,7 +29,7 @@
 			src="https://kit.fontawesome.com/c2be873b9d.js"
 			crossorigin="anonymous"
 		></script>
-		<link rel="stylesheet" href="./css/style.css?v=1.2" />
+		<link rel="stylesheet" href="./css/style.css?v=1.3" />
 		<title>Танцы в Омске - Nako</title>
 		<meta
 			name="description"
@@ -323,7 +323,7 @@
 							<h3 class="info__tab__styles-item__head">
 								DANCEHALL
 							</h3>
-							<p class="info__tab__styles-item__text">
+							<p class="info__tab__styles-item__text"> 
 								7-11|12+|9-13|14+ лет
 							</p>
 						</a>
@@ -4224,6 +4224,6 @@
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
 
-		<script type="text/javascript" src="/js/newapp.js?v=1.2"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=1.3"></script>
 	</body>
 </html>
