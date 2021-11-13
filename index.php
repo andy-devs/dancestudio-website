@@ -18,7 +18,7 @@
 			size="120x120"
 			href="/images/nako-logo-n.png"
 		/>
-		<link rel="apple-touch-icon" href="/images/nako-logo-n.png" />
+		<link rel="icon" href="https://dancestudionako.ru/nako-logo-n.png" type="image/png" size="120x120">
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
