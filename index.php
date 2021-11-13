@@ -14,11 +14,29 @@
 		<meta property="og:title" content="Dance Studio Nako" />
 		<link
 			rel="icon"
+			href="https://dancestudionako.ru/nako-logo-n.png"
 			type="image/png"
 			size="120x120"
-			href="/images/nako-logo-n.png"
 		/>
-		<link rel="icon" href="https://dancestudionako.ru/nako-logo-n.png" type="image/png" size="120x120">
+		<link
+			rel="icon"
+			href="https://dancestudionako.ru/favicon.png"
+			type="image/png"
+			size="120x120"
+		/>
+		<link
+			rel="icon"
+			href="https://dancestudionako.ru/favicon.ico"
+			type="image/x-icon"
+			size="120x120"
+		/>
+		<link
+			rel="shortcut icon"
+			href="https://dancestudionako.ru/favicon.ico"
+			type="image/x-icon"
+			size="120x120"
+		/>
+
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -226,9 +244,7 @@
 			</p>
 			<div class="info__tabs">
 				<div class="info__tabs__nav">
-					<a class="info__tabs__nav-item _active"
-						>Стили</a
-					>
+					<a class="info__tabs__nav-item _active">Стили</a>
 					<a class="info__tabs__nav-item">Педагоги</a>
 				</div>
 				<div class="info__tabs__body">
@@ -323,7 +339,7 @@
 							<h3 class="info__tab__styles-item__head">
 								DANCEHALL
 							</h3>
-							<p class="info__tab__styles-item__text"> 
+							<p class="info__tab__styles-item__text">
 								7-11|12+|9-13|14+ лет
 							</p>
 						</a>
@@ -4034,9 +4050,7 @@
 							alt="Чёрный зал 6-я Линия, 97"
 							style="width: 100%"
 						/>
-						<div
-							class="studios-slider__container-item__text"
-						>
+						<div class="studios-slider__container-item__text">
 							6-я Линия, 97
 						</div>
 					</div>
