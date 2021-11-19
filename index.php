@@ -12,31 +12,8 @@
 		/>
 		<meta property="og:url" content="https://dancestudionako.ru" />
 		<meta property="og:title" content="Dance Studio Nako" />
-		<link
-			rel="icon"
-			href="https://dancestudionako.ru/nako-logo-n.png"
-			type="image/png"
-			size="120x120"
-		/>
-		<link
-			rel="icon"
-			href="https://dancestudionako.ru/favicon.png"
-			type="image/png"
-			size="120x120"
-		/>
-		<link
-			rel="icon"
-			href="https://dancestudionako.ru/favicon.ico"
-			type="image/x-icon"
-			size="120x120"
-		/>
-		<link
-			rel="shortcut icon"
-			href="https://dancestudionako.ru/favicon.ico"
-			type="image/x-icon"
-			size="120x120"
-		/>
-
+		
+		<link rel="icon" href="./favicon.ico" size="120x120" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
