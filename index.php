@@ -12,7 +12,7 @@
 		/>
 		<meta property="og:url" content="https://dancestudionako.ru" />
 		<meta property="og:title" content="Dance Studio Nako" />
-		
+
 		<link rel="icon" href="./favicon.ico" size="120x120" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -52,7 +52,7 @@
 				'ym'
 			);
 
-			ym(86361820, 'init', {
+			ym(86566607, 'init', {
 				clickmap: true,
 				trackLinks: true,
 				accurateTrackBounce: true,
@@ -62,7 +62,7 @@
 		<noscript
 			><div>
 				<img
-					src="https://mc.yandex.ru/watch/86361820"
+					src="https://mc.yandex.ru/watch/86566607"
 					style="position: absolute; left: -9999px"
 					alt=""
 				/></div
