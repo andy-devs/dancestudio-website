@@ -4215,6 +4215,6 @@
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
 
-		<script type="text/javascript" src="/js/newapp.js?v=1.5"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=1.6"></script>
 	</body>
 </html>

@@ -234,30 +234,10 @@ function populate(s1, s2) {
 
 // Form Validation and Submition
 
-// const form = document.querySelector('form');
-// form.addEventListener('submit', function (e) {
-// 	e.preventDefault();
-// });
 const selector = document.getElementById('phone');
 
 const im = new Inputmask('+7 (999) 999-99-99');
 im.mask(selector);
-// form.addEventListener('submit', function (e) {
-// 	Swal.fire({
-// 		title: 'Запись принята',
-// 		text: 'Вы успешно записались на занятие',
-// 		icon: 'success',
-// 		confirmButtonColor: 'hsl(0, 56%, 51%)',
-// 		confirmButtonText: 'OK',
-// 	});
-// 	Swal.fire({
-// 		title: 'Упс.. Что-то пошло не так!',
-// 		text: 'Проверьте данные и повторите запись',
-// 		icon: 'error',
-// 		confirmButtonColor: 'hsl(0, 56%, 51%)',
-// 		confirmButtonText: 'OK',
-// 	});
-// });
 
 var userDevice = '';
 window.mobileCheck = function () {
@@ -275,57 +255,13 @@ window.mobileCheck = function () {
 	})(navigator.userAgent || navigator.vendor || window.opera);
 
 	if (check === false) {
-		// let form = document.querySelector('.form__body');
-		// form.action = 'https://formsubmit.co/e005124967ddff39fcc3c5af62ff505a';
 		userDevice = 'pc';
 	} else if (check === true) {
-		// let form = document.querySelector('.form__body');
-		// form.action = '/';
 		userDevice = 'mobile';
 	}
 };
 mobileCheck();
 
-// function gotowhatsapp() {
-// 	var name = document.getElementById('name').value;
-// 	var phone = document.getElementById('phone').value;
-// 	var studio = document.getElementById('studio').value;
-// 	var style = document.getElementById('style').value;
-// 	if (style[style.length - 1] === '+') {
-// 		var url =
-// 			'https://wa.me/79658769710?text=' +
-// 			'Имя: ' +
-// 			name +
-// 			'%0a' +
-// 			'Телефон: ' +
-// 			'%2B' +
-// 			phone +
-// 			'%0a' +
-// 			'Студия: ' +
-// 			studio +
-// 			'%0a' +
-// 			'Стиль: ' +
-// 			style +
-// 			'%2B';
-// 	} else {
-// 		var url =
-// 			'https://wa.me/79658769710?text=' +
-// 			'Имя: ' +
-// 			name +
-// 			'%0a' +
-// 			'Телефон: ' +
-// 			'%2B' +
-// 			phone +
-// 			'%0a' +
-// 			'Студия: ' +
-// 			studio +
-// 			'%0a' +
-// 			'Стиль: ' +
-// 			style;
-// 	}
-
-// 	window.open(url, '_blank').focus();
-// }
 const validateForms = function (selector) {
 	new JustValidate(selector, {
 		colorWrong: 'hsl(0, 56%, 51%)',
@@ -341,11 +277,11 @@ const validateForms = function (selector) {
 			},
 			studio: {
 				required: true,
-				minLength: 1,
+				minLength: 5,
 			},
 			style: {
 				required: true,
-				minLength: 1,
+				minLength: 5,
 			},
 		},
 		messages: {
@@ -363,12 +299,6 @@ const validateForms = function (selector) {
 				confirmButtonText: 'OK',
 			});
 			form.submit();
-			// if (userDevice == 'pc') {
-			// 	form.submit();
-			// } else if (userDevice == 'mobile') {
-			// 	// gotowhatsapp();
-			// 	form.submit();
-			// }
 		},
 	});
 };
@@ -441,25 +371,6 @@ for (let i = 0; i < modalStyle.length; i++) {
 		}, 200);
 	};
 }
-// for (let i = 0; i < modalStyle.length; i++) {
-// 	modalStyle[i].addEventListener('click', (e) => {
-// 		if (
-// 			modalStyle[i].style.display == 'grid' &&
-// 			e.target.classList.contains('modal-styles')
-// 		) {
-// 			modalStyleItem[i].classList.remove('fadeIn');
-// 			modalStyleItem[i].classList.add('fadeOut');
-// 			modalStyle[i].style.display = 'none';
-// 		}
-// 	});
-// }
-// window.addEventListener('click', (e) => {
-// 	if (!e.target.classList.contains('modal-content-styles')) {
-// 		for (let i of modalStyleItem) {
-// 			i.classList.add('fadeOut');
-// 		}
-// 	}
-// });
 
 // Teachers Modal Window
 
@@ -521,17 +432,3 @@ for (let i = 0; i < modalTeacher.length; i++) {
 		}, 200);
 	};
 }
-// window.onclick = function (e) {
-// 	if (
-// 		e.target.classList.contains('modal-teachers') ||
-// 		e.target.classList.contains('modal-styles')
-// 	) {
-// 		for (let modal of modalTeacher) {
-// 			modal.style.display = 'none';
-// 		}
-
-// 		for (let modal of modalStyle) {
-// 			modal.style.display = 'none';
-// 		}
-// 	}
-// };
