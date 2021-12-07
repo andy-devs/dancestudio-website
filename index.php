@@ -2786,7 +2786,8 @@
 												"
 											>
 												<p>Electro 10+</p>
-												<p>ВТ/ЧТ/СБ 17:00-18:00</p>
+												<p>ВТ/ЧТ 16:30-17:30</p>
+												<p>СБ 17:00-18:00</p>
 											</div>
 										</div>
 										<p
@@ -3873,7 +3874,9 @@
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									17:00-18:00 Стас Плотников
+									Стас Плотников
+									<p>ВТ/ЧТ 16:30-17:30</p>
+									<p>СБ 17:00-18:00</p>
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
