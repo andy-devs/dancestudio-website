@@ -182,7 +182,7 @@ function populate(s1, s2) {
 	if (s1.value == '6-я Линия, 97') {
 		var optionArray = [
 			'hip-hop 12-15 - Настя|Hip-Hop 12-15 лет - Настя',
-			'hip-hop 6-8 - Сабина|Hip-Hop 6-8 лет - Сабина',
+			'hip-hop 6-10 - Сабина|Hip-Hop 6-10 лет - Сабина',
 			'choreo girls 14+ - Оля|Choreo girls 14+ - Оля',
 			'dancehall 10+ - Рената|Dancehall 10+ - Рената',
 			'shuffle 6+ - Алёна|Shuffle 6+ - Алёна',
