@@ -2056,7 +2056,7 @@
 												class="modal-teachers__block-info__groups-block"
 											>
 												<p>Choreo 12-15 лет</p>
-												<p>ПН/СР/ПТ 18:00-19:00</p>
+												<p>ПН/СР/ПТ 16:00-17:00</p>
 											</div>
 										</div>
 										<p
@@ -3084,7 +3084,7 @@
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Анастасия Зингер
+									16:00-17:00 Анастасия Зингер
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
