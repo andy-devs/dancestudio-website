@@ -198,6 +198,7 @@ function populate(s1, s2) {
 			'dancehall 12+ продолжающие - Даша|Dancehall 12+ прод. - Даша',
 			'dancehall 12+ начинающие - Даша|Dancehall 12+ начин. - Даша',
 			'choreo 14+ - Никита|Choreo 14+ - Никита',
+			'electro 10+ - Стас|Electro 10+ - Стас',
 			'shuffle 16+ - Женя|Shuffle 16+ - Женя',
 			'shuffle 6+ - Алёна|Shuffle 6+ - Алёна',
 			'ritmika 3-5 - Яна|Ритмика 3-5 лет - Яна',
@@ -216,7 +217,6 @@ function populate(s1, s2) {
 			'shuffle 8+ - Женя|Shuffle 8+ - Женя',
 			'ritmika 3-5 - Кристина|Ритмика 3-5 лет - Кристина',
 			'ritmika 3-5 - Вероника|Ритмика 3-5 лет - Вероника',
-			'electro 10+ - Стас|Electro 10+ - Стас',
 			'parents - Миша|Родители - Миша',
 		];
 	} else {

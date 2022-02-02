@@ -6,10 +6,7 @@
 		<meta http-equiv="Cache-control" content="public" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta property="og:image" content="./images/nako-logo-n.png" />
-		<meta
-			property="og:description"
-			content="Сайт танцевальной студии Nako"
-		/>
+		<meta property="og:description" content="Сайт танцевальной студии Nako" />
 		<meta property="og:url" content="https://dancestudionako.ru" />
 		<meta property="og:title" content="Dance Studio Nako" />
 
@@ -84,48 +81,31 @@
 			<header class="header">
 				<div class="header__container">
 					<div class="header__logo">
-						<img
-							src="./images/nako-logo.png"
-							alt="Логотип студии"
-						/>
+						<img src="./images/nako-logo.png" alt="Логотип студии" />
 					</div>
 					<div class="header__icon"><span></span></div>
 					<div class="header__nav">
 						<ul class="header__nav-links">
 							<li>
-								<a class="header__nav-item" href="#first-screen"
-									>ГЛАВНАЯ</a
-								>
+								<a class="header__nav-item" href="#first-screen">ГЛАВНАЯ</a>
 							</li>
 							<li>
-								<a class="header__nav-item" href="#info"
-									>СТИЛИ</a
-								>
+								<a class="header__nav-item" href="#info">СТИЛИ</a>
 							</li>
 							<li>
-								<a class="header__nav-item" href="#info"
-									>ПЕДАГОГИ</a
-								>
+								<a class="header__nav-item" href="#info">ПЕДАГОГИ</a>
 							</li>
 							<li>
-								<a class="header__nav-item" href="#price"
-									>ЦЕНЫ</a
-								>
+								<a class="header__nav-item" href="#price">ЦЕНЫ</a>
 							</li>
 							<li>
-								<a class="header__nav-item" href="#schedule"
-									>РАСПИСАНИЕ</a
-								>
+								<a class="header__nav-item" href="#schedule">РАСПИСАНИЕ</a>
 							</li>
 							<li>
-								<a class="header__nav-item" href="#contacts"
-									>КОНТАКТЫ</a
-								>
+								<a class="header__nav-item" href="#contacts">КОНТАКТЫ</a>
 							</li>
 							<li>
-								<a
-									class="header__nav-item header-btn"
-									href="#form"
+								<a class="header__nav-item header-btn" href="#form"
 									>ЗАПИСАТЬСЯ</a
 								>
 							</li>
@@ -144,24 +124,18 @@
 						</div>
 					</div>
 					<div class="header__nav-btn">
-						<a class="header__nav-item header-btn" href="#form"
-							>ЗАПИСАТЬСЯ</a
-						>
+						<a class="header__nav-item header-btn" href="#form">ЗАПИСАТЬСЯ</a>
 					</div>
 				</div>
 			</header>
 			<section id="first-screen">
 				<div class="first-screen__content">
-					<h1 class="first-screen__head">
-						Танцевальная студия в Омске
-					</h1>
+					<h1 class="first-screen__head">Танцевальная студия в Омске</h1>
 					<p class="first-screen__text">
 						Выбирай направление для себя и танцуй вместе с нами
 					</p>
 					<div class="first-screen__buttons">
-						<a
-							class="first-screen__buttons-item reg-btn"
-							href="#form"
+						<a class="first-screen__buttons-item reg-btn" href="#form"
 							>Записаться</a
 						>
 					</div>
@@ -185,15 +159,11 @@
 				<ul class="about-list">
 					<li class="about-item">
 						<i class="fas fa-user about-item__icon"></i>
-						<p class="about-item__text">
-							Постоянное разностороннее развитие
-						</p>
+						<p class="about-item__text">Постоянное разностороннее развитие</p>
 					</li>
 					<li class="about-item">
 						<i class="fas fa-map-marked-alt about-item__icon"></i>
-						<p class="about-item__text">
-							3 студии в разных частях города
-						</p>
+						<p class="about-item__text">3 студии в разных частях города</p>
 					</li>
 					<li class="about-item">
 						<i class="fas fa-globe-americas about-item__icon"></i>
@@ -213,8 +183,8 @@
 		<section id="info">
 			<h2 class="info__head">Стили и Педагоги</h2>
 			<p class="info__text">
-				Здесь Вы можете посмотреть информацию о стилях и педагогах по
-				всем нашим студиям.
+				Здесь Вы можете посмотреть информацию о стилях и педагогах по всем нашим
+				студиям.
 			</p>
 			<p class="info__text">
 				Нажмите на стиль или педагога для дополнительной информации.
@@ -225,13 +195,9 @@
 					<a class="info__tabs__nav-item">Педагоги</a>
 				</div>
 				<div class="info__tabs__body">
-					<div
-						class="info__tabs__body-item info__tab__styles _active"
-					>
+					<div class="info__tabs__body-item info__tab__styles _active">
 						<a class="info__tab__styles-item">
-							<h3 class="info__tab__styles-item__head">
-								HIP-HOP
-							</h3>
+							<h3 class="info__tab__styles-item__head">HIP-HOP</h3>
 							<p class="info__tab__styles-item__text">
 								5-7|6-10|7-12|12-15 лет
 							</p>
@@ -241,120 +207,71 @@
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4
-											class="modal-styles__block-info__name"
-										>
-											HIP-HOP
-										</h4>
-										<p
-											class="modal-styles__block-info__desc"
-										>
-											Взрывная энергетика, стиль и
-											непередаваемая атмосфера - всё это
-											можно сказать про данное
-											направление, которое подойдёт для
-											танцоров с любым уровнем подготовки
+										<h4 class="modal-styles__block-info__name">HIP-HOP</h4>
+										<p class="modal-styles__block-info__desc">
+											Взрывная энергетика, стиль и непередаваемая атмосфера -
+											всё это можно сказать про данное направление, которое
+											подойдёт для танцоров с любым уровнем подготовки
 										</p>
 									</div>
 									<div class="modal-styles__block-charts">
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											5-7|6-10|7-12|12-15 лет
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											Степанца 10/2 | 9-я Ленинская, 5 |
-											6-я Линия, 97
+										<p class="modal-styles__block-charts__item-text">
+											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											Костя Квашнин, Егор Слизков, Вика
-											Черноморова, Миша Малышев, Катя
-											Хопрянинова, Полина Ледовских,
-											Кристина Парыгина, Сабина Боктикова,
-											Анастасия Каменова
+										<p class="modal-styles__block-charts__item-text">
+											Костя Квашнин, Егор Слизков, Вика Черноморова, Миша
+											Малышев, Катя Хопрянинова, Полина Ледовских, Кристина
+											Парыгина, Сабина Боктикова, Анастасия Каменова
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 						<a class="info__tab__styles-item">
-							<h3 class="info__tab__styles-item__head">
-								DANCEHALL
-							</h3>
-							<p class="info__tab__styles-item__text">
-								7-11|12+|9-13|14+ лет
-							</p>
+							<h3 class="info__tab__styles-item__head">DANCEHALL</h3>
+							<p class="info__tab__styles-item__text">7-11|12+|9-13|14+ лет</p>
 						</a>
 						<div class="modal-styles">
 							<div class="modal-content-styles">
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4
-											class="modal-styles__block-info__name"
-										>
-											DANCEHALL
-										</h4>
-										<p
-											class="modal-styles__block-info__desc"
-										>
-											Dancehall - яркое направление родом
-											из Ямайки, которое связало в себе
-											множество танцевальных стилей и
-											техник
+										<h4 class="modal-styles__block-info__name">DANCEHALL</h4>
+										<p class="modal-styles__block-info__desc">
+											Dancehall - яркое направление родом из Ямайки, которое
+											связало в себе множество танцевальных стилей и техник
 										</p>
 									</div>
 									<div class="modal-styles__block-charts">
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											7-11|12+|9-13|14+ лет
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											Степанца 10/2 | 9-я Ленинская, 5 |
-											6-я Линия, 97
+										<p class="modal-styles__block-charts__item-text">
+											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											Даша Игнатова, Рената Аскарова,
-											Элина Нидерквелль
+										<p class="modal-styles__block-charts__item-text">
+											Даша Игнатова, Рената Аскарова, Элина Нидерквелль
 										</p>
 									</div>
 								</div>
@@ -362,69 +279,44 @@
 						</div>
 						<a class="info__tab__styles-item">
 							<h3 class="info__tab__styles-item__head">CHOREO</h3>
-							<p class="info__tab__styles-item__text">
-								12-15|14+ лет
-							</p>
+							<p class="info__tab__styles-item__text">12-15|14+ лет</p>
 						</a>
 						<div class="modal-styles">
 							<div class="modal-content-styles">
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4
-											class="modal-styles__block-info__name"
-										>
-											CHOREO
-										</h4>
-										<p
-											class="modal-styles__block-info__desc"
-										>
-											Авторские хореографии,
-											разностороннее развитие и
-											невороятные эмоции на каждой
-											тренировке
+										<h4 class="modal-styles__block-info__name">CHOREO</h4>
+										<p class="modal-styles__block-info__desc">
+											Авторские хореографии, разностороннее развитие и
+											невороятные эмоции на каждой тренировке
 										</p>
 									</div>
 									<div class="modal-styles__block-charts">
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											12-15|14+ лет
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											Степанца 10/2 | 9-я Ленинская, 5
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											Миша Малышев, Никита Котомцев,
-											Анастасия Зингер
+										<p class="modal-styles__block-charts__item-text">
+											Миша Малышев, Никита Котомцев, Анастасия Зингер
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 						<a class="info__tab__styles-item">
-							<h3 class="info__tab__styles-item__head">
-								РИТМИКА
-							</h3>
+							<h3 class="info__tab__styles-item__head">РИТМИКА</h3>
 							<p class="info__tab__styles-item__text">3-5 лет</p>
 						</a>
 						<div class="modal-styles">
@@ -432,51 +324,29 @@
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4
-											class="modal-styles__block-info__name"
-										>
-											РИТМИКА
-										</h4>
-										<p
-											class="modal-styles__block-info__desc"
-										>
-											Направление подойдёт для ребят,
-											которые в столь раннем возрасте
-											горят желанием танцевать
+										<h4 class="modal-styles__block-info__name">РИТМИКА</h4>
+										<p class="modal-styles__block-info__desc">
+											Направление подойдёт для ребят, которые в столь раннем
+											возрасте горят желанием танцевать
 										</p>
 									</div>
 									<div class="modal-styles__block-charts">
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											3-5 лет
-										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<p class="modal-styles__block-charts__item-text">3-5 лет</p>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											Степанца 10/2 | 9-я Ленинская, 5 |
-											6-я Линия, 97
+										<p class="modal-styles__block-charts__item-text">
+											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											Алина Ярощук, Яна Заборовская,
-											Кристина Парыгина, Вероника Петрова
+										<p class="modal-styles__block-charts__item-text">
+											Алина Ярощук, Яна Заборовская, Кристина Парыгина, Вероника
+											Петрова
 										</p>
 									</div>
 								</div>
@@ -484,9 +354,7 @@
 						</div>
 
 						<a class="info__tab__styles-item">
-							<h3 class="info__tab__styles-item__head">
-								CHOREO GIRLS
-							</h3>
+							<h3 class="info__tab__styles-item__head">CHOREO GIRLS</h3>
 							<p class="info__tab__styles-item__text">14+ лет</p>
 						</a>
 						<div class="modal-styles">
@@ -494,47 +362,27 @@
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4
-											class="modal-styles__block-info__name"
-										>
-											CHOREO GIRLS
-										</h4>
-										<p
-											class="modal-styles__block-info__desc"
-										>
-											Изучение женственных хореографий для
-											начинающих и продолжающих танцоров
+										<h4 class="modal-styles__block-info__name">CHOREO GIRLS</h4>
+										<p class="modal-styles__block-info__desc">
+											Изучение женственных хореографий для начинающих и
+											продолжающих танцоров
 										</p>
 									</div>
 									<div class="modal-styles__block-charts">
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											14+ лет
-										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<p class="modal-styles__block-charts__item-text">14+ лет</p>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											6-я Линия, 97
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											Ольга Герцева
 										</p>
 									</div>
@@ -542,62 +390,37 @@
 							</div>
 						</div>
 						<a class="info__tab__styles-item">
-							<h3 class="info__tab__styles-item__head">
-								SHUFFLE
-							</h3>
-							<p class="info__tab__styles-item__text">
-								6+|8+|16+ лет
-							</p>
+							<h3 class="info__tab__styles-item__head">SHUFFLE</h3>
+							<p class="info__tab__styles-item__text">6+|8+|16+ лет</p>
 						</a>
 						<div class="modal-styles">
 							<div class="modal-content-styles">
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4
-											class="modal-styles__block-info__name"
-										>
-											SHUFFLE
-										</h4>
-										<p
-											class="modal-styles__block-info__desc"
-										>
-											Современный стиль танцев под
-											разнообразные стили электронной
-											музыки, основанный на технике
-											движения ногами
+										<h4 class="modal-styles__block-info__name">SHUFFLE</h4>
+										<p class="modal-styles__block-info__desc">
+											Современный стиль танцев под разнообразные стили
+											электронной музыки, основанный на технике движения ногами
 										</p>
 									</div>
 									<div class="modal-styles__block-charts">
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											6+|8+|16+ лет
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											Степанца 10/2 | 9-я Ленинская, 5 |
-											6-я Линия, 97
+										<p class="modal-styles__block-charts__item-text">
+											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											Алёна Карабанова, Женя Локтев
 										</p>
 									</div>
@@ -605,9 +428,7 @@
 							</div>
 						</div>
 						<a class="info__tab__styles-item">
-							<h3 class="info__tab__styles-item__head">
-								ELECTRO
-							</h3>
+							<h3 class="info__tab__styles-item__head">ELECTRO</h3>
 							<p class="info__tab__styles-item__text">10+ лет</p>
 						</a>
 						<div class="modal-styles">
@@ -615,48 +436,27 @@
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4
-											class="modal-styles__block-info__name"
-										>
-											ELECTRO
-										</h4>
-										<p
-											class="modal-styles__block-info__desc"
-										>
-											Стиль Electro — это активный баунс
-											телом, большая скорость и высокая
-											амплитуда движений
+										<h4 class="modal-styles__block-info__name">ELECTRO</h4>
+										<p class="modal-styles__block-info__desc">
+											Стиль Electro — это активный баунс телом, большая скорость
+											и высокая амплитуда движений
 										</p>
 									</div>
 									<div class="modal-styles__block-charts">
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											10+ лет
-										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<p class="modal-styles__block-charts__item-text">10+ лет</p>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
-											9-я Ленинская, 5
+										<p class="modal-styles__block-charts__item-text">
+											Степанца 10/2
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											Стас Плотников
 										</p>
 									</div>
@@ -664,9 +464,7 @@
 							</div>
 						</div>
 						<a class="info__tab__styles-item">
-							<h3 class="info__tab__styles-item__head">
-								PARENTS
-							</h3>
+							<h3 class="info__tab__styles-item__head">PARENTS</h3>
 							<p class="info__tab__styles-item__text">
 								для родителей и взрослых
 							</p>
@@ -676,50 +474,30 @@
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4
-											class="modal-styles__block-info__name"
-										>
-											PARENTS
-										</h4>
-										<p
-											class="modal-styles__block-info__desc"
-										>
-											Кто сказал, что танцы только для
-											молодых? Если вы уже взрослый, но
-											очень хотите начать танцевать, то
-											это направление идеально для вас
-											подходит
+										<h4 class="modal-styles__block-info__name">PARENTS</h4>
+										<p class="modal-styles__block-info__desc">
+											Кто сказал, что танцы только для молодых? Если вы уже
+											взрослый, но очень хотите начать танцевать, то это
+											направление идеально для вас подходит
 										</p>
 									</div>
 									<div class="modal-styles__block-charts">
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											для родителей и взрослых
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											Степанца 10/2 | 9-я Ленинская, 5
 										</p>
-										<h4
-											class="modal-styles__block-charts__item-head"
-										>
+										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
-										<p
-											class="modal-styles__block-charts__item-text"
-										>
+										<p class="modal-styles__block-charts__item-text">
 											Егор Слизков, Миша Малышев
 										</p>
 									</div>
@@ -735,12 +513,9 @@
 								src="./images/kvashnin-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Костя Квашнин
-							</h3>
+							<h3 class="info__tab__teachers-item__name">Костя Квашнин</h3>
 							<p class="info__tab__teachers-item__group">
-								Директор студии | Bootlace Crew | Hip-Hop 12-15
-								лет
+								Директор студии | Bootlace Crew | Hip-Hop 12-15 лет
 							</p>
 						</a>
 						<div class="modal-teachers">
@@ -748,15 +523,10 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/kvashnin-f.jpg"
-											alt=""
-										/>
+										<img src="./images/kvashnin-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Костя Квашнин
 										</h4>
 										<a
@@ -766,48 +536,31 @@
 											<i class="fab fa-instagram"></i>
 											kvashnink
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Bootlace Crew</p>
 												<p>ПН/СР/ПТ 19:00-20:00</p>
 											</div>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 12-15 лет</p>
 												<p>ВТ/ЧТ/СБ 20:00-21:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											Директор танцевальной студии NAKO.
-											Организатор Best Champ Omsk, Art
-											Story и других мероприятий в Омске
+										<p class="modal-teachers__block-info__desc">
+											Директор танцевальной студии NAKO. Организатор Best Champ
+											Omsk, Art Story и других мероприятий в Омске
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											21 год
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											15 лет
@@ -822,9 +575,7 @@
 								src="./images/malyshev-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Миша Малышев
-							</h3>
+							<h3 class="info__tab__teachers-item__name">Миша Малышев</h3>
 							<p class="info__tab__teachers-item__group">
 								Hip-Hop 8-12 лет | Choreo 14+ | Родители
 							</p>
@@ -834,16 +585,11 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/malyshev-f.jpg"
-											alt=""
-										/>
+										<img src="./images/malyshev-f.jpg" alt="" />
 									</div>
 
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Миша Малышев
 										</h4>
 										<a
@@ -853,77 +599,51 @@
 											<i class="fab fa-instagram"></i>
 											malyshev_mikhail
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 8-12 лет</p>
 												<p>ВТ/ЧТ/СБ 19:00-20:00</p>
 											</div>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Choreo 14+</p>
 												<p>ВТ/ЧТ/СБ 20:00-21:00</p>
 											</div>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Родители</p>
 												<p>ПН/СР/ПТ 20:00-21:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											12 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											3 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Jalen Tyre, Dom Lashawn, Jason
-											Rodelo, Baiba Klints, Franklin Yu,
-											Bru Vidal, Greg Chapkis, Даян,
-											Кирилл Зуб, Decki, Максим Bon, Женя
-											Baybik, Алексей Мечетный, Agness,
-											Michelle Beats, Кирилл Цыганов,
-											Вадим Whip-head, Марк Куклин, Dam’
-											en, Алексей Арапов и др.
+											Jalen Tyre, Dom Lashawn, Jason Rodelo, Baiba Klints,
+											Franklin Yu, Bru Vidal, Greg Chapkis, Даян, Кирилл Зуб,
+											Decki, Максим Bon, Женя Baybik, Алексей Мечетный, Agness,
+											Michelle Beats, Кирилл Цыганов, Вадим Whip-head, Марк
+											Куклин, Dam’ en, Алексей Арапов и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											участие в BEST CHAMP OMSK, Art
-											story, Танцы Улиц, World of dance,
-											Жажда Танца, Energy, Choreo-герои
+											участие в BEST CHAMP OMSK, Art story, Танцы Улиц, World of
+											dance, Жажда Танца, Energy, Choreo-герои
 										</p>
 									</div>
 								</div>
@@ -935,27 +655,18 @@
 								src="./images/hopra-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Катя Хопрянинова
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Hip-Hop 6-8 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Катя Хопрянинова</h3>
+							<p class="info__tab__teachers-item__group">Hip-Hop 6-8 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/hopra-f.jpg"
-											alt=""
-										/>
+										<img src="./images/hopra-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Катя Хопрянинова
 										</h4>
 										<a
@@ -965,61 +676,41 @@
 											<i class="fab fa-instagram"></i>
 											_ekaaterinaaa__
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 6-8 лет</p>
 												<p>ВТ/ЧТ/СБ 19:00-20:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											13 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											1 год
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Аgness, Brian Puspos, Кирилл Зуб,
-											Maksim Bon, Michelle Beatz, Decki,
-											Алексей Мечетный, Whiphead, Алексей
-											Симба, Кирилл Захаров и др.
+											Аgness, Brian Puspos, Кирилл Зуб, Maksim Bon, Michelle
+											Beatz, Decki, Алексей Мечетный, Whiphead, Алексей Симба,
+											Кирилл Захаров и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											Art Story 2021 (1 место "Five Crew",
-											TOP 5 "SOLO", "COACH&STUDENT"), Art
-											Story 2020 (TOP 5 "DUET"), участие в
+											Art Story 2021 (1 место "Five Crew", TOP 5 "SOLO",
+											"COACH&STUDENT"), Art Story 2020 (TOP 5 "DUET"), участие в
 											Volga champ, Best Champ Omsk
 										</p>
 									</div>
@@ -1033,9 +724,7 @@
 								src="./images/sli-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Егор Слизков
-							</h3>
+							<h3 class="info__tab__teachers-item__name">Егор Слизков</h3>
 							<p class="info__tab__teachers-item__group">
 								Hip-Hop 9-11 лет | Parents Crew
 							</p>
@@ -1048,9 +737,7 @@
 										<img src="./images/sli-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Егор Слизков
 										</h4>
 										<a
@@ -1060,71 +747,47 @@
 											<i class="fab fa-instagram"></i>
 											egor.sli
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 9-11 лет</p>
 												<p>ПН/СР/ПТ 20:00-21:00</p>
 											</div>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Parents Crew</p>
 												<p>ВТ/ЧТ/СБ 20:00-21:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											13 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											3 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Кирилл Захаров, Агнесс, Алексей
-											Мечетный, Алексей Бахтин, Артём
-											Васенин, Michelle Beatz, Саша Царёв,
-											Алина Барилова, Ксюша Горячева,
-											Franklin Yu, Bru Vidal, Яна Дон,
-											Катя Реймерс, Максим Бон, Кирилл
-											Зуб, Алексей Арапов, Евгений Байбик
-											и др.
+											Кирилл Захаров, Агнесс, Алексей Мечетный, Алексей Бахтин,
+											Артём Васенин, Michelle Beatz, Саша Царёв, Алина Барилова,
+											Ксюша Горячева, Franklin Yu, Bru Vidal, Яна Дон, Катя
+											Реймерс, Максим Бон, Кирилл Зуб, Алексей Арапов, Евгений
+											Байбик и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											Новые танцы на тнт, Best Champ Omsk,
-											Art Story, Project818, Volga Champ,
-											Танцы улиц, World of dance
+											Новые танцы на тнт, Best Champ Omsk, Art Story,
+											Project818, Volga Champ, Танцы улиц, World of dance
 										</p>
 									</div>
 								</div>
@@ -1137,9 +800,7 @@
 								src="./images/askarova-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Рената Аскарова
-							</h3>
+							<h3 class="info__tab__teachers-item__name">Рената Аскарова</h3>
 							<p class="info__tab__teachers-item__group">
 								Dancehall 10+ | Dancehall 14+
 							</p>
@@ -1149,15 +810,10 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/askarova-f.jpg"
-											alt=""
-										/>
+										<img src="./images/askarova-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Рената Аскарова
 										</h4>
 										<a
@@ -1167,67 +823,43 @@
 											<i class="fab fa-instagram"></i>
 											onlyy_ri_
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												6-я Линия, 97:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Dancehall 10+</p>
 												<p>ПН/СР/ПТ 18:00-19:00</p>
 											</div>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Dancehall 14+</p>
 												<p>ПН/СР/ПТ 20:00-21:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											7 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											5 месяцев
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Дмитрий Черкозьянов, Катя Троицкая,
-											Андрей Бойко, Яна Дон, Лена
-											Алексеенко, jrblackeagle, Артем
-											Нефедов и др.
+											Дмитрий Черкозьянов, Катя Троицкая, Андрей Бойко, Яна Дон,
+											Лена Алексеенко, jrblackeagle, Артем Нефедов и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
 											участие в Best Champ Omsk, Art Story
@@ -1242,9 +874,7 @@
 								src="./images/litva-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Даша Игнатова
-							</h3>
+							<h3 class="info__tab__teachers-item__name">Даша Игнатова</h3>
 							<p class="info__tab__teachers-item__group">
 								Dancehall 12+ | Dancehall 7-11 лет
 							</p>
@@ -1254,15 +884,10 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/litva-f.jpg"
-											alt=""
-										/>
+										<img src="./images/litva-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Даша Игнатова
 										</h4>
 										<a
@@ -1272,66 +897,44 @@
 											<i class="fab fa-instagram"></i>
 											litva_48
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Dancehall 12+</p>
 												<p>Продолжающие</p>
 												<p>ПН/СР/ПТ 17:00-18:00</p>
 												<p>Начинающие</p>
 												<p>ВТ/ЧТ/СБ 18:00-19:00</p>
 											</div>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Dancehall 7-11 лет</p>
 												<p>ПН/СР/ПТ 20:00-21:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											7 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											2 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Екатерина Троицкая, Rafa, Алексей
-											Мечетный, Brian Puspos, Joseph
-											Tsosh, Agness, Андрей Бойко, Кирилл
-											Зуб, Decki, Ксения Горячева, Аня
-											Тарасенко, Dhq Tasmania и др.
+											Екатерина Троицкая, Rafa, Алексей Мечетный, Brian Puspos,
+											Joseph Tsosh, Agness, Андрей Бойко, Кирилл Зуб, Decki,
+											Ксения Горячева, Аня Тарасенко, Dhq Tasmania и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
 											участие в Art story, Best champ Omsk
@@ -1346,9 +949,7 @@
 								src="./images/loktev-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Женя Локтев
-							</h3>
+							<h3 class="info__tab__teachers-item__name">Женя Локтев</h3>
 							<p class="info__tab__teachers-item__group">
 								Shuffle 16+ | Shuffle 8+
 							</p>
@@ -1358,15 +959,10 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/loktev-f.jpg"
-											alt=""
-										/>
+										<img src="./images/loktev-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Женя Локтев
 										</h4>
 										<a
@@ -1376,64 +972,42 @@
 											<i class="fab fa-instagram"></i>
 											evgeniy_loktev
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Shuffle 16+</p>
 												<p>ПН/СР/ПТ 20:30-21:30</p>
 											</div>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Shuffle 8+</p>
 												<p>ПН/СР/ПТ 18:00-19:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											8 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											4 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
 											Дмитрий Черкозьянов, Carl
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
 											участие в Art Story, Best Champ Omsk
@@ -1448,27 +1022,18 @@
 								src="./images/karabanova-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Алёна Карабанова
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Shuffle 6+
-							</p>
+							<h3 class="info__tab__teachers-item__name">Алёна Карабанова</h3>
+							<p class="info__tab__teachers-item__group">Shuffle 6+</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/karabanova-f.jpg"
-											alt=""
-										/>
+										<img src="./images/karabanova-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Алёна Карабанова
 										</h4>
 										<a
@@ -1478,67 +1043,45 @@
 											<i class="fab fa-instagram"></i>
 											karabanova02
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Shuffle 6+ начинающие</p>
 												<p>ПН/СР/ПТ 15:00-16:00</p>
 											</div>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Shuffle 6+</p>
 												<p>ПН/СР/ПТ 19:00-20:00</p>
 											</div>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+											<p class="modal-teachers__block-info__groups-studio">
 												6-я Линия, 97:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Shuffle 6+</p>
 												<p>ВТ/ЧТ/СБ 19:00-20:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											15 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											3 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Jason rodelo, Дмитрий Черкозьянов,
-											Michelle beats, Юля Акулина, Артём
-											Nef, Артём Тарасов, Полина
-											хритинина, Яна Дон, Decki и др.
+											Jason rodelo, Дмитрий Черкозьянов, Michelle beats, Юля
+											Акулина, Артём Nef, Артём Тарасов, Полина хритинина, Яна
+											Дон, Decki и др.
 										</p>
 									</div>
 								</div>
@@ -1550,9 +1093,7 @@
 								src="./images/parygina-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Кристина Парыгина
-							</h3>
+							<h3 class="info__tab__teachers-item__name">Кристина Парыгина</h3>
 							<p class="info__tab__teachers-item__group">
 								Hip-Hop 5-7 лет | Ритмика 3-5 лет
 							</p>
@@ -1562,15 +1103,10 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/parygina-f.jpg"
-											alt=""
-										/>
+										<img src="./images/parygina-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Кристина Парыгина
 										</h4>
 										<a
@@ -1580,67 +1116,44 @@
 											<i class="fab fa-instagram"></i>
 											kristina_parygina
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Ритмика 3-5 лет</p>
 												<p>ПН/СР/ПТ 19:00-20:00</p>
 											</div>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 5-7 лет</p>
 												<p>ПН/СР/ПТ 20:00-21:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											11 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											6 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Дмитрий Черкозьянов, Lil Whiphead,
-											Катя Троицкая, Franklyn Yu, Алексей
-											Simba, Евгений Байбик, Michelle
-											Beatz и др.
+											Дмитрий Черкозьянов, Lil Whiphead, Катя Троицкая, Franklyn
+											Yu, Алексей Simba, Евгений Байбик, Michelle Beatz и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											участие в Art Story, Best Champ
-											Omsk, Сибпрокач, World of dance,
-											Танцы улиц, Frame up dance festival
+											участие в Art Story, Best Champ Omsk, Сибпрокач, World of
+											dance, Танцы улиц, Frame up dance festival
 										</p>
 									</div>
 								</div>
@@ -1652,27 +1165,18 @@
 								src="./images/petrova-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Вероника Петрова
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Ритмика 3-5 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Вероника Петрова</h3>
+							<p class="info__tab__teachers-item__group">Ритмика 3-5 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/petrova-f.jpg"
-											alt=""
-										/>
+										<img src="./images/petrova-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Вероника Петрова
 										</h4>
 										<a
@@ -1682,35 +1186,23 @@
 											<i class="fab fa-instagram"></i>
 											99_veronika_99_
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Ритмика 3-5 лет</p>
 												<p>ПН/СР/ПТ 19:00-20:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											1 год
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											2 года
@@ -1725,12 +1217,8 @@
 								src="./images/ice-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Полина Ледовских
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Hip-Hop 6-10 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Полина Ледовских</h3>
+							<p class="info__tab__teachers-item__group">Hip-Hop 6-10 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
@@ -1740,9 +1228,7 @@
 										<img src="./images/ice-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Полина Ледовских
 										</h4>
 										<a
@@ -1752,57 +1238,37 @@
 											<i class="fab fa-instagram"></i>
 											ice_pollyy_
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 6-10 лет</p>
 												<p>ПН/СР/ПТ 19:00-20:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											10 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											1 год
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Michelle Beatz, Agness, Артём
-											Нефедов, Decki, Женя Байбик, Кирилл
-											Захаров, Амир Низамов, Рустам Лукин,
-											Черкозьянов, Whiphead, Maksim Bon,
-											Нюта, Егор Сли и др.
+											Michelle Beatz, Agness, Артём Нефедов, Decki, Женя Байбик,
+											Кирилл Захаров, Амир Низамов, Рустам Лукин, Черкозьянов,
+											Whiphead, Maksim Bon, Нюта, Егор Сли и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
 											участие в Omsk Dance Festival
@@ -1818,27 +1284,18 @@
 								src="./images/chernomorova-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Вика Черноморова
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Hip-Hop 7-11 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Вика Черноморова</h3>
+							<p class="info__tab__teachers-item__group">Hip-Hop 7-11 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/chernomor-f.jpg"
-											alt=""
-										/>
+										<img src="./images/chernomor-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Вика Черноморова
 										</h4>
 										<a
@@ -1848,64 +1305,43 @@
 											<i class="fab fa-instagram"></i>
 											chrnmrva
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 7-11 лет</p>
 												<p>ПН/СР/ПТ 17:00-18:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											9 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											1 год
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Dylan Mayoral, Scott Forsyth, Brian
-											Puspos, Joseph Tsosh, Agness, Даян,
-											Кирилл Цыганов, Дамьен, Анастасия
-											Чередникова, Женя Байбик, Алексей
-											Мечетный, Кирилл Зуб и др.
+											Dylan Mayoral, Scott Forsyth, Brian Puspos, Joseph Tsosh,
+											Agness, Даян, Кирилл Цыганов, Дамьен, Анастасия
+											Чередникова, Женя Байбик, Алексей Мечетный, Кирилл Зуб и
+											др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											Art story 2019 Juniors solo 1st
-											place, Art story 2020 Juniors solo
-											1st place, Art story 2021 Abults
-											duet 2nd place, участие в Project
-											818, Volga Champ, Best Champ Omsk
+											Art story 2019 Juniors solo 1st place, Art story 2020
+											Juniors solo 1st place, Art story 2021 Abults duet 2nd
+											place, участие в Project 818, Volga Champ, Best Champ Omsk
 										</p>
 									</div>
 								</div>
@@ -1917,27 +1353,18 @@
 								src="./images/kotomasev-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Никита Котомцев
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Choreo 14+
-							</p>
+							<h3 class="info__tab__teachers-item__name">Никита Котомцев</h3>
+							<p class="info__tab__teachers-item__group">Choreo 14+</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/kotomasev-f.jpg"
-											alt=""
-										/>
+										<img src="./images/kotomasev-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Никита Котомцев
 										</h4>
 										<a
@@ -1947,62 +1374,41 @@
 											<i class="fab fa-instagram"></i>
 											kotomasev
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Choreo 14+</p>
 												<p>ВТ/ЧТ/СБ 19:00-20:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											5 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											2 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Кирилл Зуб, Decki, Whiphead, Виктор
-											Смараков, Michelle Beatz, Артём
-											Нефёдов, Franklin Yu, Дмитрий
-											Черкозьянов, Евгений Байбик, Алексей
-											Симба, Maksim Bon и др.
+											Кирилл Зуб, Decki, Whiphead, Виктор Смараков, Michelle
+											Beatz, Артём Нефёдов, Franklin Yu, Дмитрий Черкозьянов,
+											Евгений Байбик, Алексей Симба, Maksim Bon и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											участие в Project 818 (2-е место),
-											Best Champ Omsk, Volga Сhamp, Танцы
-											Улиц, World of Dance
+											участие в Project 818 (2-е место), Best Champ Omsk, Volga
+											Сhamp, Танцы Улиц, World of Dance
 										</p>
 									</div>
 								</div>
@@ -2014,27 +1420,18 @@
 								src="./images/zinger-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Анастасия Зингер
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Choreo 12-15 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Анастасия Зингер</h3>
+							<p class="info__tab__teachers-item__group">Choreo 12-15 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/zinger-f.jpg"
-											alt=""
-										/>
+										<img src="./images/zinger-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Анастасия Зингер
 										</h4>
 										<a
@@ -2044,64 +1441,42 @@
 											<i class="fab fa-instagram"></i>
 											zng.na
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Choreo 12-15 лет</p>
 												<p>ПН/СР/ПТ 16:00-17:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											8 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											1 год
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Рустам Лукин, Лера Зубрилова, Ксения
-											Горячева, Кирилл Зуб, Decki, Maksim
-											Bon, Амир Низамов, Кирилл Захаров,
-											Michelle Beatz, Agness, Женя Байбик
-											и др.
+											Рустам Лукин, Лера Зубрилова, Ксения Горячева, Кирилл Зуб,
+											Decki, Maksim Bon, Амир Низамов, Кирилл Захаров, Michelle
+											Beatz, Agness, Женя Байбик и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											участие в XXII всероссийский
-											фестиваль визуальных искусств ВДЦ
-											"Орлёнок", II закрытый международный
-											гранатовый конкурс среди лучших
-											хореографических коллективов "Кубок
+											участие в XXII всероссийский фестиваль визуальных искусств
+											ВДЦ "Орлёнок", II закрытый международный гранатовый
+											конкурс среди лучших хореографических коллективов "Кубок
 											Победителей"
 										</p>
 									</div>
@@ -2114,27 +1489,18 @@
 								src="./images/gertseva-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Оля Герцева
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Choreo Girls 14+
-							</p>
+							<h3 class="info__tab__teachers-item__name">Оля Герцева</h3>
+							<p class="info__tab__teachers-item__group">Choreo Girls 14+</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/gertseva-f.jpg"
-											alt=""
-										/>
+										<img src="./images/gertseva-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Оля Герцева
 										</h4>
 										<a
@@ -2144,59 +1510,39 @@
 											<i class="fab fa-instagram"></i>
 											gertseva_olga_
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												6-я Линия, 97:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Choreo Girls 14+</p>
 												<p>ПН/СР/ПТ 20:00-21:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											12 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											3 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Agness, Michelle beatz, Decki, Игорь
-											Чебаненко и др.
+											Agness, Michelle beatz, Decki, Игорь Чебаненко и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											участие в Сибпрокач, Art story, U-13
-											ANNIVERSARY, INSIDE Dance Festival,
-											Best Champ Omsk
+											участие в Сибпрокач, Art story, U-13 ANNIVERSARY, INSIDE
+											Dance Festival, Best Champ Omsk
 										</p>
 									</div>
 								</div>
@@ -2208,27 +1554,18 @@
 								src="./images/plotnikov-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Стас Плотников
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Electro 10+
-							</p>
+							<h3 class="info__tab__teachers-item__name">Стас Плотников</h3>
+							<p class="info__tab__teachers-item__group">Electro 10+</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/plotnikov-f.jpg"
-											alt=""
-										/>
+										<img src="./images/plotnikov-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Стас Плотников
 										</h4>
 										<a
@@ -2238,56 +1575,36 @@
 											<i class="fab fa-instagram"></i>
 											p.l.o.t_n.i.k.k.o
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
-												9-я Ленинская, 5:
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
+												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Electro 10+</p>
-												<p>ВТ/ЧТ 16:30-17:30</p>
-												<p>СБ 17:00-18:00</p>
+												<p>ПН/СР/ПТ 16:00-17:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											3 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											1 месяц
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Ксения Горячева, Миша Малышев,
-											Никита Котомцев, Егор Слизков,
-											Евсей, Загородников, STK
+											Ксения Горячева, Миша Малышев, Никита Котомцев, Егор
+											Слизков, Евсей, Загородников, STK
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
 											участие в Art story, Best Сhamp Omsk
@@ -2303,27 +1620,18 @@
 								src="./images/kamenova-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Анастасия Каменова
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Hip-Hop 12-15 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Анастасия Каменова</h3>
+							<p class="info__tab__teachers-item__group">Hip-Hop 12-15 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/kamenova-f.jpg"
-											alt=""
-										/>
+										<img src="./images/kamenova-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Анастасия Каменова
 										</h4>
 										<a
@@ -2333,62 +1641,41 @@
 											<i class="fab fa-instagram"></i>
 											ly_lu1
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												6-я Линия, 97:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 12-15 лет</p>
 												<p>ВТ/ЧТ/СБ 20:00-21:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											5 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											2 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Brian Puspos, Joseph Tsosh, Женя
-											Байбик, Агнесс, Кирилл Зуб, Яна Дон,
-											Decki, Maksim Bon, Michelle Beatz,
-											Алексей Мечетный, Кирилл Захаров и
-											др.
+											Brian Puspos, Joseph Tsosh, Женя Байбик, Агнесс, Кирилл
+											Зуб, Яна Дон, Decki, Maksim Bon, Michelle Beatz, Алексей
+											Мечетный, Кирилл Захаров и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											участие в Art story, Best Сhamp
-											Omsk, Танцы улиц, WOD, Project 818,
-											Volga champ
+											участие в Art story, Best Сhamp Omsk, Танцы улиц, WOD,
+											Project 818, Volga champ
 										</p>
 									</div>
 								</div>
@@ -2400,27 +1687,18 @@
 								src="./images/boktikova-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Сабина Боктикова
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Hip-Hop 6-10 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Сабина Боктикова</h3>
+							<p class="info__tab__teachers-item__group">Hip-Hop 6-10 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/boktikova-f.jpg"
-											alt=""
-										/>
+										<img src="./images/boktikova-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Сабина Боктикова
 										</h4>
 										<a
@@ -2430,61 +1708,41 @@
 											<i class="fab fa-instagram"></i>
 											sabinaboktikova
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												6-я Линия, 97:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 6-10 лет</p>
 												<p>ВТ/ЧТ/СБ 18:00-19:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											4,5 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											5 месяцев
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Joseph Tsosh, Brian Puspos, Рамон,
-											Мечетный, Мишель, Agness, Whiphead,
-											Кирилл Зуб, Maksim Bon, Decki, Женя
+											Joseph Tsosh, Brian Puspos, Рамон, Мечетный, Мишель,
+											Agness, Whiphead, Кирилл Зуб, Maksim Bon, Decki, Женя
 											Байбик, Наргиз, Franklin Yu и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
-											участие в Art story, Best Сhamp
-											Omsk, Танцы улиц, WOD, Project 818,
-											Volga champ
+											участие в Art story, Best Сhamp Omsk, Танцы улиц, WOD,
+											Project 818, Volga champ
 										</p>
 									</div>
 								</div>
@@ -2496,27 +1754,18 @@
 								src="./images/niderkvel-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Элина Нидерквелль
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Dancehall 9-13 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Элина Нидерквелль</h3>
+							<p class="info__tab__teachers-item__group">Dancehall 9-13 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/niderkvel-f.jpg"
-											alt=""
-										/>
+										<img src="./images/niderkvel-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Элина Нидерквелль
 										</h4>
 										<a
@@ -2526,56 +1775,37 @@
 											<i class="fab fa-instagram"></i>
 											el_nider
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Dancehall 9-13 лет</p>
 												<p>ВТ/ЧТ/СБ 18:00-19:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											3,5 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											1,5 месяца
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
-											Екатерина Троицкая, Тарасенко Аня,
-											Полина Хритинина, Алена Прокоданова,
-											Hellen mur, Nyuta, Agness, Michelle
-											beats, Tim .ua, Nargiz rads и др.
+											Екатерина Троицкая, Тарасенко Аня, Полина Хритинина, Алена
+											Прокоданова, Hellen mur, Nyuta, Agness, Michelle beats,
+											Tim .ua, Nargiz rads и др.
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
 											участие в Best Champ Omsk, Art Story
@@ -2591,12 +1821,8 @@
 								src="./images/yana-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Яна Заборовская
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Ритмика 3-5 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Яна Заборовская</h3>
+							<p class="info__tab__teachers-item__group">Ритмика 3-5 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
@@ -2606,9 +1832,7 @@
 										<img src="./images/yana-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Яна Заборовская
 										</h4>
 										<a
@@ -2618,35 +1842,23 @@
 											<i class="fab fa-instagram"></i>
 											z_yan_g
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Ритмика 3-5 лет</p>
 												<p>ПН/СР/ПТ 19:30-20:30</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											8 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											1,5 года
@@ -2661,27 +1873,18 @@
 								src="./images/alina-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Алина Ярощук
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Ритмика 3-5 лет
-							</p>
+							<h3 class="info__tab__teachers-item__name">Алина Ярощук</h3>
+							<p class="info__tab__teachers-item__group">Ритмика 3-5 лет</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/alina-p.jpg"
-											alt=""
-										/>
+										<img src="./images/alina-p.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Алина Ярощук
 										</h4>
 										<a
@@ -2691,53 +1894,35 @@
 											<i class="fab fa-instagram"></i>
 											_d.r.e.a.m_2
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
-											<p
-												class="modal-teachers__block-info__groups-studio"
-											>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
 												6-я Линия, 97:
 											</p>
-											<div
-												class="modal-teachers__block-info__groups-block"
-											>
+											<div class="modal-teachers__block-info__groups-block">
 												<p>Ритмика 3-5 лет</p>
 												<p>ПН/СР/ПТ 19:00-20:00</p>
 											</div>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Танцевальный стаж:</span
 											>
 											13 лет
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Преподавательский стаж:</span
 											>
 											3 года
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Посещение мастер-классов:</span
 											>
 											Полина Хритинина, Анастасия Полищук
 										</p>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											<span
-												class="modal-teachers__block-info__desc-span"
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
 												>Достижения:</span
 											>
 											участие в Сибпрокач
@@ -2752,27 +1937,18 @@
 								src="./images/ksenia-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">
-								Ксюша Николайчук
-							</h3>
-							<p class="info__tab__teachers-item__group">
-								Организация Nako
-							</p>
+							<h3 class="info__tab__teachers-item__name">Ксюша Николайчук</h3>
+							<p class="info__tab__teachers-item__group">Организация Nako</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img
-											src="./images/ksenia-f.jpg"
-											alt=""
-										/>
+										<img src="./images/ksenia-f.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4
-											class="modal-teachers__block-info__name"
-										>
+										<h4 class="modal-teachers__block-info__name">
 											Ксюша Николайчук
 										</h4>
 										<a
@@ -2782,16 +1958,11 @@
 											<i class="fab fa-instagram"></i>
 											kksenisphere
 										</a>
-										<div
-											class="modal-teachers__block-info__groups"
-										>
+										<div class="modal-teachers__block-info__groups">
 											<p>Организация Nako</p>
 										</div>
-										<p
-											class="modal-teachers__block-info__desc"
-										>
-											Помогает с организацией,
-											администрацией и развивает Омское
+										<p class="modal-teachers__block-info__desc">
+											Помогает с организацией, администрацией и развивает Омское
 											танцевальное сообщество
 										</p>
 									</div>
@@ -2818,9 +1989,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									DANCEHALL 10+
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									18:00-19:00 Рената Аскарова
@@ -2829,9 +1998,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									РИТМИКА 3-5 ЛЕТ
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									19:00-20:00 Алина Ярощук
@@ -2840,9 +2007,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									CHOREO GIRLS 14+
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:00-21:00 Ольга Герцева
@@ -2856,9 +2021,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									HIP-HOP 6-10 ЛЕТ
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									18:00-19:00 Сабина Боктикова
@@ -2868,9 +2031,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									SHUFFLE 6+
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									19:00-20:00 Алёна Карабанова
@@ -2879,9 +2040,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									HIP-HOP 12-15 ЛЕТ
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:00-21:00 Анастасия Каменова
@@ -2898,9 +2057,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									SHUFFLE 6+ начинающие
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									15:00-16:00 Алёна Карабанова
@@ -2908,10 +2065,17 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
+									ELECTRO 10+
+									<i class="fas fa-chevron-down"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									16:00-17:00 Стас Плотников
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
 									DANCEHALL 12+ продолжающие
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									17:00-18:00 Дарья Игнатова
@@ -2920,9 +2084,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									SHUFFLE 6+
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									19:00-20:00 Алёна Карабанова
@@ -2931,9 +2093,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									HIP-HOP 9-11 лет
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:00-21:00 Егор Слизков
@@ -2942,9 +2102,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									HIP-HOP 7-11 лет
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									17:00-18:00 Вика Черноморова
@@ -2953,9 +2111,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									РИТМИКА 3-5 лет
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									19:30-20:30 Яна Заборовская
@@ -2964,9 +2120,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									SHUFFLE 16+
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:30-21:30 Женя Локтев
@@ -2980,9 +2134,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									HIP-HOP 6-8 лет
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									19:00-20:00 Катя Хопрянинова
@@ -2991,9 +2143,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									HIP-HOP 12-15 лет
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:00-21:00 Костя Квашнин
@@ -3002,9 +2152,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									DANCEHALL 7-11 лет
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									17:00-18:00 Дарья Игнатова
@@ -3013,9 +2161,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									DANCEHALL 12+ начинающие
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									18:00-19:00 Дарья Игнатова
@@ -3024,9 +2170,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									CHOREO 14+
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									19:00-20:00 Никита Котомцев
@@ -3035,9 +2179,7 @@
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									PARENTS CREW
-									<i
-										class="fas fa-chevron-down accordion-icon"
-									></i>
+									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:00-21:00 Егор Слизков
@@ -3112,17 +2254,6 @@
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									ELECTRO 10+
-									<i class="fas fa-chevron-down"></i>
-								</button>
-								<div class="schedule__accordion__body-panel">
-									Стас Плотников
-									<p>ВТ/ЧТ 16:30-17:30</p>
-									<p>СБ 17:00-18:00</p>
-								</div>
-							</div>
-							<div class="schedule__accordion__body-item">
-								<button class="schedule__accordion__body-btn">
 									DANCEHALL 9-13 лет
 									<i class="fas fa-chevron-down"></i>
 								</button>
@@ -3177,21 +2308,15 @@
 				<h2 class="price__head">Цены</h2>
 				<div class="price__block">
 					<div class="price__block-item">
-						<h3 class="price__block-item__head">
-							Первое пробное занятие
-						</h3>
-						<p class="price__block-item__text pulse-animation">
-							БЕСПЛАТНО
-						</p>
+						<h3 class="price__block-item__head">Первое пробное занятие</h3>
+						<p class="price__block-item__text pulse-animation">БЕСПЛАТНО</p>
 					</div>
 					<div class="price__block-item">
 						<h3 class="price__block-item__head">Разовое занятие</h3>
 						<p class="price__block-item__text">от 250 руб</p>
 					</div>
 					<div class="price__block-item">
-						<h3 class="price__block-item__head">
-							Абонемент на месяц
-						</h3>
+						<h3 class="price__block-item__head">Абонемент на месяц</h3>
 						<p class="price__block-item__text">от 2190 руб</p>
 					</div>
 					<div class="price__block-item">
@@ -3201,9 +2326,7 @@
 					<p class="price__block-addition">
 						*Подробности уточняйте у администратора при записи
 					</p>
-					<a href="#form" class="price__block-button reg-btn"
-						>Записаться</a
-					>
+					<a href="#form" class="price__block-button reg-btn">Записаться</a>
 				</div>
 			</div>
 		</section>
@@ -3212,9 +2335,7 @@
 				<h2 class="studios-head">Залы</h2>
 				<div class="studios-slider__container">
 					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">
-							1 / 5
-						</div>
+						<div class="studios-slider__container-item__number">1 / 5</div>
 						<img
 							src="./images/leninsk-white.jpg"
 							alt="Белый зал студии 9-я Ленинская, 5"
@@ -3225,9 +2346,7 @@
 						</div>
 					</div>
 					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">
-							2 / 5
-						</div>
+						<div class="studios-slider__container-item__number">2 / 5</div>
 						<img
 							src="./images/leninsk-blue.jpg"
 							alt="Синий зал студии 9-я Ленинская, 5"
@@ -3238,9 +2357,7 @@
 						</div>
 					</div>
 					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">
-							3 / 5
-						</div>
+						<div class="studios-slider__container-item__number">3 / 5</div>
 						<img
 							src="./images/stepantsa-red.jpg"
 							alt="Красный зал студии Степанца 10/2"
@@ -3251,9 +2368,7 @@
 						</div>
 					</div>
 					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">
-							4 / 5
-						</div>
+						<div class="studios-slider__container-item__number">4 / 5</div>
 						<img
 							src="./images/stepantsa-black.jpg"
 							alt="Чёрный зал студии Степанца 10/2"
@@ -3264,9 +2379,7 @@
 						</div>
 					</div>
 					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">
-							5 / 5
-						</div>
+						<div class="studios-slider__container-item__number">5 / 5</div>
 						<img
 							src="./images/linia-black-new.jpg"
 							alt="Чёрный зал 6-я Линия, 97"
@@ -3294,9 +2407,7 @@
 				<h2 class="form__head">Запишись на занятие</h2>
 				<p class="form__text">Первое - бесплатно</p>
 				<form action="send.php" method="POST" class="form__body">
-					<label class="form__body-label" for="name"
-						>Имя и Фамилия</label
-					>
+					<label class="form__body-label" for="name">Имя и Фамилия</label>
 					<input
 						data-validate-field="name"
 						class="form__body-input"
@@ -3305,9 +2416,7 @@
 						name="name"
 						placeholder="Имя Фамилия"
 					/>
-					<label class="form__body-label" for="phone"
-						>Номер телефона</label
-					>
+					<label class="form__body-label" for="phone">Номер телефона</label>
 					<input
 						data-validate-field="phone"
 						class="form__body-input"
@@ -3316,9 +2425,7 @@
 						name="phone"
 						placeholder="+7 (999) 999-99-99"
 					/>
-					<label class="form__body-label" for="studio"
-						>Выберите студию:
-					</label>
+					<label class="form__body-label" for="studio">Выберите студию: </label>
 					<select
 						data-validate-field="studio"
 						class="form__body-input"
@@ -3329,9 +2436,7 @@
 						<option value="none">---</option>
 						<option value="Степанца 10/2">Степанца 10/2</option>
 						<option value="6-я Линия, 97">6-я Линия, 97</option>
-						<option value="9-я Ленинская, 5">
-							9-я Ленинская, 5
-						</option>
+						<option value="9-я Ленинская, 5">9-я Ленинская, 5</option>
 					</select>
 					<label class="form__body-label" for="style"
 						>Выберите направление:
@@ -3355,9 +2460,7 @@
 						rows="5"
 						style="resize: none"
 					></textarea>
-					<button class="form__body-button reg-btn">
-						Записаться
-					</button>
+					<button class="form__body-button reg-btn">Записаться</button>
 				</form>
 			</div>
 		</section>
@@ -3367,9 +2470,7 @@
 				<p class="contacts__text">Приходите в какую удобно</p>
 				<div class="contacts__info">
 					<div class="contacts__info-content">
-						<a
-							class="contacts__info-content__number"
-							href="tel:+79620587357"
+						<a class="contacts__info-content__number" href="tel:+79620587357"
 							><i class="fas fa-phone"></i>63-73-57</a
 						>
 						<p class="contacts__info-content__city">
@@ -3411,16 +2512,10 @@
 		<footer id="footer">
 			<div class="footer">
 				<div class="footer__logo">
-					<img
-						class="footer__logo-image"
-						src="./images/nako-logo.png"
-						alt=""
-					/>
+					<img class="footer__logo-image" src="./images/nako-logo.png" alt="" />
 					<p class="footer__tag">
 						made by
-						<a
-							class="footer__tag-anchor"
-							href="https://github.com/andy-devs"
+						<a class="footer__tag-anchor" href="https://github.com/andy-devs"
 							>@andy-devs</a
 						>
 					</p>
@@ -3434,16 +2529,12 @@
 				<div class="footer__col">
 					<h3 class="footer__col-head">СТУДИЯ</h3>
 					<a href="#studios" class="footer__col-item">Залы</a>
-					<a href="#contacts" class="footer__col-item"
-						>Расположение</a
-					>
+					<a href="#contacts" class="footer__col-item">Расположение</a>
 				</div>
 				<div class="footer__col">
 					<h3 class="footer__col-head">ИНФОРМАЦИЯ</h3>
 					<a href="#contacts" class="footer__col-item">Контакты</a>
-					<a href="#form" class="footer__col-item"
-						>Запись на занятие</a
-					>
+					<a href="#form" class="footer__col-item">Запись на занятие</a>
 				</div>
 			</div>
 		</footer>
@@ -3460,6 +2551,6 @@
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
 
-		<script type="text/javascript" src="/js/newapp.js?v=1.7"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=1.8"></script>
 	</body>
 </html>
