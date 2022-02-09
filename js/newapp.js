@@ -191,7 +191,7 @@ function populate(s1, s2) {
 	} else if (s1.value == 'Степанца 10/2') {
 		var optionArray = [
 			'hip-hop 12-15 - Костя|Hip-Hop 12-15 лет - Костя',
-			'hip-hop 9-11 - Егор|Hip-Hop 9-11 лет - Егор',
+			'hip-hop 10-13 - Егор|Hip-Hop 10-13 лет - Егор',
 			'hip-hop 7-11 - Вика|Hip-Hop 7-11 лет - Вика',
 			'hip-hop 6-8 - Катя|Hip-Hop 6-8 лет - Катя',
 			'dancehall 7-11 - Даша|Dancehall 7-11 лет - Даша',

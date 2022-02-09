@@ -726,7 +726,7 @@
 							/>
 							<h3 class="info__tab__teachers-item__name">Егор Слизков</h3>
 							<p class="info__tab__teachers-item__group">
-								Hip-Hop 9-11 лет | Parents Crew
+								Hip-Hop 10-13 лет | Parents Crew
 							</p>
 						</a>
 						<div class="modal-teachers">
@@ -752,7 +752,7 @@
 												Степанца 10/2:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
-												<p>Hip-Hop 9-11 лет</p>
+												<p>Hip-Hop 10-13 лет</p>
 												<p>ПН/СР/ПТ 20:00-21:00</p>
 											</div>
 											<div class="modal-teachers__block-info__groups-block">
@@ -2092,7 +2092,7 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 9-11 лет
+									HIP-HOP 10-13 лет
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
@@ -2551,6 +2551,6 @@
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
 
-		<script type="text/javascript" src="/js/newapp.js?v=1.8"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=1.9"></script>
 	</body>
 </html>
