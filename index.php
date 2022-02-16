@@ -65,6 +65,24 @@
 				/></div
 		></noscript>
 		<!-- /Yandex.Metrika counter -->
+		<script type="text/javascript">
+			!(function () {
+				var t = document.createElement('script');
+				(t.type = 'text/javascript'),
+					(t.async = !0),
+					(t.src = 'https://vk.com/js/api/openapi.js?169'),
+					(t.onload = function () {
+						VK.Retargeting.Init('VK-RTRG-1206991-d4Crw'), VK.Retargeting.Hit();
+					}),
+					document.head.appendChild(t);
+			})();
+		</script>
+		<noscript
+			><img
+				src="https://vk.com/rtrg?p=VK-RTRG-1206991-d4Crw"
+				style="position: fixed; left: -999px"
+				alt=""
+		/></noscript>
 	</head>
 	<body>
 		<div class="first-wrapper">
