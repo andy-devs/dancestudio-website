@@ -2581,7 +2581,6 @@
 			type="text/javascript"
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
-		
 		<script type="text/javascript" src="/js/newapp.js?v=2.0"></script>
 	</body>
 </html>
