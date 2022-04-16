@@ -409,7 +409,7 @@
 						</div>
 						<a class="info__tab__styles-item">
 							<h3 class="info__tab__styles-item__head">SHUFFLE</h3>
-							<p class="info__tab__styles-item__text">6+|8+|16+ лет</p>
+							<p class="info__tab__styles-item__text">6+|8+</p>
 						</a>
 						<div class="modal-styles">
 							<div class="modal-content-styles">
@@ -427,7 +427,7 @@
 											Возрастные категории:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											6+|8+|16+ лет
+											6+|8+ лет
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
@@ -968,9 +968,7 @@
 								alt=""
 							/>
 							<h3 class="info__tab__teachers-item__name">Женя Локтев</h3>
-							<p class="info__tab__teachers-item__group">
-								Shuffle 16+ | Shuffle 8+
-							</p>
+							<p class="info__tab__teachers-item__group">Shuffle 8+</p>
 						</a>
 						<div class="modal-teachers">
 							<div class="modal-content-teachers">
@@ -994,10 +992,7 @@
 											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
 											</p>
-											<div class="modal-teachers__block-info__groups-block">
-												<p>Shuffle 16+</p>
-												<p>ПН/СР/ПТ 20:30-21:30</p>
-											</div>
+
 											<p class="modal-teachers__block-info__groups-studio">
 												9-я Ленинская, 5:
 											</p>
@@ -2038,6 +2033,13 @@
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
+									SHUFFLE 6+ начинающие
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">15:00-16:00</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
 									HIP-HOP 6-10 ЛЕТ
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
@@ -2045,7 +2047,6 @@
 									18:00-19:00 Сабина Боктикова
 								</div>
 							</div>
-
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									SHUFFLE 6+
@@ -2080,6 +2081,13 @@
 								<div class="schedule__accordion__body-panel">
 									15:00-16:00 Алёна Карабанова
 								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									BREAK DANCE 6+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">16:00-17:00</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
@@ -2135,15 +2143,6 @@
 									19:30-20:30 Яна Заборовская
 								</div>
 							</div>
-							<div class="schedule__accordion__body-item">
-								<button class="schedule__accordion__body-btn">
-									SHUFFLE 16+
-									<i class="fas fa-chevron-down accordion-icon"></i>
-								</button>
-								<div class="schedule__accordion__body-panel">
-									20:30-21:30 Женя Локтев
-								</div>
-							</div>
 						</div>
 						<button class="schedule__column-divider">
 							ВТ/ЧТ/СБ <i class="fas fa-plus divider-plus"></i>
@@ -2157,6 +2156,13 @@
 								<div class="schedule__accordion__body-panel">
 									19:00-20:00 Катя Хопрянинова
 								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 8-13 лет начинающие
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">18:00-19:00</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
@@ -2213,20 +2219,27 @@
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
+									HIP-HOP 6-10 лет
+									<i class="fas fa-chevron-down"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									16:00-17:00 Полина Ледовских
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									BREAK DANCE 6+
+									<i class="fas fa-chevron-down"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">17:00-18:00</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
 									SHUFFLE 8+
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									18:00-19:00 Женя Локтев
-								</div>
-							</div>
-							<div class="schedule__accordion__body-item">
-								<button class="schedule__accordion__body-btn">
-									HIP-HOP 6-10 лет
-									<i class="fas fa-chevron-down"></i>
-								</button>
-								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Полина Ледовских
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
