@@ -202,7 +202,6 @@ function populate(s1, s2) {
 			'dancehall 12+ начинающие - Даша|Dancehall 12+ начин. - Даша',
 			'choreo 14+ - Никита|Choreo 14+ - Никита',
 			'electro 10+ - Стас|Electro 10+ - Стас',
-			'shuffle 16+ - Женя|Shuffle 16+ - Женя',
 			'shuffle 6+ - Алёна|Shuffle 6+ - Алёна',
 			'ritmika 3-5 - Яна|Ритмика 3-5 лет - Яна',
 			'parents - Егор|Parents Crew - Егор',
