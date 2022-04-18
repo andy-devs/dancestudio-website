@@ -249,9 +249,9 @@
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Костя Квашнин, Егор Слизков, Вика Черноморова, Миша
-											Малышев, Катя Хопрянинова, Полина Ледовских, Кристина
-											Парыгина, Сабина Боктикова, Анастасия Каменова
+											Костя Квашнин, Егор Слизков, Настя Пчёлкина, Миша Малышев,
+											Катя Хопрянинова, Полина Ледовских, Кристина Парыгина,
+											Сабина Боктикова, Анастасия Каменова, Дарья Тищенко
 										</p>
 									</div>
 								</div>
@@ -363,8 +363,7 @@
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Алина Ярощук, Яна Заборовская, Кристина Парыгина, Вероника
-											Петрова
+											Алина Ярощук, Яна Заборовская, Кристина Парыгина
 										</p>
 									</div>
 								</div>
@@ -409,7 +408,7 @@
 						</div>
 						<a class="info__tab__styles-item">
 							<h3 class="info__tab__styles-item__head">SHUFFLE</h3>
-							<p class="info__tab__styles-item__text">6+|8+</p>
+							<p class="info__tab__styles-item__text">6+|8+ лет</p>
 						</a>
 						<div class="modal-styles">
 							<div class="modal-content-styles">
@@ -517,6 +516,42 @@
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
 											Егор Слизков, Миша Малышев
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="info__tab__styles-item">
+							<h3 class="info__tab__styles-item__head">BREAKDANCE</h3>
+							<p class="info__tab__styles-item__text">6+ лет</p>
+						</a>
+						<div class="modal-styles">
+							<div class="modal-content-styles">
+								<span class="close-styles">&times;</span>
+								<div class="modal-styles__block">
+									<div class="modal-styles__block-info">
+										<h4 class="modal-styles__block-info__name">BREAKDANCE</h4>
+										<!-- <p class="modal-styles__block-info__desc">
+											Dancehall - яркое направление родом из Ямайки, которое
+											связало в себе множество танцевальных стилей и техник
+										</p> -->
+									</div>
+									<div class="modal-styles__block-charts">
+										<h4 class="modal-styles__block-charts__item-head">
+											Возрастные категории:
+										</h4>
+										<p class="modal-styles__block-charts__item-text">6+ лет</p>
+										<h4 class="modal-styles__block-charts__item-head">
+											Доступные филиалы:
+										</h4>
+										<p class="modal-styles__block-charts__item-text">
+											Степанца 10/2 | 9-я Ленинская, 5
+										</p>
+										<h4 class="modal-styles__block-charts__item-head">
+											Доступные преподаватели:
+										</h4>
+										<p class="modal-styles__block-charts__item-text">
+											Даниил Зубакин, Аслан
 										</p>
 									</div>
 								</div>
@@ -1175,58 +1210,6 @@
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
-								src="./images/petrova-p.jpg"
-								alt=""
-							/>
-							<h3 class="info__tab__teachers-item__name">Вероника Петрова</h3>
-							<p class="info__tab__teachers-item__group">Ритмика 3-5 лет</p>
-						</a>
-						<div class="modal-teachers">
-							<div class="modal-content-teachers">
-								<span class="close-teachers">&times;</span>
-								<div class="modal-teachers__block">
-									<div class="modal-teachers__block-photo">
-										<img src="./images/petrova-f.jpg" alt="" />
-									</div>
-									<div class="modal-teachers__block-info">
-										<h4 class="modal-teachers__block-info__name">
-											Вероника Петрова
-										</h4>
-										<a
-											href="https://www.instagram.com/99_veronika_99_/"
-											class="modal-teachers__block-info__social"
-										>
-											<i class="fab fa-instagram"></i>
-											99_veronika_99_
-										</a>
-										<div class="modal-teachers__block-info__groups">
-											<p class="modal-teachers__block-info__groups-studio">
-												9-я Ленинская, 5:
-											</p>
-											<div class="modal-teachers__block-info__groups-block">
-												<p>Ритмика 3-5 лет</p>
-												<p>ПН/СР/ПТ 19:00-20:00</p>
-											</div>
-										</div>
-										<p class="modal-teachers__block-info__desc">
-											<span class="modal-teachers__block-info__desc-span"
-												>Танцевальный стаж:</span
-											>
-											1 год
-										</p>
-										<p class="modal-teachers__block-info__desc">
-											<span class="modal-teachers__block-info__desc-span"
-												>Преподавательский стаж:</span
-											>
-											2 года
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<a class="info__tab__teachers-item">
-							<img
-								class="info__tab__teachers-item__photo"
 								src="./images/ice-p.jpg"
 								alt=""
 							/>
@@ -1257,7 +1240,7 @@
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 6-10 лет</p>
-												<p>ПН/СР/ПТ 19:00-20:00</p>
+												<p>ПН/СР/ПТ 16:00-17:00</p>
 											</div>
 										</div>
 										<p class="modal-teachers__block-info__desc">
@@ -1290,7 +1273,63 @@
 								</div>
 							</div>
 						</div>
-
+						<a class="info__tab__teachers-item">
+							<img
+								class="info__tab__teachers-item__photo"
+								src="./images/tishenko-p.jpg"
+								alt=""
+							/>
+							<h3 class="info__tab__teachers-item__name">Дарья Тищенко</h3>
+							<p class="info__tab__teachers-item__group">Hip-Hop 8-13 лет</p>
+						</a>
+						<div class="modal-teachers">
+							<div class="modal-content-teachers">
+								<span class="close-teachers">&times;</span>
+								<div class="modal-teachers__block">
+									<div class="modal-teachers__block-photo">
+										<img src="./images/tishenko-f.jpg" alt="" />
+									</div>
+									<div class="modal-teachers__block-info">
+										<h4 class="modal-teachers__block-info__name">
+											Дарья Тищенко
+										</h4>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
+												Степанца 10/2:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Hip-Hop 8-13 лет</p>
+												<p>ВТ/ЧТ/СБ 18:00-19:00</p>
+											</div>
+										</div>
+										<!-- <p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Танцевальный стаж:</span
+											>
+											13 лет
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Преподавательский стаж:</span
+											>
+											3 года
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Посещение мастер-классов:</span
+											>
+											Полина Хритинина, Анастасия Полищук
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Достижения:</span
+											>
+											участие в Сибпрокач
+										</p> -->
+									</div>
+								</div>
+							</div>
+						</div>
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
@@ -1360,6 +1399,7 @@
 								</div>
 							</div>
 						</div>
+
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
@@ -1827,7 +1867,6 @@
 								</div>
 							</div>
 						</div>
-
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
@@ -1944,6 +1983,120 @@
 								</div>
 							</div>
 						</div>
+						<a class="info__tab__teachers-item">
+							<img
+								class="info__tab__teachers-item__photo"
+								src="./images/zubakin-p.jpg"
+								alt=""
+							/>
+							<h3 class="info__tab__teachers-item__name">Даниил Зубакин</h3>
+							<p class="info__tab__teachers-item__group">Breakdance 6+</p>
+						</a>
+						<div class="modal-teachers">
+							<div class="modal-content-teachers">
+								<span class="close-teachers">&times;</span>
+								<div class="modal-teachers__block">
+									<div class="modal-teachers__block-photo">
+										<img src="./images/zubakin-f.jpg" alt="" />
+									</div>
+									<div class="modal-teachers__block-info">
+										<h4 class="modal-teachers__block-info__name">
+											Даниил Зубакин
+										</h4>
+
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
+												Степанца 10/2:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Breakdance 6+</p>
+												<p>ПН/СР/ПТ 16:00-17:00</p>
+											</div>
+										</div>
+										<!-- <p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Танцевальный стаж:</span
+											>
+											13 лет
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Преподавательский стаж:</span
+											>
+											3 года
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Посещение мастер-классов:</span
+											>
+											Полина Хритинина, Анастасия Полищук
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Достижения:</span
+											>
+											участие в Сибпрокач
+										</p> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="info__tab__teachers-item">
+							<img
+								class="info__tab__teachers-item__photo"
+								src="./images/aslan-p.jpg"
+								alt=""
+							/>
+							<h3 class="info__tab__teachers-item__name">Аслан</h3>
+							<p class="info__tab__teachers-item__group">Breakdance 6+</p>
+						</a>
+						<div class="modal-teachers">
+							<div class="modal-content-teachers">
+								<span class="close-teachers">&times;</span>
+								<div class="modal-teachers__block">
+									<div class="modal-teachers__block-photo">
+										<img src="./images/aslan-f.jpg" alt="" />
+									</div>
+									<div class="modal-teachers__block-info">
+										<h4 class="modal-teachers__block-info__name">Аслан</h4>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
+												9-я Ленинская, 5:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Breakdance 6+</p>
+												<p>ПН/СР/ПТ 17:00-18:00</p>
+											</div>
+										</div>
+										<!-- <p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Танцевальный стаж:</span
+											>
+											13 лет
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Преподавательский стаж:</span
+											>
+											3 года
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Посещение мастер-классов:</span
+											>
+											Полина Хритинина, Анастасия Полищук
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Достижения:</span
+											>
+											участие в Сибпрокач
+										</p> -->
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
@@ -2084,10 +2237,12 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									BREAK DANCE 6+
+									BREAKDANCE 6+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
-								<div class="schedule__accordion__body-panel">16:00-17:00</div>
+								<div class="schedule__accordion__body-panel">
+									16:00-17:00 Даниил Зубакин
+								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
@@ -2131,7 +2286,7 @@
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									17:00-18:00 Вика Черноморова
+									17:00-18:00 Настя Пчёлкина
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
@@ -2150,19 +2305,21 @@
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
+									HIP-HOP 8-13 лет начинающие
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									18:00-19:00 Дарья Тищенко
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
 									HIP-HOP 6-8 лет
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									19:00-20:00 Катя Хопрянинова
 								</div>
-							</div>
-							<div class="schedule__accordion__body-item">
-								<button class="schedule__accordion__body-btn">
-									HIP-HOP 8-13 лет начинающие
-									<i class="fas fa-chevron-down accordion-icon"></i>
-								</button>
-								<div class="schedule__accordion__body-panel">18:00-19:00</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
@@ -2228,10 +2385,12 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									BREAK DANCE 6+
+									BREAKDANCE 6+
 									<i class="fas fa-chevron-down"></i>
 								</button>
-								<div class="schedule__accordion__body-panel">17:00-18:00</div>
+								<div class="schedule__accordion__body-panel">
+									17:00-18:00 Аслан
+								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
@@ -2260,15 +2419,7 @@
 									16:00-17:00 Анастасия Зингер
 								</div>
 							</div>
-							<div class="schedule__accordion__body-item">
-								<button class="schedule__accordion__body-btn">
-									РИТМИКА 3-5 лет
-									<i class="fas fa-chevron-down"></i>
-								</button>
-								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Вероника Петрова
-								</div>
-							</div>
+
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									РОДИТЕЛИ
@@ -2581,6 +2732,6 @@
 			type="text/javascript"
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
-		<script type="text/javascript" src="/js/newapp.js?v=2.0"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=2.1"></script>
 	</body>
 </html>
