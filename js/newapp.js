@@ -204,6 +204,7 @@ function populate(s1, s2) {
 			'electro 10+ - Стас|Electro 10+ - Стас',
 			'shuffle 6+ - Алёна|Shuffle 6+ - Алёна',
 			'ritmika 3-5 - Яна|Ритмика 3-5 лет - Яна',
+			'vogue 12+ - Настя|Vogue 12+ - Настя',
 			'parents - Егор|Parents Crew - Егор',
 			'shuffle 6+ начинающие - Алёна|Shuffle 6+ начин. - Алёна',
 		];
