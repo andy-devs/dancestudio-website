@@ -557,6 +557,38 @@
 								</div>
 							</div>
 						</div>
+						<a class="info__tab__styles-item">
+							<h3 class="info__tab__styles-item__head">VOGUE</h3>
+							<p class="info__tab__styles-item__text">12+ лет</p>
+						</a>
+						<div class="modal-styles">
+							<div class="modal-content-styles">
+								<span class="close-styles">&times;</span>
+								<div class="modal-styles__block">
+									<div class="modal-styles__block-info">
+										<h4 class="modal-styles__block-info__name">VOGUE</h4>
+									</div>
+									<div class="modal-styles__block-charts">
+										<h4 class="modal-styles__block-charts__item-head">
+											Возрастные категории:
+										</h4>
+										<p class="modal-styles__block-charts__item-text">12+ лет</p>
+										<h4 class="modal-styles__block-charts__item-head">
+											Доступные филиалы:
+										</h4>
+										<p class="modal-styles__block-charts__item-text">
+											Степанца 10/2
+										</p>
+										<h4 class="modal-styles__block-charts__item-head">
+											Доступные преподаватели:
+										</h4>
+										<p class="modal-styles__block-charts__item-text">
+											Настя Пиндюрина
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 						<!-- Copy new style here -->
 					</div>
 					<div class="info__tab__teachers info__tabs__body-item">
@@ -2096,7 +2128,59 @@
 								</div>
 							</div>
 						</div>
-
+						<a class="info__tab__teachers-item">
+							<img
+								class="info__tab__teachers-item__photo"
+								src="./images/pindyrina-p.jpg"
+								alt=""
+							/>
+							<h3 class="info__tab__teachers-item__name">Настя Пиндюрина</h3>
+							<p class="info__tab__teachers-item__group">Vogue 12+</p>
+						</a>
+						<div class="modal-teachers">
+							<div class="modal-content-teachers">
+								<span class="close-teachers">&times;</span>
+								<div class="modal-teachers__block">
+									<div class="modal-teachers__block-photo">
+										<img src="./images/pindyrina-f.jpg" alt="" />
+									</div>
+									<div class="modal-teachers__block-info">
+										<h4 class="modal-teachers__block-info__name">
+											Настя Пиндюрина
+										</h4>
+										<a
+											href="https://www.instagram.com/stazzy__/"
+											class="modal-teachers__block-info__social"
+										>
+											<i class="fab fa-instagram"></i>
+											stazzy__
+										</a>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
+												Степанца 10/2:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Vogue 12+</p>
+												<p>ВТ/ЧТ/СБ 20:00-21:00</p>
+											</div>
+										</div>
+										<p class="modal-teachers__block-info__desc">
+											Представитель VOGUE культуры в городе Омск
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											Регулярно выступает на vogue-баллах в других городах,
+											посещает мастер-классы и всесторонне развивается
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											Организатор vogue-баллов в Омске
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											Участник команды PALMS
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
@@ -2364,6 +2448,15 @@
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:00-21:00 Егор Слизков
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									VOGUE 12+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									20:00-21:00 Настя Пиндюрина
 								</div>
 							</div>
 						</div>
