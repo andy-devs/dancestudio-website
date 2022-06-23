@@ -2352,7 +2352,7 @@
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Алёна Карабанова
+									18:00-19:00 Алёна Карабанова
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
