@@ -769,6 +769,13 @@
 												<p>Hip-Hop 6-8 лет</p>
 												<p>ВТ/ЧТ/СБ 19:00-20:00</p>
 											</div>
+											<p class="modal-teachers__block-info__groups-studio">
+												6-я линия, 97:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Choreo Girls 13+</p>
+												<p>ВТ/ЧТ/СБ 17:00-18:00</p>
+											</div>
 										</div>
 										<p class="modal-teachers__block-info__desc">
 											<span class="modal-teachers__block-info__desc-span"
@@ -2035,7 +2042,6 @@
 										<h4 class="modal-teachers__block-info__name">
 											Даниил Зубакин
 										</h4>
-
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
 												Степанца 10/2:
@@ -2043,6 +2049,13 @@
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Breakdance 6+</p>
 												<p>ПН/СР/ПТ 16:00-17:00</p>
+											</div>
+											<p class="modal-teachers__block-info__groups-studio">
+												6-я линия:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Breakdance 6+</p>
+												<p>ПН/СР/ПТ 15:00-16:00</p>
 											</div>
 										</div>
 										<!-- <p class="modal-teachers__block-info__desc">
@@ -2163,6 +2176,13 @@
 												<p>Vogue 12+</p>
 												<p>ВТ/ЧТ/СБ 20:00-21:00</p>
 											</div>
+											<p class="modal-teachers__block-info__groups-studio">
+												6-я линия, 97:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Vogue 10+</p>
+												<p>ПН/СР/ПТ 16:00-17:00</p>
+											</div>
 										</div>
 										<p class="modal-teachers__block-info__desc">
 											Представитель VOGUE культуры в городе Омск
@@ -2238,6 +2258,24 @@
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
+									BREAKDANCE 6+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									15:00-16:00 Даниил Зубакин
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									VOGUE 10+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									16:00-17:00 Настя Пиндюрина
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
 									DANCEHALL 10+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
@@ -2273,7 +2311,18 @@
 									SHUFFLE 6+ начинающие
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
-								<div class="schedule__accordion__body-panel">15:00-16:00</div>
+								<div class="schedule__accordion__body-panel">
+									15:00-16:00 Алёна Карабанова
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									CHOREO GIRLS 13+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									17:00-18:00 Катя Хопрянинова
+								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
@@ -2492,6 +2541,15 @@
 								</button>
 								<div class="schedule__accordion__body-panel">
 									18:00-19:00 Женя Локтев
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									РИТМИКА 3-5 лет
+									<i class="fas fa-chevron-down"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									19:00-20:00 Кристина Пестряк
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
@@ -2825,6 +2883,6 @@
 			type="text/javascript"
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
-		<script type="text/javascript" src="/js/newapp.js?v=2.1"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=2.2"></script>
 	</body>
 </html>

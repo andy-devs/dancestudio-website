@@ -188,6 +188,9 @@ function populate(s1, s2) {
 			'dancehall 10+ - Рената|Dancehall 10+ - Рената',
 			'shuffle 6+ - Алёна|Shuffle 6+ - Алёна',
 			'ritmika 3-5 - Алина|Ритмика 3-5 лет - Алина',
+			'breakdance 6+ - Даниил|Breakdance 6+ - Даниил',
+			'vogue 10+ - Настя|Vogue 10+ - Настя',
+			'choreo girls 12+ - Катя|Choreo Girls 13+ - Катя',
 		];
 	} else if (s1.value == 'Степанца 10/2') {
 		var optionArray = [
@@ -219,7 +222,8 @@ function populate(s1, s2) {
 			'choreo 12-15 - Настя|Choreo 12-15 лет - Настя',
 			'choreo 14+ - Миша|Choreo 14+ - Миша',
 			'shuffle 8+ - Женя|Shuffle 8+ - Женя',
-			'ritmika 3-5 - Кристина|Ритмика 3-5 лет - Кристина',
+			'ritmika 3-5 - Пестряк|Ритмика 3-5 - Пестряк',
+			'ritmika 3-5 - Парыгина|Ритмика 3-5 лет - Парыгина',
 			'parents - Миша|Родители - Миша',
 		];
 	} else {
