@@ -1002,7 +1002,7 @@
 											</div>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Dancehall 7-11 лет</p>
-												<p>ПН/СР/ПТ 20:00-21:00</p>
+												<p>ПН/СР/ПТ 17:00-18:00</p>
 											</div>
 										</div>
 										<p class="modal-teachers__block-info__desc">
@@ -1072,7 +1072,7 @@
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Shuffle 8+</p>
-												<p>ПН/СР/ПТ 18:00-19:00</p>
+												<p>СР/ПТ/СБ 18:00-19:00</p>
 											</div>
 										</div>
 										<p class="modal-teachers__block-info__desc">
