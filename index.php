@@ -2805,15 +2805,6 @@
 									16:00-17:00 Настя Пиндюрина
 								</div>
 							</div>
-							<div class="schedule__accordion__body-item">
-								<button class="schedule__accordion__body-btn">
-									BREAKDANCE 6+
-									<i class="fas fa-chevron-down accordion-icon"></i>
-								</button>
-								<div class="schedule__accordion__body-panel">
-									17:00-18:00 Тимофей Васькин
-								</div>
-							</div>
 
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
@@ -3454,6 +3445,6 @@
 			type="text/javascript"
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
-		<script type="text/javascript" src="/js/newapp.js?v=2.2"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=2.3"></script>
 	</body>
 </html>
