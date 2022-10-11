@@ -250,7 +250,7 @@
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
 											Егор Слизков, Настя Пчёлкина, Миша Малышев, Катя
-											Хопрянинова, Настя Пак, Кристина Парыгина, Сабина
+											Хопрянинова, Полина Ледовских, Кристина Парыгина, Сабина
 											Боктикова, Анастасия Каменова, Дарья Тищенко, Вика
 											Киселева, Саша Пономарева
 										</p>
@@ -1241,7 +1241,7 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img src="./image/shystak.jpg" alt="" />
+										<img src="./images/shystak.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
 										<h4 class="modal-teachers__block-info__name">
@@ -1375,7 +1375,7 @@
 								src="./images/ice-p.jpg"
 								alt=""
 							/>
-							<h3 class="info__tab__teachers-item__name">Настя Пак</h3>
+							<h3 class="info__tab__teachers-item__name">Полина Ледовских</h3>
 							<p class="info__tab__teachers-item__group">Hip-Hop 6-10 лет</p>
 						</a>
 						<div class="modal-teachers">
@@ -1387,7 +1387,7 @@
 									</div>
 									<div class="modal-teachers__block-info">
 										<h4 class="modal-teachers__block-info__name">
-											Настя Пак
+											Полина Ледовских
 										</h4>
 										<a
 											href="https://www.instagram.com/ice_pollyy_/"
@@ -2164,6 +2164,125 @@
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
+								src="./images/zubakin-p.jpg"
+								alt=""
+							/>
+							<h3 class="info__tab__teachers-item__name">Даниил Зубакин</h3>
+							<p class="info__tab__teachers-item__group">Breakdance 6+</p>
+						</a>
+						<div class="modal-teachers">
+							<div class="modal-content-teachers">
+								<span class="close-teachers">&times;</span>
+								<div class="modal-teachers__block">
+									<div class="modal-teachers__block-photo">
+										<img src="./images/zubakin-f.jpg" alt="" />
+									</div>
+									<div class="modal-teachers__block-info">
+										<h4 class="modal-teachers__block-info__name">
+											Даниил Зубакин
+										</h4>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
+												Степанца 10/2:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Breakdance 6+</p>
+												<p>ПН/СР/ПТ 16:00-17:00</p>
+											</div>
+											<p class="modal-teachers__block-info__groups-studio"></p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p></p>
+												<p></p>
+											</div>
+										</div>
+										<!-- <p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Танцевальный стаж:</span
+											>
+											13 лет
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Преподавательский стаж:</span
+											>
+											3 года
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Посещение мастер-классов:</span
+											>
+											Полина Хритинина, Анастасия Полищук
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Достижения:</span
+											>
+											участие в Сибпрокач
+										</p> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="info__tab__teachers-item">
+							<img
+								class="info__tab__teachers-item__photo"
+								src="./images/aslan-p.jpg"
+								alt=""
+							/>
+							<h3 class="info__tab__teachers-item__name">Аслан Асанов</h3>
+							<p class="info__tab__teachers-item__group">Breakdance 6+</p>
+						</a>
+						<div class="modal-teachers">
+							<div class="modal-content-teachers">
+								<span class="close-teachers">&times;</span>
+								<div class="modal-teachers__block">
+									<div class="modal-teachers__block-photo">
+										<img src="./images/aslan-f.jpg" alt="" />
+									</div>
+									<div class="modal-teachers__block-info">
+										<h4 class="modal-teachers__block-info__name">
+											Аслан Асанов
+										</h4>
+										<div class="modal-teachers__block-info__groups">
+											<p class="modal-teachers__block-info__groups-studio">
+												9-я Ленинская, 5:
+											</p>
+											<div class="modal-teachers__block-info__groups-block">
+												<p>Breakdance 6+</p>
+												<p>ПН/СР/ПТ 20:00-21:00</p>
+											</div>
+										</div>
+										<!-- <p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Танцевальный стаж:</span
+											>
+											13 лет
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Преподавательский стаж:</span
+											>
+											3 года
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Посещение мастер-классов:</span
+											>
+											Полина Хритинина, Анастасия Полищук
+										</p>
+										<p class="modal-teachers__block-info__desc">
+											<span class="modal-teachers__block-info__desc-span"
+												>Достижения:</span
+											>
+											участие в Сибпрокач
+										</p> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="info__tab__teachers-item">
+							<img
+								class="info__tab__teachers-item__photo"
 								src="./images/pindyrina-p.jpg"
 								alt=""
 							/>
@@ -2290,7 +2409,7 @@
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
-								src="./images/vaskin.jpg"
+								src="./images/vaskinn.jpg"
 								alt=""
 							/>
 							<h3 class="info__tab__teachers-item__name">Тимофей Васькин</h3>
@@ -2301,7 +2420,7 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img src="./images/vaskin.jpg" alt="" />
+										<img src="./images/vaskinn.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
 										<h4 class="modal-teachers__block-info__name">
@@ -2355,7 +2474,7 @@
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
-								src="./images/gron.jpg"
+								src="./images/gronn.jpg"
 								alt=""
 							/>
 							<h3 class="info__tab__teachers-item__name">Марина Гронь</h3>
@@ -2366,7 +2485,7 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img src="./images/gron.jpg" alt="" />
+										<img src="./images/gronn.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
 										<h4 class="modal-teachers__block-info__name">
@@ -2563,7 +2682,7 @@
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
-								src="./images/efimova.jpg"
+								src="./images/efimovaa.jpg"
 								alt=""
 							/>
 							<h3 class="info__tab__teachers-item__name">Аня Ефимова</h3>
@@ -2574,7 +2693,7 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img src="./images/efimova.jpg" alt="" />
+										<img src="./images/efimovaa.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
 										<h4 class="modal-teachers__block-info__name">
@@ -2973,7 +3092,7 @@
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Настя Пак
+									19:00-20:00 Полина Ледовских
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
@@ -3326,6 +3445,6 @@
 			type="text/javascript"
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
-		<script type="text/javascript" src="/js/newapp.js?v=2.4"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=2.3"></script>
 	</body>
 </html>
