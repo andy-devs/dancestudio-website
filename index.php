@@ -1372,7 +1372,7 @@
 						<a class="info__tab__teachers-item">
 							<img
 								class="info__tab__teachers-item__photo"
-								src="./images/ice-p.jpg"
+								src="./images/pak.jpg"
 								alt=""
 							/>
 							<h3 class="info__tab__teachers-item__name">Настя Пак</h3>
@@ -1383,7 +1383,7 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img src="./images/ice-f.jpg" alt="" />
+										<img src="./images/pak.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
 										<h4 class="modal-teachers__block-info__name">
