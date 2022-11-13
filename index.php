@@ -2892,7 +2892,7 @@
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-19:00 Катя Хопрянинова
+									19:00-20:00 Катя Хопрянинова
 								</div>
 							</div>
 
