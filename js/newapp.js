@@ -192,7 +192,7 @@ function populate(s1, s2) {
 			'vogue 10+ - Настя|Vogue 10+ - Настя',
 			'choreo girls 13+ - Катя|Choreo Girls 13+ - Катя',
 		];
-	} else if (s1.value == 'Степанца 10/2') {
+	} else if (s1.value == 'Лукашевича, 8/3') {
 		var optionArray = [
 			'hip-hop 12+ - Вика|Hip-Hop 12+ - Вика',
 			'hip-hop 10-13 - Егор|Hip-Hop 10-13 лет - Егор',

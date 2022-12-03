@@ -243,7 +243,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -284,7 +284,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -322,7 +322,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2 | 9-я Ленинская, 5
+											Лукашевича, 8/3 | 9-я Ленинская, 5
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -358,7 +358,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -433,7 +433,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -470,7 +470,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2
+											Лукашевича, 8/3
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -511,7 +511,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2
+											Лукашевича, 8/3
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -547,7 +547,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -581,7 +581,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Степанца 10/2| 9-я Ленинская, 5| 6-я Линия, 97
+											Лукашевича, 8/3| 9-я Ленинская, 5| 6-я Линия, 97
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -876,7 +876,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 6-8 лет</p>
@@ -954,7 +954,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 10-13 лет</p>
@@ -1104,7 +1104,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p></p>
@@ -1177,7 +1177,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Shuffle 6+</p>
@@ -1241,7 +1241,7 @@
 								<span class="close-teachers">&times;</span>
 								<div class="modal-teachers__block">
 									<div class="modal-teachers__block-photo">
-										<img src="./image/shystak.jpg" alt="" />
+										<img src="./images/shystak.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
 										<h4 class="modal-teachers__block-info__name">
@@ -1386,9 +1386,7 @@
 										<img src="./images/pak.jpg" alt="" />
 									</div>
 									<div class="modal-teachers__block-info">
-										<h4 class="modal-teachers__block-info__name">
-											Настя Пак
-										</h4>
+										<h4 class="modal-teachers__block-info__name">Настя Пак</h4>
 										<a
 											href="https://www.instagram.com/ice_pollyy_/"
 											class="modal-teachers__block-info__social"
@@ -1457,7 +1455,7 @@
 										</h4>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 8-13 лет</p>
@@ -1521,7 +1519,7 @@
 										</a> -->
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-Hop 7-11 лет</p>
@@ -1591,7 +1589,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Choreo 14+</p>
@@ -2067,7 +2065,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Ритмика 3-5 лет</p>
@@ -2190,7 +2188,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Vogue 12+</p>
@@ -2250,7 +2248,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Strip 16+</p>
@@ -2317,7 +2315,7 @@
 
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Breakdance 6+</p>
@@ -2381,7 +2379,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Experimental 14+</p>
@@ -2517,7 +2515,7 @@
 										</a>
 										<div class="modal-teachers__block-info__groups">
 											<p class="modal-teachers__block-info__groups-studio">
-												Степанца 10/2:
+												Лукашевича, 8/3:
 											</p>
 											<div class="modal-teachers__block-info__groups-block">
 												<p>Hip-hop 12+</p>
@@ -2767,7 +2765,7 @@
 						</div>
 					</div>
 					<div class="schedule__column">
-						<h3 class="schedule__column-head">Степанца 10/2</h3>
+						<h3 class="schedule__column-head">Лукашевича, 8/3</h3>
 						<button class="schedule__column-divider">
 							ПН/СР/ПТ <i class="fas fa-plus divider-plus"></i>
 						</button>
@@ -3111,7 +3109,7 @@
 				<h2 class="studios-head">Залы</h2>
 				<div class="studios-slider__container">
 					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">1 / 5</div>
+						<div class="studios-slider__container-item__number">1 / 3</div>
 						<img
 							src="./images/leninsk-white.jpg"
 							alt="Белый зал студии 9-я Ленинская, 5"
@@ -3122,7 +3120,7 @@
 						</div>
 					</div>
 					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">2 / 5</div>
+						<div class="studios-slider__container-item__number">2 / 3</div>
 						<img
 							src="./images/leninsk-blue.jpg"
 							alt="Синий зал студии 9-я Ленинская, 5"
@@ -3133,29 +3131,7 @@
 						</div>
 					</div>
 					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">3 / 5</div>
-						<img
-							src="./images/stepantsa-red.jpg"
-							alt="Красный зал студии Степанца 10/2"
-							style="width: 100%"
-						/>
-						<div class="studios-slider__container-item__text">
-							Степанца 10/2 - Красный зал
-						</div>
-					</div>
-					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">4 / 5</div>
-						<img
-							src="./images/stepantsa-black.jpg"
-							alt="Чёрный зал студии Степанца 10/2"
-							style="width: 100%"
-						/>
-						<div class="studios-slider__container-item__text">
-							Степанца 10/2 - Чёрный зал
-						</div>
-					</div>
-					<div class="studios-slider__container-item fade">
-						<div class="studios-slider__container-item__number">5 / 5</div>
+						<div class="studios-slider__container-item__number">3 / 3</div>
 						<img
 							src="./images/linia-black-new.jpg"
 							alt="Чёрный зал 6-я Линия, 97"
@@ -3173,8 +3149,6 @@
 					<span class="dot" onclick="currentSlide(1)"></span>
 					<span class="dot" onclick="currentSlide(2)"></span>
 					<span class="dot" onclick="currentSlide(3)"></span>
-					<span class="dot" onclick="currentSlide(4)"></span>
-					<span class="dot" onclick="currentSlide(5)"></span>
 				</div>
 			</div>
 		</section>
@@ -3210,7 +3184,7 @@
 						onchange="populate(this.id, 'style')"
 					>
 						<option value="none">---</option>
-						<option value="Степанца 10/2">Степанца 10/2</option>
+						<option value="Лукашевича, 8/3">Лукашевича, 8/3</option>
 						<option value="6-я Линия, 97">6-я Линия, 97</option>
 						<option value="9-я Ленинская, 5">9-я Ленинская, 5</option>
 					</select>
@@ -3253,7 +3227,7 @@
 							<i class="fas fa-city"></i> г. Омск
 						</p>
 						<p class="contacts__info-content__studio">
-							<i class="fas fa-map-pin"></i> Степанца 10/2
+							<i class="fas fa-map-pin"></i> Лукашевича, 8/3
 						</p>
 						<p class="contacts__info-content__studio">
 							<i class="fas fa-map-pin"></i> 9-я Ленинская, 5
@@ -3326,6 +3300,6 @@
 			type="text/javascript"
 			src="./libs/sweetalert2/dist/sweetalert2.all.min.js"
 		></script>
-		<script type="text/javascript" src="/js/newapp.js?v=2.4"></script>
+		<script type="text/javascript" src="/js/newapp.js?v=2.5"></script>
 	</body>
 </html>
