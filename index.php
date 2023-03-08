@@ -181,7 +181,7 @@
 					</li>
 					<li class="about-item">
 						<i class="fas fa-map-marked-alt about-item__icon"></i>
-						<p class="about-item__text">3 студии в разных частях города</p>
+						<p class="about-item__text">4 студии в разных частях города</p>
 					</li>
 					<li class="about-item">
 						<i class="fas fa-globe-americas about-item__icon"></i>
@@ -243,16 +243,17 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97 | 21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
 											Егор Слизков, Настя Пчёлкина, Миша Малышев, Катя
-											Хопрянинова, Настя Пак, Кристина Парыгина, Сабина
+											Хопрянинова, Настя Пак, Ева Ивасенко, Сабина
 											Боктикова, Анастасия Каменова, Дарья Тищенко, Вика
-											Киселева, Саша Пономарева
+											Киселева, Илья Новиков, Владислав Беккер, Аделина
+											Басюкова, Никита Котомцев, Никита Семагаев
 										</p>
 									</div>
 								</div>
@@ -284,13 +285,14 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97 | 21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Даша Игнатова, Рената Аскарова, Настя Заря
+											Даша Игнатова, Рената Аскарова, Настя Заря, Мария Литовченко, 
+											Мария Ашихмина 
 										</p>
 									</div>
 								</div>
@@ -316,19 +318,20 @@
 											Возрастные категории:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											12-15|14+ лет
+											10-13| 12-15| 14+ лет
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Лукашевича, 8/3 | 9-я Ленинская, 5
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97 | 21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Миша Малышев, Никита Котомцев, Анастасия Зингер
+											Миша Малышев, Никита Котомцев, Саша Пономарева, Катя Крюкова, 
+											Кирилл Шипицын, Катя Хопрянинова, Ульяна Федоренко 
 										</p>
 									</div>
 								</div>
@@ -358,13 +361,13 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Яна Заборовская, Кристина Парыгина, Карина Микаелян
+											Яна Заборовская, Карина Микаелян, Кристина Пестряк 
 										</p>
 									</div>
 								</div>
@@ -511,13 +514,13 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Лукашевича, 8/3
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97 | 21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Егор Слизков
+											Катя Крюкова, Настя Каменова
 										</p>
 									</div>
 								</div>
@@ -547,13 +550,13 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Лукашевича, 8/3 | 9-я Ленинская, 5 | 6-я Линия, 97
+											Лукашевича, 8/3 | 9-я Ленинская, 5 | 21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Аслан Асанов, Тимофей Васькин
+											Тимофей Васькин, Аслан Асанов, Андрей Артамонов
 										</p>
 									</div>
 								</div>
@@ -561,7 +564,7 @@
 						</div>
 						<a class="info__tab__styles-item">
 							<h3 class="info__tab__styles-item__head">VOGUE</h3>
-							<p class="info__tab__styles-item__text">10+|12+ лет</p>
+							<p class="info__tab__styles-item__text">14+|16+ лет</p>
 						</a>
 						<div class="modal-styles">
 							<div class="modal-content-styles">
@@ -575,26 +578,26 @@
 											Возрастные категории:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											10+|12+ лет
+											14+|16+ лет
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Лукашевича, 8/3| 9-я Ленинская, 5| 6-я Линия, 97
+											Лукашевича, 8/3| 21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Настя Пиндюрина, Лиза Шустякова
+											Настя Пиндюрина
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 						<a class="info__tab__styles-item">
-							<h3 class="info__tab__styles-item__head">HIGH HEELS</h3>
+							<h3 class="info__tab__styles-item__head">FEM CHOREO</h3>
 							<p class="info__tab__styles-item__text">16+ лет</p>
 						</a>
 						<div class="modal-styles">
@@ -602,7 +605,7 @@
 								<span class="close-styles">&times;</span>
 								<div class="modal-styles__block">
 									<div class="modal-styles__block-info">
-										<h4 class="modal-styles__block-info__name">HIGH HEELS</h4>
+										<h4 class="modal-styles__block-info__name">FEM CHOREO</h4>
 										<p class="modal-styles__block-info__desc">
 											Женственное направление, в рамках изучения которого каждая
 											девушка сможет открыть себя с другой стороны
@@ -617,7 +620,7 @@
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											9-я Ленинская, 5
+											21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
@@ -632,7 +635,7 @@
 
 						<a class="info__tab__styles-item">
 							<h3 class="info__tab__styles-item__head">CONTEMPORARY</h3>
-							<p class="info__tab__styles-item__text">14+ лет</p>
+							<p class="info__tab__styles-item__text">12+ лет</p>
 						</a>
 						<div class="modal-styles">
 							<div class="modal-content-styles">
@@ -651,18 +654,18 @@
 										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p class="modal-styles__block-charts__item-text">14+ лет</p>
+										<p class="modal-styles__block-charts__item-text">12+ лет</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											9-я Ленинская, 5
+											21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Стас Плотников
+											Маргарита Роева 
 										</p>
 									</div>
 								</div>
@@ -670,7 +673,7 @@
 						</div>
 						<a class="info__tab__styles-item">
 							<h3 class="info__tab__styles-item__head">K-POP</h3>
-							<p class="info__tab__styles-item__text">14+ лет</p>
+							<p class="info__tab__styles-item__text">12+ | 14+ лет</p>
 						</a>
 						<div class="modal-styles">
 							<div class="modal-content-styles">
@@ -687,18 +690,18 @@
 										<h4 class="modal-styles__block-charts__item-head">
 											Возрастные категории:
 										</h4>
-										<p class="modal-styles__block-charts__item-text">14+ лет</p>
+										<p class="modal-styles__block-charts__item-text">12+ | 14+ лет</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные филиалы:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											6-я Линия, 97
+											Лукашевича 8/3| 9-я Ленинская, 5| 6-я Линия, 97| 21-я Амурская, 20в
 										</p>
 										<h4 class="modal-styles__block-charts__item-head">
 											Доступные преподаватели:
 										</h4>
 										<p class="modal-styles__block-charts__item-text">
-											Аня Ефимова
+											Дана Жусупова, Аня Ефимова, Даша Тарасова
 										</p>
 									</div>
 								</div>
@@ -2673,71 +2676,87 @@
 						<button class="schedule__column-divider">
 							ПН/СР/ПТ <i class="fas fa-plus divider-plus"></i>
 						</button>
-
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									VOGUE 10+
+									HIP-HOP 12+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									16:00-17:00 Настя Пиндюрина
+									17:00-18:00 Владислав Беккер 
 								</div>
 							</div>
-
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									DANCEHALL 10+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Рената Аскарова
+									17:00-18:00 Настя Заря 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									CHOREO GIRLS 13+
+									HIP-HOP 6-10
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Катя Хопрянинова
+									18:00-19:00 Аделина Басюкова 
 								</div>
 							</div>
-							<div class="schedule__accordion__body-item">
-								<button class="schedule__accordion__body-btn">
-									РИТМИКА 3-5 ЛЕТ
-									<i class="fas fa-chevron-down accordion-icon"></i>
-								</button>
-								<div class="schedule__accordion__body-panel">
-									20:00-21:00 Карина Микаелян
-								</div>
-							</div>
-						</div>
-						<button class="schedule__column-divider">
-							ВТ/ЧТ/СБ <i class="fas fa-plus divider-plus"></i>
-						</button>
-						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									K-POP 14+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									16:00-17:00 Аня Ефимова
+									18:00-19:00 Анна Ефимова 
 								</div>
-							</div>
+						    </div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 6-10 ЛЕТ
+									CHOREO GIRLS 13+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									17:00-18:00 Настя Каменова
+									19:00-20:00 Екатерина Хопрянинова  
+								</div>
+						    </div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP для взрослых 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									20:00-21:00 Настя Каменова  
+								</div>
+						    </div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									STRIP 18+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									20:00-21:00 Кристина Винс 
+								</div>
+						    </div>
+					</div>	
+						<button class="schedule__column-divider">
+							ВТ/ЧТ/СБ <i class="fas fa-plus divider-plus"></i>
+						</button>
+						<div class="schedule__column-content">
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 6-10
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									17:00-18:00 Настя Каменова 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 10-15 ЛЕТ начинающие
+									HIP-HOP 10-15 ЛЕТ
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
@@ -2750,20 +2769,30 @@
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Женя Локтев
+									19:00-20:00 Женя Локтев 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 12-15 ЛЕТ
+									HIP-HOP 12-15 ЛЕТ 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									20:00-21:00 Настя Каменова
+									20:00-21:00 Настя Каменова 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									CHOREO 14+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									20:00-21:00 Саша Пономарева 
 								</div>
 							</div>
 						</div>
 					</div>
+
 					<div class="schedule__column">
 						<h3 class="schedule__column-head">Лукашевича, 8/3</h3>
 						<button class="schedule__column-divider">
@@ -2772,20 +2801,20 @@
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									SHUFFLE 6+
+									SHUFFLE 7+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									16:00-17:00 Женя Локтев
+									12:00-13:00 Женя Локтев
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									BREAKDANCE 6+
+									SHUFFLE 7-16 лет 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									17:00-18:00 Тимофей Васькин
+									16:00-17:00 Женя Локтев 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
@@ -2799,34 +2828,61 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									Современная хореография для детей 5-7 лет
+									BREAKDANCE 6+ 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Яна Заборовская
+									17:00-18:00 Тимофей Васькин 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									DANCEHALL 7-11 ЛЕТ
+									DANCEHALL 12-15 лет
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Даша Игнатова
+									17:00-18:00 Даша Игнатова
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									РИТМИКА 3-5 ЛЕТ
+									DANCEHALL 7-11 лет 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Яна Заборовская
+									18:00-19:00 Даша Игнатова 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									DANCEHALL 12+ начинающие
+									СОВРЕМЕННАЯ ХОРЕОГРАФИЯ 5-7 ЛЕТ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									18:00-19:00 Яна Заборовская 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 12+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									18:00-19:00 Илья Новиков 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									CHOREO 14+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									19:00-20:00 Катя Крюкова 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									DANCEHALL 16+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
@@ -2835,21 +2891,20 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 10-13 ЛЕТ
+									PARENTS CREW 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									20:00-21:00 Егор Слизков
+									20:00-21:00 Катя Крюкова 
 								</div>
 							</div>
-
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									STRIP 16+
+									HIP-HOP 10-13 ЛЕТ 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									20:00-21:00 Лера Сидорова
+									20:00-21:00 Егор Слизков 
 								</div>
 							</div>
 						</div>
@@ -2857,6 +2912,43 @@
 							ВТ/ЧТ/СБ <i class="fas fa-plus divider-plus"></i>
 						</button>
 						<div class="schedule__column-content">
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									K-POP 12+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									10:00-11:00 Дана Жусупова 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									CHOREO 10-13 ЛЕТ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									11:00-12:00 Катя Крюкова 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 8-10 ЛЕТ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									16:00-17:00 Никита Котомцев 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									CHOREO 10-13 ЛЕТ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									17:00-18:00 Катя Крюкова 
+								</div>
+							</div>
+
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									EXPERIMENTAL 14+
@@ -2868,11 +2960,11 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 8-13 ЛЕТ начинающие
+									HIP-HOP 8-13 ЛЕТ 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Даша Тищенко
+									18:00-19:00 Даша Тищенко 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
@@ -2881,44 +2973,61 @@
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Вика Киселева
+									18:00-19:00 Вика Киселева 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 6-8 ЛЕТ
+									CHOREO 14+ 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Катя Хопрянинова
+									18:00-19:00 Катя Хопрянинова 
 								</div>
 							</div>
-
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 6-9 ЛЕТ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									19:00-20:00 Катя Хопрянинова 
+								</div>
+							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									CHOREO 14+
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Никита Котомцев
+									19:00-20:00 Кирилл Шипицын 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									PARENTS CREW
+									CHOREO 13+ начинающие 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									20:00-21:00 Егор Слизков
+									19:00-20:00 Никита Котомцев 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									VOGUE 12+
+									CHOREO 13+ продолжающие 
 									<i class="fas fa-chevron-down accordion-icon"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									20:00-21:00 Настя Пиндюрина
+									20:00-21:00 Никита Котомцев 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									VOGUE 16+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									20:00-21:00 Настя Пиндюрина  
 								</div>
 							</div>
 						</div>
@@ -2931,20 +3040,20 @@
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 10+
+									DANCEHALL 7-11 ЛЕТ 
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									17:00-18:00 Сабина Боктикова
+									16:00-17:00 Мария Литовченко 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									CHOREO 13+
+									HIP-HOP 10+ 
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Настя Зингер
+									17:00-18:00 Сабина Боктикова 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
@@ -2958,16 +3067,16 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									РИТМИКА 3-5 лет
+									CHOREO 14+ 
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Кристина Парыгина
+									18:00-19:00 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 6-10 ЛЕТ
+									HIP-HOP 9-12 ЛЕТ
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
@@ -2976,21 +3085,30 @@
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 6-8 ЛЕТ
+									DANCEHALL 14+ начинающие 
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									20:00-21:00 Кристина Парыгина
+									19:00-20:00 Рената Аскарова 
 								</div>
 							</div>
 
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									DANCEHALL 14+
+									DANCEHALL 14+ продолжающие
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:00-21:00 Рената Аскарова
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 6-8 ЛЕТ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									20:00-21:00 Ева Ивасенко 
 								</div>
 							</div>
 						</div>
@@ -3000,68 +3118,60 @@
 						<div class="schedule__column-content">
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									DANCEHALL 7-11 лет
+									K-POP 12+
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									17:00-18:00 Настя Заря
+									17:00-18:00 Дана Жусупова 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIP-HOP 12+
+									HIP-HOP для взрослых 
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									17:00-18:00 Саша Пономарева
+									18:00-19:00 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									VOGUE 12+
+									РИТМИКА 3-5 
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Лиза Шустякова
+									18:00-19:00 Карина Микаелян 
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									CONTEMPORARY 14+
+									СОВРЕМЕННАЯ ХОРЕОГРАФИЯ 5-7 ЛЕТ 
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									18:00-19:00 Стас Плотников
+									19:00-20:00  
 								</div>
 							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
-									HIGH HEELS 16+
+									HIP-HOP 9-13 ЛЕТ 
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Кристина Кожина
+									19:00-20:00 Миша Малышев 
 								</div>
 							</div>
 
-							<div class="schedule__accordion__body-item">
-								<button class="schedule__accordion__body-btn">
-									HIP-HOP 9-13 ЛЕТ
-									<i class="fas fa-chevron-down"></i>
-								</button>
-								<div class="schedule__accordion__body-panel">
-									19:00-20:00 Миша Малышев
-								</div>
-							</div>
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									BREAKDANCE 6+
 									<i class="fas fa-chevron-down"></i>
 								</button>
 								<div class="schedule__accordion__body-panel">
-									20:00-21:00 Аслан Асанов
+									20:00-21:00 Аслан Асанов 
 								</div>
 							</div>
+						
 							<div class="schedule__accordion__body-item">
 								<button class="schedule__accordion__body-btn">
 									CHOREO 14+
@@ -3069,6 +3179,109 @@
 								</button>
 								<div class="schedule__accordion__body-panel">
 									20:00-21:00 Миша Малышев
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="schedule__column">
+						<h3 class="schedule__column-head">21-я Амурская, 20в</h3>
+						<button class="schedule__column-divider">
+							ПН/СР/ПТ <i class="fas fa-plus divider-plus"></i>
+						</button>
+						<div class="schedule__column-content">
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									K-POP 12+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									17:00-18:00 Даша Тарасова 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									CHOREO 14+
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									18:00-19:00 Ульяна Федоренко
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 9-11 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									18:00-19:00 Никита Семагаев  
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									BREAKDANCE 6+ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									19:00-20:00 Андрей Артамонов  
+								</div>
+						    </div>
+					</div>	
+						<button class="schedule__column-divider">
+							ВТ/ЧТ/СБ <i class="fas fa-plus divider-plus"></i>
+						</button>
+						<div class="schedule__column-content">
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									РИТМИКА 3-5 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									18:00-19:00 Кристина Пестряк 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP для взрослых 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									18:00-19:00 Настя Заря 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 6-9 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									19:00-20:00 Ева Ивасенко 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									DANCEHALL 16+ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									19:00-20:00 Маша Ашихмина 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									HIP-HOP 12+ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									20:00-21:00 Настя Пчелкина 
+								</div>
+							</div>
+							<div class="schedule__accordion__body-item">
+								<button class="schedule__accordion__body-btn">
+									CONTEMPORARY 12+ 
+									<i class="fas fa-chevron-down accordion-icon"></i>
+								</button>
+								<div class="schedule__accordion__body-panel">
+									20:00-21:00 Рита Роева  
 								</div>
 							</div>
 						</div>
@@ -3087,15 +3300,23 @@
 					</div>
 					<div class="price__block-item">
 						<h3 class="price__block-item__head">Разовое занятие</h3>
-						<p class="price__block-item__text">от 300 руб</p>
+						<p class="price__block-item__text">от 350 руб</p>
 					</div>
 					<div class="price__block-item">
-						<h3 class="price__block-item__head">Абонемент на месяц</h3>
-						<p class="price__block-item__text">от 2390 руб</p>
+						<h3 class="price__block-item__head">Абонемент на 4 занятия</h3>
+						<p class="price__block-item__text">от 1050 руб</p>
+					</div>
+					<div class="price__block-item">
+						<h3 class="price__block-item__head">Абонемент на 8 занятий</h3>
+						<p class="price__block-item__text">от 1950 руб</p>
+					</div>
+					<div class="price__block-item">
+						<h3 class="price__block-item__head">Абонемент на 12 занятий</h3>
+						<p class="price__block-item__text">от 2750 руб</p>
 					</div>
 					<div class="price__block-item">
 						<h3 class="price__block-item__head">Аренда зала</h3>
-						<p class="price__block-item__text">400 руб/час</p>
+						<p class="price__block-item__text">от 400 руб/час</p>
 					</div>
 					<p class="price__block-addition">
 						*Подробности уточняйте у администратора при записи
@@ -3187,6 +3408,7 @@
 						<option value="Лукашевича, 8/3">Лукашевича, 8/3</option>
 						<option value="6-я Линия, 97">6-я Линия, 97</option>
 						<option value="9-я Ленинская, 5">9-я Ленинская, 5</option>
+						<option value="21-я Амурская, 20в">21-я Амурская, 20в</option>
 					</select>
 					<label class="form__body-label" for="style"
 						>Выберите направление:
@@ -3216,7 +3438,7 @@
 		</section>
 		<section id="contacts">
 			<div class="contacts">
-				<h2 class="contacts__head">У нас три студии</h2>
+				<h2 class="contacts__head">У нас четыре студии</h2>
 				<p class="contacts__text">Приходите в какую удобно</p>
 				<div class="contacts__info">
 					<div class="contacts__info-content">
@@ -3234,6 +3456,9 @@
 						</p>
 						<p class="contacts__info-content__studio">
 							<i class="fas fa-map-pin"></i> 6-я Линия, 97
+						</p>
+						<p class="contacts__info-content__studio">
+							<i class="fas fa-map-pin"></i> 21-я Амурская, 20в
 						</p>
 						<div class="contacts__info-content__social">
 							<a
